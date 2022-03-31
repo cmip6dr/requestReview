@@ -8,10 +8,13 @@ dq = dreq.loadDreq()
 
 ss = set()
 for i in dq.coll['CMORvar'].items:
-    if i.mipTable == 'Amon' and i.defaultPriority == 1:
+    if (i.mipTable not in ['day','Amon']) and i.defaultPriority == 1:
         ss.add( (i.mipTable,i.label) )
 
-temp = 'https://esgf-index1.ceda.ac.uk/esg-search/search/?offset=0&limit=500&type=Dataset&replica=false&latest=true&project%%21=input4mips&activity_id=CMIP&table_id=%(table_label)s&mip_era=CMIP6&variable_id=%(variable_label)s&facets=mip_era%%2Cactivity_id%%2Cmodel_cohort%%2Cproduct%%2Csource_id%%2Cinstitution_id%%2Csource_type%%2Cnominal_resolution%%2Cexperiment_id%%2Csub_experiment_id%%2Cvariant_label%%2Cgrid_label%%2Ctable_id%%2Cfrequency%%2Crealm%%2Cvariable_id%%2Ccf_standard_name%%2Cdata_node&format=application%%2Fsolr%%2Bjson'
+temp = 'https://%(esgf_node)s/esg-search/search/?offset=0&limit=500&type=Dataset&replica=false&latest=true&project%%21=input4mips&activity_id=CMIP&table_id=%(table_label)s&mip_era=CMIP6&variable_id=%(variable_label)s&facets=mip_era%%2Cactivity_id%%2Cmodel_cohort%%2Cproduct%%2Csource_id%%2Cinstitution_id%%2Csource_type%%2Cnominal_resolution%%2Cexperiment_id%%2Csub_experiment_id%%2Cvariant_label%%2Cgrid_label%%2Ctable_id%%2Cfrequency%%2Crealm%%2Cvariable_id%%2Ccf_standard_name%%2Cdata_node&format=application%%2Fsolr%%2Bjson'
+
+## http://esgf-data.dkrz.de/esg-search/search/?offset=0&limit=10&type=Dataset&replica=false&latest=true&experiment_id=historical&mip_era=CMIP6&activity_id%21=input4MIPs&facets=mip_era%2Cactivity_id%2Cmodel_cohort%2Cproduct%2Csource_id%2Cinstitution_id%2Csource_type%2Cnominal_resolution%2Cexperiment_id%2Csub_experiment_id%2Cvariant_label%2Cgrid_label%2Ctable_id%2Cfrequency%2Crealm%2Cvariable_id%2Ccf_standard_name%2Cdata_node
+
 
 selection = "activity_id=CMIP&table_id=%(table_label)s&mip_era=CMIP6&variable_id=%(variable_label)s"
 sdict = dict( table_id='Amon', experiment_id='historical', variable_id='tas' )
@@ -43,9 +46,11 @@ def survey1():
   sh.close()
 
 def survey2():
-  sh = shelve.open( 'esgf_cmip6_survey' )
+  esgf_node = 'esgf-index1.ceda.ac.uk'
+  esgf_node = 'esgf-data.dkrz.de'
+  sh = shelve.open( 'esgf_cmip6_survey_dkrz' )
   for table_label,variable_label in ss:
-      if variable_label not in tmp[table_label]:
+      ##if variable_label in tmp[table_label]:
         u = temp % locals()
         obj = urllib.request.urlopen( u )
         ee = json.load( obj )
@@ -56,7 +61,7 @@ def survey2():
 
 def survey3():
   sv = collections.defaultdict( set )
-  sh = shelve.open( 'esgf_cmip6_survey', 'r' )
+  sh = shelve.open( 'esgf_cmip6_survey_dkrz', 'r' )
   dd = {}
   for table_label,variable_label in ss:
     ml = sh[ '%s.%s' % (table_label,variable_label) ][::2]
@@ -69,4 +74,5 @@ def survey3():
   return dd
     
 
+dd = survey2()
 dd = survey3()
