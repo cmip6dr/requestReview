@@ -73,6 +73,21 @@ def survey3():
       print (k, sorted(list(sv[k])), len( sv[k] ) )
   return dd
     
+def survey4():
+  sv = collections.defaultdict( set )
+  sh = shelve.open( 'esgf_cmip6_survey_dkrz', 'r' )
+  dd = {}
+  for k,l in sh.items():
+    ml = l[::2]
+    dd[k] = set(ml)
+    sv[ len( ml ) ].add(k)
+  sh.close()
+  ks = sv.keys()
+  for k in sorted(list(ks)):
+      print (k, sorted(list(sv[k])), len( sv[k] ) )
+  return dd
+    
 
-dd = survey2()
-dd = survey3()
+##dd = survey2()
+##dd = survey3()
+dd = survey4()
