@@ -1,4 +1,4 @@
-import json, urllib
+import json, urllib, os, collections
 import collections
 import urllib.request
 import shelve
@@ -6,22 +6,22 @@ from dreqPy import dreq
 
 dq = dreq.loadDreq()
 
-ss = set()
+dr_map = dict()
+dr_map0 = dict()
+
 for i in dq.coll['CMORvar'].items:
+    dr_map[ (i.mipTable,i.label) ] = i
     if (i.mipTable not in ['day','Amon']) and i.defaultPriority == 1:
-        ss.add( (i.mipTable,i.label) )
+        dr_map0[ (i.mipTable,i.label) ] = i
 
 temp = 'https://%(esgf_node)s/esg-search/search/?offset=0&limit=500&type=Dataset&replica=false&latest=true&project%%21=input4mips&activity_id=CMIP&table_id=%(table_label)s&mip_era=CMIP6&variable_id=%(variable_label)s&facets=mip_era%%2Cactivity_id%%2Cmodel_cohort%%2Cproduct%%2Csource_id%%2Cinstitution_id%%2Csource_type%%2Cnominal_resolution%%2Cexperiment_id%%2Csub_experiment_id%%2Cvariant_label%%2Cgrid_label%%2Ctable_id%%2Cfrequency%%2Crealm%%2Cvariable_id%%2Ccf_standard_name%%2Cdata_node&format=application%%2Fsolr%%2Bjson'
 
 ## http://esgf-data.dkrz.de/esg-search/search/?offset=0&limit=10&type=Dataset&replica=false&latest=true&experiment_id=historical&mip_era=CMIP6&activity_id%21=input4MIPs&facets=mip_era%2Cactivity_id%2Cmodel_cohort%2Cproduct%2Csource_id%2Cinstitution_id%2Csource_type%2Cnominal_resolution%2Cexperiment_id%2Csub_experiment_id%2Cvariant_label%2Cgrid_label%2Ctable_id%2Cfrequency%2Crealm%2Cvariable_id%2Ccf_standard_name%2Cdata_node
 
-
 selection = "activity_id=CMIP&table_id=%(table_label)s&mip_era=CMIP6&variable_id=%(variable_label)s"
 sdict = dict( table_id='Amon', experiment_id='historical', variable_id='tas' )
 
 temp2 = 'https://esgf-index1.ceda.ac.uk/esg-search/search/?offset=0&limit=500&type=Dataset&replica=false&latest=true&project%%21=input4mips&%(selection)s&facets=mip_era%%2Cactivity_id%%2Cmodel_cohort%%2Cproduct%%2Csource_id%%2Cinstitution_id%%2Csource_type%%2Cnominal_resolution%%2Cexperiment_id%%2Csub_experiment_id%%2Cvariant_label%%2Cgrid_label%%2Ctable_id%%2Cfrequency%%2Crealm%%2Cvariable_id%%2Ccf_standard_name%%2Cdata_node&format=application%%2Fsolr%%2Bjson'
-
-
 
 tmp = dict( Amon='tas, pr, uas, vas, huss, rsut, rsdt, rlut, rsus, rsds, rlus, rlds, ps, ua, va, zg, cl, clt'.split(', '),
             AERmon='od550aer, abs550aer'.split(', '),
@@ -31,25 +31,66 @@ tmp = dict( Amon='tas, pr, uas, vas, huss, rsut, rsdt, rlut, rsus, rsds, rlus, r
             day='tas, pr, tasmax, tasmin'.split(', ')
            )
 
+ifile = '../esgf_dashboard/cmip6-variables_gb_20220331.csv'
 
-def survey1():
-  sh = shelve.open( 'esgf_cmip6_survey' )
+ee = {}
+
+class Scanner(object):
+    def __init__(self,ifile, silent=False):
+        assert os.path.isfile(ifile), '%s not found' % ifile
+        ii = [x.strip().split(',') for x in open(ifile).readlines()]
+        for l in ii[1:]:
+            if len(l) > 4:
+                k ='%s.%s' % (l[-3],l[0]) 
+                if k in ee:
+                    ee[k] = (float( l[-2] ) + ee[k][0], int(l[-1] ) + ee[k][1] )
+                else:
+                    ee[k] = (float( l[-2] ), int(l[-1] ) )
+
+        ## WARNING : possible case issues not fully dealt with`
+
+        self.by_size = sorted( list(ee.keys()), key=lambda x:ee[x][0], reverse=True )
+        self.by_count = sorted( list(ee.keys()), key=lambda x:ee[x][1], reverse=True )
+        if not silent:
+          for k in self.by_size[:50]:
+            print( '%s: %s' % (k,ee[k] ) )
+          print ( '===============================\n\n' )
+          for k in self.by_count[:50]:
+            print( '%s: %s' % (k,ee[k] ) )
+        self.ee = ee
+        self.ranks = {}
+        for k in self.ee.keys():
+            self.ranks[k] = (self.by_size.index(k)+1,self.by_count.index(k)+1)
+
+    def get_c3s(self,ifile='c3s34g_variables.json' ):
+      ee = json.load( open( ifile, 'r' ) )
+      self.c3svars = []
+      for k,l in ee['requested'].items():
+          self.c3svars += ['%s.%s' % (k,x) for x in l]
+
+esgf_node = 'esgf-index1.ceda.ac.uk'
+esgf_node = 'esgf-data.dkrz.de'
+def survey1( idict=locals()):
+  sh = shelve.open( 'esgf_cmip6_survey_02' )
   for table,ll in tmp.items():
     table_label = table
+    idict['table_label'] = table_label
     for variable_label in ll:
-        u = temp % locals()
+        idict['variable_label'] = variable_label
+        u = temp % idict
         obj = urllib.request.urlopen( u )
         ee = json.load( obj )
         model_list = ee['facet_counts']['facet_fields']['source_id']
         sh['%s.%s' % (table_label,variable_label) ] = model_list
         print (table_label,variable_label,len(model_list) )
   sh.close()
+  return ee
 
 def survey2():
   esgf_node = 'esgf-index1.ceda.ac.uk'
   esgf_node = 'esgf-data.dkrz.de'
   sh = shelve.open( 'esgf_cmip6_survey_dkrz' )
-  for table_label,variable_label in ss:
+  for table_label,variable_label in dr_map:
       ##if variable_label in tmp[table_label]:
         u = temp % locals()
         obj = urllib.request.urlopen( u )
@@ -63,7 +104,7 @@ def survey3():
   sv = collections.defaultdict( set )
   sh = shelve.open( 'esgf_cmip6_survey_dkrz', 'r' )
   dd = {}
-  for table_label,variable_label in ss:
+  for table_label,variable_label in dr_map:
     ml = sh[ '%s.%s' % (table_label,variable_label) ][::2]
     dd[variable_label] = set(ml)
     sv[ len( ml ) ].add(variable_label)
@@ -73,9 +114,31 @@ def survey3():
       print (k, sorted(list(sv[k])), len( sv[k] ) )
   return dd
     
+def frank(l):
+    r = l[-1]
+    if l[-2] != None:
+        r += 1.e-6*l[-2]
+    else:
+        r += 0.999
+    return r
+
+collector_ll = []
+collector_cc = collections.defaultdict(set)
 def survey4():
   sv = collections.defaultdict( set )
   sh = shelve.open( 'esgf_cmip6_survey_dkrz', 'r' )
+  for k in sh.keys():
+    for m in sh[k][::2]:
+      collector_cc[m].add(k)
+
+  oo = open('cmip6_survey.ris','w' )
+  for k,l in collector_cc.items():
+      oo.write( 'TY  - %s\n' % k )
+      oo.write( 'AU  - %s\n' % k )
+      oo.write( 'TI  - %s\n' % k )
+      oo.write( 'AB  - %s\n' % ' '.join([x.replace('.','_') for x in list(l)]) )
+      oo.write( 'ER  -\n\n' )
+  oo.close()
   dd = {}
   for k,l in sh.items():
     ml = l[::2]
@@ -83,11 +146,100 @@ def survey4():
     sv[ len( ml ) ].add(k)
   sh.close()
   ks = sv.keys()
-  for k in sorted(list(ks)):
-      print (k, sorted(list(sv[k])), len( sv[k] ) )
-  return dd
-    
+  ltot = 0
+  ee = {}
+  rank = 1
+  sc = Scanner(ifile,silent=True)
+  sc.get_c3s()
+  lsc = len(sc.ee)
+  #
+  # k is the count of models
 
+  for k in sorted(list(ks), reverse=True):
+      pk = k/66.
+      prank = rank/1206.
+      collector_ll.append( (prank, pk ) )
+      ltot += len( sv[k] )
+      print (ltot,k, sorted(list(sv[k])), len( sv[k] ) )
+      for v in sv[k]:
+           if v in sc.ee:
+             ee[v] = (k,rank,sc.ee[v][0],sc.ranks[v][0],sc.ee[v][1],sc.ranks[v][1],min( [rank,sc.ranks[v][0],sc.ranks[v][1]]) )
+           else:
+             vbits = v.split('.')
+             vl = '%s.%s' % (vbits[0],vbits[1].lower())
+             if vl in sc.ee:
+               ee[v] = (k,rank,sc.ee[vl][0],sc.ranks[vl][0],sc.ee[vl][1],sc.ranks[vl][1],min( [rank,sc.ranks[vl][0],sc.ranks[vl][1]]) )
+             else:
+               ee[v] = (k,rank,None,lsc+1,None,lsc+1,rank)
+      rank += len(sv[k])
+
+  oo = open( 'RankedCmipVariables.csv', 'w' )
+  oo.write( 'ID,Model Count,Rank,Download Volume,Rank,Download Count,Rank,Min Rank,In C3S,\n' )
+  struc_rank = collections.defaultdict( lambda: 9999 )
+  var_rank = collections.defaultdict( lambda: 9999 )
+  krank =0
+  for k in sorted(list(ee.keys()), key=lambda x: frank(ee[x]) ):
+           krank +=1
+           tab,var = k.split('.')
+           fr = frank( ee[k] )
+           if (tab,var) not in dr_map:
+             oo.write( ','.join( [k,] + [str(x) for x in ee[k]] )
+                           + ( ',%s,' % (k in sc.c3svars) )  
+                           + ( ','.join( ['na','na'] ) )
+                           + '\n' )
+           else:
+             cid = dr_map[ tuple( k.split('.') ) ]
+             struc = cid.stid
+             struc_rank[cid.stid] = min( [krank,struc_rank[cid.stid]] )
+             var_rank[cid.vid] = min( [krank,var_rank[cid.vid]] )
+             v  = dq.inx.uid[cid.vid]
+             struc = dq.inx.uid[cid.stid]
+
+             oo.write( ','.join( [k,] + [str(x) for x in ee[k]] )
+                           + ( ',%s,' % (k in sc.c3svars) )  
+                           + ( ','.join( [v.sn,'"%s"' % v.title,'"%s"' % struc.title] ) )
+                           + '\n' )
+  oo.close()
+  oo = open( 'RankedCmipStructures.csv', 'w' )
+  for k in sorted(list(struc_rank.keys()), key=lambda x:struc_rank[x] ):
+      st = dq.inx.uid[k]
+      oo.write( ','.join( ['"%s"' % x for x in [str(struc_rank[k]),st.label,st.title,st.cell_methods]] ) + '\n' )
+  oo.close()
+  
+  oo = open( 'RankedCmipModels.csv', 'w' )
+  for k in sorted(list(collector_cc.keys()), key=lambda x:len(collector_cc[x]) ):
+      oo.write( ','.join( ['"%s"' % x for x in [k, len( collector_cc[k])]] ) + '\n' )
+  oo.close()
+
+  return dd,sv,collector_cc
+    
+if __name__ == "__main__":
 ##dd = survey2()
 ##dd = survey3()
-dd = survey4()
+  dd, sv, sm = survey4()
+  this = sorted( collector_ll, key=lambda x: x[0] )
+  for x in this:
+      print ( x )
+
+  cc = collector_cc
+  ll = sorted( list(cc.keys()), key = lambda x: len(cc[x]) )
+  ll.reverse()
+  print( ll[0], len(cc[ll[0]] ) )
+  print( ll[1], len(cc[ll[1]] ) )
+  print( len( cc[ll[0]].intersection( cc[ll[1]] ) ) )
+
+  A,B,C = [cc[ll[x]] for x in [0,1,2]]
+
+  print( [len(x) for x in [A,B,C]] )
+  print( [len(x.intersection(y)) for x,y in [(A,B),(B,C),(C,A)] ] )
+  print( len(A.intersection(B.intersection(C))) )
+
+  print( ll[0:3] )
+  C = cc[ll[0]]
+  print( '1,',len(C),',',len(C),',' )
+  oo = open( 'intersections.csv', 'w' )
+  for k in range(len(ll)):
+    x = ll[k]
+    C = C.intersection( cc[x] )
+    oo.write( ','.join( [str(xx) for xx in [x,k+1, len(cc[x]),  len(C)]] ) + ',\n'  )
+  oo.close()
