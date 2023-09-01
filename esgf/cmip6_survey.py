@@ -4,10 +4,21 @@ import urllib.request
 import shelve
 from dreqPy import dreq
 
+
+class UrlOpenError(Exception):
+    "Custom exception for errors in url library"
+    pass
+
 dq = dreq.loadDreq()
 
 dr_map = dict()
 dr_map0 = dict()
+
+l1 = ['Lmon.mrro', 'Lmon.evspsblveg', 'Lmon.evspsblsoi', 'Amon.pr']
+l2 = ['day.pr', 'day.tasmax','day.sfcWindmax','day.tasmin','day.clt']
+dr_map_ex1 = set( [tuple(s.split('.')) for s in l1 + l2 ] )
+
+temp_ex1 = 'https://%(esgf_node)s/esg-search/search/?offset=0&limit=500&type=Dataset&replica=false&latest=true&project%%21=input4mips&table_id=%(table_label)s&mip_era=CMIP6&variable_id=%(variable_label)s&experiment_id=%(experiment_label)s&facets=mip_era%%2Cactivity_id%%2Cmodel_cohort%%2Cproduct%%2Csource_id%%2Cinstitution_id%%2Csource_type%%2Cnominal_resolution%%2Cexperiment_id%%2Csub_experiment_id%%2Cvariant_label%%2Cgrid_label%%2Ctable_id%%2Cfrequency%%2Crealm%%2Cvariable_id%%2Ccf_standard_name%%2Cdata_node&format=application%%2Fsolr%%2Bjson'
 
 for i in dq.coll['CMORvar'].items:
     dr_map[ (i.mipTable,i.label) ] = i
@@ -86,18 +97,43 @@ def survey1( idict=locals()):
   sh.close()
   return ee
 
-def survey2():
+def survey2(shname, redo=False,this_map=dr_map,template=temp,experiment_label=''):
   esgf_node = 'esgf-index1.ceda.ac.uk'
   esgf_node = 'esgf-data.dkrz.de'
-  sh = shelve.open( 'esgf_cmip6_survey_dkrz' )
-  for table_label,variable_label in dr_map:
+  sh = shelve.open( shname )
+  for table_label,variable_label in this_map:
+      if experiment_label != '':
+        this_key = '%s.%s.%s' % (table_label,variable_label,experiment_label)
+      else:
+        this_key = '%s.%s' % (table_label,variable_label)
+
+      if redo or (this_key not in sh.keys()):
       ##if variable_label in tmp[table_label]:
-        u = temp % locals()
-        obj = urllib.request.urlopen( u )
-        ee = json.load( obj )
-        model_list = ee['facet_counts']['facet_fields']['source_id']
-        sh['%s.%s' % (table_label,variable_label) ] = model_list
-        print (table_label,variable_label,len(model_list) )
+        try:
+          u = template % locals()
+          obj = urllib.request.urlopen( u )
+          ee = json.load( obj )
+        except KeyboardInterrupt as e:
+        ## if interrupted while reading, abondon this loop
+          print("Caught keyboard interrupt [1]. Canceling tasks...")
+          break
+        except:
+        ## if interrupted while reading, abondon this loop
+          print("Exception raised while opening URL")
+          raise UrlOpenError
+
+        try:
+          model_list = ee['facet_counts']['facet_fields']['source_id']
+          sh[this_key] = model_list
+          print (table_label,variable_label,len(model_list) )
+        except KeyboardInterrupt as e:
+        ## if interrupted after reading, complete this loop.
+          print("Caught keyboard interrupt [2]. Canceling tasks...")
+          model_list = ee['facet_counts']['facet_fields']['source_id']
+          sh[this_key] = model_list
+          print (table_label,variable_label,experiment_label,len(model_list) )
+          break
+
   sh.close()
 
 def survey3():
@@ -124,10 +160,12 @@ def frank(l):
 
 collector_ll = []
 collector_cc = collections.defaultdict(set)
-def survey4():
+pdict = {}
+def survey4(shfile='esgf_cmip6_survey_dkrz_20230822',tag='20230822'):
   sv = collections.defaultdict( set )
-  sh = shelve.open( 'esgf_cmip6_survey_dkrz', 'r' )
+  sh = shelve.open( shfile, 'r' )
   for k in sh.keys():
+    pdict[k] = dr_map[ tuple( k.split('.') ) ].defaultPriority
     for m in sh[k][::2]:
       collector_cc[m].add(k)
 
@@ -147,6 +185,8 @@ def survey4():
   sh.close()
   ks = sv.keys()
   ltot = 0
+            ##i = None
+            ##print( 'No month found: %s' % this)
   ee = {}
   rank = 1
   sc = Scanner(ifile,silent=True)
@@ -173,7 +213,7 @@ def survey4():
                ee[v] = (k,rank,None,lsc+1,None,lsc+1,rank)
       rank += len(sv[k])
 
-  oo = open( 'RankedCmipVariables.csv', 'w' )
+  oo = open( 'RankedCmipVariables_%s.csv' % tag, 'w' )
   oo.write( 'ID,Model Count,Rank,Download Volume,Rank,Download Count,Rank,Min Rank,In C3S,\n' )
   struc_rank = collections.defaultdict( lambda: 9999 )
   var_rank = collections.defaultdict( lambda: 9999 )
@@ -200,7 +240,7 @@ def survey4():
                            + ( ','.join( [v.sn,'"%s"' % v.title,'"%s"' % struc.title] ) )
                            + '\n' )
   oo.close()
-  oo = open( 'RankedCmipStructures.csv', 'w' )
+  oo = open( 'RankedCmipStructures_%s.csv' % tag, 'w' )
   for k in sorted(list(struc_rank.keys()), key=lambda x:struc_rank[x] ):
       st = dq.inx.uid[k]
       oo.write( ','.join( ['"%s"' % x for x in [str(struc_rank[k]),st.label,st.title,st.cell_methods]] ) + '\n' )
@@ -208,38 +248,50 @@ def survey4():
   
   oo = open( 'RankedCmipModels.csv', 'w' )
   for k in sorted(list(collector_cc.keys()), key=lambda x:len(collector_cc[x]) ):
-      oo.write( ','.join( ['"%s"' % x for x in [k, len( collector_cc[k])]] ) + '\n' )
+      oo.write( ','.join( ['"%s"' % x for x in [k, len( collector_cc[k]),len( [x for x in collector_cc[k] if pdict[x] == 1])]] ) + '\n' )
   oo.close()
 
   return dd,sv,collector_cc
     
 if __name__ == "__main__":
-##dd = survey2()
 ##dd = survey3()
-  dd, sv, sm = survey4()
-  this = sorted( collector_ll, key=lambda x: x[0] )
-  for x in this:
+  op = 4
+  if op == 2:
+    for x in range(5):
+      try:
+        dd = survey2('esgf_cmip6_survey_dkrz_20230822')
+      except UrlOpenError:
+        print ('AT ATTEMPT %s' % x )
+        
+  elif op == 2.1:
+    dd = survey2('esgf_cmip6_survey_dkrz_20230822_ex1',this_map=dr_map_ex1,template=temp_ex1,experiment_label='historical')
+    dd = survey2('esgf_cmip6_survey_dkrz_20230822_ex1',this_map=dr_map_ex1,template=temp_ex1,experiment_label='ssp245')
+    dd = survey2('esgf_cmip6_survey_dkrz_20230822_ex1',this_map=dr_map_ex1,template=temp_ex1,experiment_label='ssp126')
+  else:
+    dd, sv, sm = survey4()
+    this = sorted( collector_ll, key=lambda x: x[0] )
+    for x in this:
       print ( x )
 
-  cc = collector_cc
-  ll = sorted( list(cc.keys()), key = lambda x: len(cc[x]) )
-  ll.reverse()
-  print( ll[0], len(cc[ll[0]] ) )
-  print( ll[1], len(cc[ll[1]] ) )
-  print( len( cc[ll[0]].intersection( cc[ll[1]] ) ) )
+    cc = collector_cc
+    ll = sorted( list(cc.keys()), key = lambda x: len(cc[x]) )
+    ll.reverse()
+    print( ll[0], len(cc[ll[0]] ) )
+    print( ll[1], len(cc[ll[1]] ) )
+    print( len( cc[ll[0]].intersection( cc[ll[1]] ) ) )
 
-  A,B,C = [cc[ll[x]] for x in [0,1,2]]
+    A,B,C = [cc[ll[x]] for x in [0,1,2]]
 
-  print( [len(x) for x in [A,B,C]] )
-  print( [len(x.intersection(y)) for x,y in [(A,B),(B,C),(C,A)] ] )
-  print( len(A.intersection(B.intersection(C))) )
+    print( [len(x) for x in [A,B,C]] )
+    print( [len(x.intersection(y)) for x,y in [(A,B),(B,C),(C,A)] ] )
+    print( len(A.intersection(B.intersection(C))) )
 
-  print( ll[0:3] )
-  C = cc[ll[0]]
-  print( '1,',len(C),',',len(C),',' )
-  oo = open( 'intersections.csv', 'w' )
-  for k in range(len(ll)):
-    x = ll[k]
-    C = C.intersection( cc[x] )
-    oo.write( ','.join( [str(xx) for xx in [x,k+1, len(cc[x]),  len(C)]] ) + ',\n'  )
-  oo.close()
+    print( ll[0:3] )
+    C = cc[ll[0]]
+    print( '1,',len(C),',',len(C),',' )
+    oo = open( 'intersections.csv', 'w' )
+    for k in range(len(ll)):
+      x = ll[k]
+      C = C.intersection( cc[x] )
+      oo.write( ','.join( [str(xx) for xx in [x,k+1, len(cc[x]),  len(C)]] ) + ',\n'  )
+    oo.close()
