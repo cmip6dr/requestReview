@@ -1,0 +1,1942 @@
+variable_code,variable_long_name,time_frequency,mip_table,total_size_GB,number_of_downloads
+thetao,Sea Water Potential Temperature,mon,Omon,548378.54,576450
+ua,Eastward Wind,6hrPt,6hrLev,543534.49,52612
+va,Northward Wind,6hrPt,6hrLev,536347.39,47963
+ta,Air Temperature,6hrPt,6hrLev,498150.14,54057
+ua,Eastward Wind,day,day,462952.96,325322
+hus,Specific Humidity,6hrPt,6hrLev,453999.20,39810
+va,Northward Wind,day,day,434403.58,303820
+pr,Precipitation,day,day,379617.94,1586840
+vo,Sea Water Y Velocity,mon,Omon,338957.79,327637
+uo,Sea Water X Velocity,mon,Omon,298302.50,288861
+ta,Air Temperature,day,day,296095.14,284741
+hus,Specific Humidity,day,day,265216.64,186090
+so,Sea Water Salinity,mon,Omon,264654.63,337978
+zg,Geopotential Height,day,day,238811.73,242168
+tas,Near-Surface Air Temperature,day,day,201195.45,1097589
+tasmax,Daily Maximum Near-Surface Air Temperature,day,day,197697.94,1135521
+ua,Eastward Wind,6hrPt,6hrPlevPt,178559.93,56964
+ua,Eastward Wind,mon,Amon,177183.84,1017862
+va,Northward Wind,6hrPt,6hrPlevPt,175056.88,54102
+va,Northward Wind,mon,Amon,174922.73,924081
+hur,Relative Humidity,day,day,173657.07,97519
+va,Northward Wind,day,CFday,172082.91,14432
+tasmin,Daily Minimum Near-Surface Air Temperature,day,day,167679.91,977115
+ua,Eastward Wind,day,CFday,163161.47,14475
+wap,Omega (=dp/dt),day,day,159116.34,90282
+ta,Air Temperature,6hrPt,6hrPlevPt,149420.96,47162
+tos,Sea Surface Temperature,day,Oday,144220.31,202430
+hus,Specific Humidity,day,CFday,141290.13,12109
+hur,Relative Humidity,day,CFday,138200.57,13854
+wo,Sea Water Vertical Velocity,mon,Omon,137704.54,87919
+pr,Precipitation,3hr,3hr,137264.65,115612
+ta,Air Temperature,mon,Amon,124314.84,873198
+zg,Geopotential Height,6hrPt,6hrPlevPt,122999.61,22948
+ta,Air Temperature,day,CFday,117616.61,11555
+zg,Geopotential Height,day,CFday,117160.74,11428
+hus,Specific Humidity,mon,Amon,110880.31,663799
+hus,Specific Humidity,6hrPt,6hrPlevPt,107418.96,11233
+zg,Geopotential Height,mon,Amon,106824.79,873238
+wap,Omega (=dp/dt),day,CFday,105882.99,9779
+hurs,Near-Surface Relative Humidity,day,day,91200.39,411069
+wap,Omega (=dp/dt),mon,Amon,89955.58,426691
+psl,Sea Level Pressure,day,day,88927.15,460122
+vmo,Ocean Mass Y Transport,mon,Omon,82267.69,88358
+umo,Ocean Mass X Transport,mon,Omon,79544.55,86755
+no3,Dissolved Nitrate Concentration,mon,Omon,76979.90,29854
+sfcwind,Near-Surface Wind Speed,day,day,71606.29,286412
+pr,Precipitation,1hr,E1hr,71327.97,14001
+ua,Eastward Wind,day,Eday,68686.10,26553
+hus,Specific Humidity,day,Eday,67953.34,20216
+po4,Total Dissolved Inorganic Phosphorus Concentration,mon,Omon,65228.73,19528
+wmo,Upward Ocean Mass Transport,mon,Omon,65209.00,68189
+vas,Northward Near-Surface Wind,3hrPt,3hr,65162.01,48595
+tas,Near-Surface Air Temperature,3hrPt,3hr,65050.51,64811
+uas,Eastward Near-Surface Wind,3hrPt,3hr,64253.77,47093
+cli,Mass Fraction of Cloud Ice,day,CFday,61953.49,6906
+va,Northward Wind,day,Eday,61941.51,22774
+dissic,Dissolved Inorganic Carbon Concentration,mon,Omon,61704.91,25303
+zg,Geopotential Height,day,Eday,61150.11,26384
+o2,Dissolved Oxygen Concentration,mon,Omon,61029.03,29108
+huss,Near-Surface Specific Humidity,day,day,60046.55,262933
+uas,Eastward Near-Surface Wind,day,day,59583.97,284392
+vas,Northward Near-Surface Wind,day,day,59503.92,280398
+rsds,Surface Downwelling Shortwave Radiation,day,day,59182.14,253453
+ph,pH,mon,Omon,57308.88,21131
+hur,Relative Humidity,mon,Amon,57164.57,289675
+cl,Percentage Cloud Cover,mon,Amon,55238.73,60173
+si,Total Dissolved Inorganic Silicon Concentration,mon,Omon,54137.68,16380
+huss,Near-Surface Specific Humidity,3hrPt,3hr,53643.29,40198
+ta,Air Temperature,day,Eday,52069.57,29832
+talk,Total Alkalinity,mon,Omon,50900.05,20872
+cl,Percentage Cloud Cover,day,CFday,50564.29,9084
+chl,Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water,mon,Omon,49746.38,22615
+agessc,Sea Water Age Since Surface Contact,mon,Omon,49292.62,19057
+thkcello,Ocean Model Cell Thickness,mon,Omon,48311.67,59885
+tos,Sea Surface Temperature,mon,Omon,47995.26,1668564
+clw,Mass Fraction of Cloud Liquid Water,day,CFday,47333.20,8496
+pfull,Pressure at Model Full-Levels,day,CFday,41253.71,6684
+bigthetao,Sea Water Conservative Temperature,mon,Omon,39936.52,72027
+rlds,Surface Downwelling Longwave Radiation,day,day,39838.05,173361
+tos,Sea Surface Temperature,3hrPt,3hr,39370.47,11656
+ta,Air Temperature,mon,CFmon,37764.30,42614
+ua,Eastward Wind,mon,AERmon,37449.15,28449
+dissoc,Dissolved Organic Carbon Concentration,mon,Omon,35782.54,11480
+obvfsq,Square of Brunt Vaisala Frequency in Sea Water,mon,Omon,35778.91,42959
+va,Northward Wind,mon,AERmon,35167.53,25282
+cli,Mass Fraction of Cloud Ice,mon,Amon,35092.80,34708
+hus,Specific Humidity,mon,CFmon,34399.94,30420
+masscello,Ocean Grid-Cell Mass per Area,mon,Omon,33935.94,78442
+pr,Precipitation,mon,Amon,33252.99,3067748
+dfe,Dissolved Iron Concentration,mon,Omon,32854.58,10073
+clw,Mass Fraction of Cloud Liquid Water,mon,Amon,32624.23,39406
+rlut,TOA Outgoing Longwave Radiation,day,day,32196.04,123626
+nh4,Dissolved Ammonium Concentration,mon,Omon,31948.41,5354
+co3,Carbonate Ion Concentration,mon,Omon,31174.99,9095
+wap,Omega (=dp/dt),day,Eday,30265.59,10330
+hfls,Surface Upward Latent Heat Flux,day,day,30030.23,109309
+rlds,Surface Downwelling Longwave Radiation,3hr,3hr,29940.29,20486
+tas,Near-Surface Air Temperature,mon,Amon,29574.29,3548343
+psl,Sea Level Pressure,6hrPt,6hrPlevPt,29070.28,49486
+zg,Geopotential Height,mon,AERmon,28881.93,32799
+phyc,Phytoplankton Carbon Concentration,mon,Omon,28402.49,12734
+hfss,Surface Upward Sensible Heat Flux,day,day,27875.76,100604
+expc,Downward Flux of Particulate Organic Carbon,mon,Omon,26995.95,7417
+o3,Mole Fraction of O3,mon,AERmon,26804.86,26453
+hfss,Surface Upward Sensible Heat Flux,3hr,3hr,26265.08,15092
+hfls,Surface Upward Latent Heat Flux,3hr,3hr,26219.80,16063
+rsds,Surface Downwelling Shortwave Radiation,3hr,3hr,25259.69,28264
+phalf,Pressure on Model Half-Levels,day,CFday,25064.69,5500
+zooc,Zooplankton Carbon Concentration,mon,Omon,24600.84,11148
+sfcwindmax,Daily Maximum Near-Surface Wind Speed,day,day,24134.50,97079
+uas,Eastward Near-Surface Wind,3hr,E3hr,23953.80,14162
+tas,Near-Surface Air Temperature,1hr,AERhr,23807.71,9471
+ps,Surface Air Pressure,3hrPt,3hr,23560.16,18895
+ta,Air Temperature,subhrPt,Esubhr,23299.81,2285
+vas,Northward Near-Surface Wind,3hr,E3hr,22366.59,13150
+pp,Primary Carbon Production by Phytoplankton,mon,Omon,21796.79,8714
+sfcwind,Near-Surface Wind Speed,3hr,E3hr,21699.56,11481
+hur,Relative Humidity,mon,CFmon,21188.71,16827
+prc,Convective Precipitation,day,day,21125.79,148883
+tnhus,Tendency of Specific Humidity,subhrPt,Esubhr,21014.64,1374
+mrsol,Total Water Content of Soil Layer,day,Eday,20916.09,16492
+hus,Specific Humidity,subhrPt,Esubhr,20772.34,1837
+detoc,Detrital Organic Carbon Concentration,mon,Omon,19800.04,7549
+wap,Omega (=dp/dt),subhrPt,Esubhr,19718.06,1346
+tnt,Tendency of Air Temperature,subhrPt,Esubhr,19629.27,1324
+va,Northward Wind,subhrPt,Esubhr,19623.03,1339
+clt,Total Cloud Cover Percentage,day,day,19471.64,88744
+mmrdust,Dust Aerosol Mass Mixing Ratio,mon,AERmon,19451.23,15102
+rsdo,Downwelling Shortwave Radiation in Sea Water,mon,Omon,19019.29,6448
+mmrss,Sea-Salt Aerosol Mass Mixing Ratio,mon,AERmon,18992.30,15110
+phydiat,Mole Concentration of Diatoms Expressed as Carbon in Sea Water,mon,Omon,18955.86,4482
+ua,Eastward Wind,subhrPt,Esubhr,18511.46,1311
+psl,Sea Level Pressure,6hr,6hrPlev,18024.01,48533
+chldiat,Mass Concentration of Diatoms Expressed as Chlorophyll in Sea Water,mon,Omon,17963.43,3975
+prsn,Snowfall Flux,day,day,17846.45,162452
+phymisc,Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water,mon,Omon,17804.13,6946
+rlus,Surface Upwelling Longwave Radiation,day,day,17643.99,67612
+calc,Calcite Concentration,mon,Omon,17406.79,5516
+co3satcalc,Mole Concentration of Carbonate Ion in Equilibrium with Pure Calcite in Sea Water,mon,Omon,17181.36,5980
+mmrso4,Aerosol Sulfate Mass Mixing Ratio,mon,AERmon,16952.19,15707
+rlus,Surface Upwelling Longwave Radiation,3hr,3hr,16796.51,11641
+hursmin,Daily Minimum Near-Surface Relative Humidity,day,day,16728.58,68161
+siconc,Sea-Ice Area Percentage (Ocean Grid),day,SIday,16605.78,120933
+ua,Eastward Wind,3hr,E3hrPt,16215.77,7004
+bsi,Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water,mon,Omon,16155.48,4386
+ua,Eastward Wind,6hr,6hrPlevPt,16125.02,29172
+va,Northward Wind,6hr,6hrPlevPt,16061.93,27983
+mmrbc,Elemental Carbon Mass Mixing Ratio,mon,AERmon,15799.08,14239
+bfe,Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water,mon,Omon,15695.47,4750
+expfe,Sinking Particulate Iron Flux,mon,Emon,15566.53,5170
+o3,Mole Fraction of O3,mon,Amon,15471.12,26894
+tnt,Tendency of Air Temperature,mon,CFmon,15378.55,5602
+rsus,Surface Upwelling Shortwave Radiation,day,day,15284.67,52431
+graz,Total Grazing of Phytoplankton by Zooplankton,mon,Omon,15095.14,5071
+volcello,Ocean Grid-Cell Volume,mon,Omon,14872.73,9563
+tdps,2m Dewpoint Temperature,day,Eday,14760.61,24347
+zmeso,Mole Concentration of Mesozooplankton Expressed as Carbon in Sea Water,mon,Omon,14749.13,2846
+zos,Sea Surface Height Above Geoid,mon,Omon,14567.88,504379
+ps,Surface Air Pressure,day,CFday,13911.97,42281
+sos,Sea Surface Salinity,day,Oday,13834.85,9233
+zg500,Geopotential Height at 500hPa,day,AERday,13809.38,75324
+phyfe,Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water,mon,Omon,13771.86,4673
+zmicro,Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water,mon,Omon,13700.35,2696
+pfull,Pressure at Model Full-Levels,6hr,6hrLev,13457.80,642
+tnta,Tendency of Air Temperature Due to Advection,mon,CFmon,13141.72,4993
+ta,Air Temperature,3hrPt,CF3hr,13098.94,2231
+tossq,Square of Sea Surface Temperature,day,Oday,13040.18,23868
+prc,Convective Precipitation,1hr,E1hr,12852.48,6560
+chlmisc,Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water,mon,Omon,12835.19,2206
+mc,Convective Mass Flux,day,CFday,12816.46,4075
+physi,Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water,mon,Omon,12771.59,2516
+hus,Specific Humidity,3hrPt,E3hrPt,12760.39,2171
+so2,SO2 Volume Mixing Ratio,mon,AERmon,12446.68,9241
+mrsll,Liquid Water Content of Soil Layer,day,Eday,12285.93,8997
+tntr,Tendency of Air Temperature Due to Radiative Heating,mon,CFmon,12208.75,5507
+tntmp,Tendency of Air Temperature Due to Model Physics,mon,CFmon,12144.61,5270
+clt,Total Cloud Cover Percentage,3hr,3hr,11888.93,10123
+rsus,Surface Upwelling Shortwave Radiation,3hr,3hr,11811.92,11759
+psl,Sea Level Pressure,mon,Amon,11355.63,1495191
+va,Northward Wind,3hr,E3hrPt,11334.27,4780
+mmroa,Total Organic Aerosol Mass Mixing Ratio,mon,AERmon,11215.38,12117
+tnhusa,Tendency of Specific Humidity Due to Advection,mon,CFmon,11190.95,4000
+expsi,Sinking Particulate Silicon Flux,mon,Emon,11002.12,2465
+co3satarag,Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water,mon,Omon,10759.08,2395
+wap,Omega (=dp/dt),6hr,6hrPlev,10595.42,2813
+rsu,Upwelling Shortwave Radiation,mon,CFmon,10510.79,7811
+hus,Specific Humidity,6hr,6hrPlev,10471.20,3761
+hursmax,Daily Maximum Near-Surface Relative Humidity,day,day,10429.62,44763
+omldamax,Mean Daily Maximum Ocean Mixed Layer Thickness Defined by Mixing Scheme,day,Oday,10200.06,21760
+mc,Convective Mass Flux,mon,Amon,10185.65,10268
+tntrl,Tendency of Air Temperature Due to Longwave Radiative Heating,mon,AERmon,9930.86,4451
+rlu,Upwelling Longwave Radiation,mon,CFmon,9911.29,7331
+sos,Sea Surface Salinity,mon,Omon,9865.51,404014
+ts,Surface Temperature,mon,Amon,9865.28,966749
+prc,Convective Precipitation,3hr,3hr,9845.17,13615
+mrso,Total Soil Moisture Content,day,day,9736.59,85832
+rlucs,Upwelling Clear-Sky Longwave Radiation,mon,CFmon,9598.44,7204
+tnhusmp,Tendency of Specific Humidity Due to Model Physics,mon,CFmon,9592.95,4447
+rsucs,Upwelling Clear-Sky Shortwave Radiation,mon,CFmon,9424.48,7203
+uas,Eastward Near-Surface Wind,6hrPt,6hrPlevPt,9410.02,25564
+hfds,Downward Heat Flux at Sea Water Surface,mon,Omon,9406.97,271980
+ps,Surface Air Pressure,6hrPt,6hrLev,9293.82,15219
+tnhus,Tendency of Specific Humidity,mon,CFmon,9262.56,3841
+rld,Downwelling Longwave Radiation,mon,CFmon,9251.46,7688
+va,Northward Wind,3hrPt,E3hrPt,9103.62,1021
+ps,Surface Air Pressure,1hr,AERhr,9096.91,2597
+ua,Eastward Wind,3hrPt,E3hrPt,9002.87,1011
+rivo,River Discharge,day,Eday,8979.65,2999
+opottemptend,Tendency of Sea Water Potential Temperature Expressed as Heat Content,mon,Emon,8885.80,1238
+tsl,Temperature of Soil,day,Eday,8798.57,5413
+mrro,Total Runoff,day,day,8732.70,78559
+rsds,Surface Downwelling Shortwave Radiation,mon,Amon,8694.30,799244
+rldcs,Downwelling Clear-Sky Longwave Radiation,mon,CFmon,8642.97,7081
+mrsos,Moisture in Upper Portion of Soil Column,day,day,8615.58,75169
+vas,Northward Near-Surface Wind,6hrPt,6hrPlevPt,8614.82,19473
+rsd,Downwelling Shortwave Radiation,mon,CFmon,8579.25,8800
+psl,Sea Level Pressure,3hr,E3hr,8526.83,6209
+ta,Air Temperature,3hrPt,E3hrPt,8334.43,959
+rldscs,Surface Downwelling Clear-Sky Longwave Radiation,3hr,3hr,8297.39,4673
+hfls,Surface Upward Latent Heat Flux,mon,Amon,8238.22,715151
+mlotst,Ocean Mixed Layer Thickness Defined by Sigma T,mon,Omon,8218.83,285428
+zhalf,Altitude of Model Half-Levels,3hrPt,CF3hr,8109.74,1602
+zfull,Altitude of Model Full-Levels,3hrPt,CF3hr,8073.85,1618
+prsn,Snowfall Flux,3hr,3hr,8067.61,15955
+ppmisc,Net Primary Organic Carbon Production by Other Phytoplankton,mon,Emon,7967.21,3394
+siconc,Sea-Ice Area Percentage (Ocean Grid),mon,SImon,7885.51,939328
+hfss,Surface Upward Sensible Heat Flux,mon,Amon,7875.53,682939
+phydiaz,Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water,mon,Omon,7860.29,5741
+wa,Upward Air Velocity,mon,AERmon,7742.87,6092
+evspsbl,Evaporation Including Sublimation and Transpiration,mon,Amon,7726.06,681479
+oh,OH Volume Mixing Ratio,mon,AERmon,7707.36,7555
+dissicnat,Natural Dissolved Inorganic Carbon Concentration,mon,Omon,7697.21,2376
+prw,Water Vapor Path,3hr,E3hr,7665.25,9203
+tntscpbl,Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing,mon,CFmon,7560.15,4245
+rsut,TOA Outgoing Shortwave Radiation,day,CFday,7381.33,15432
+ta,Air Temperature,6hr,6hrPlevPt,7355.14,26785
+rlut,TOA Outgoing Longwave Radiation,mon,Amon,7340.92,673394
+sfo3,O3 Volume Mixing Ratio in Lowest Model Layer,1hr,AERhr,7276.52,2523
+rsdscs,Surface Downwelling Clear-Sky Shortwave Radiation,3hr,3hr,7198.07,6679
+tas,Near-Surface Air Temperature,6hr,6hrPlev,7186.41,11535
+rsut,TOA Outgoing Shortwave Radiation,mon,Amon,7180.17,618455
+pr,Precipitation,6hr,6hrPlev,7155.70,7903
+mrsfl,Frozen Water Content of Soil Layer,day,Eday,7113.56,5814
+ppdiat,Net Primary Organic Carbon Production by Diatoms,mon,Emon,7080.67,1884
+rsdcs,Downwelling Clear-Sky Shortwave Radiation,mon,CFmon,7033.55,5501
+uas,Eastward Near-Surface Wind,3hr,3hr,6970.78,5724
+tnhusscpbl,Tendency of Specific Humidity Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing,mon,CFmon,6854.46,4241
+rsus,Surface Upwelling Shortwave Radiation,mon,Amon,6813.90,610669
+tas,Near-Surface Air Temperature,3hr,3hr,6787.91,6892
+tsl,Temperature of Soil,mon,Lmon,6748.19,127830
+clisccp,ISCCP Cloud Area Percentage,mon,CFmon,6621.96,3530
+rlds,Surface Downwelling Longwave Radiation,mon,Amon,6497.19,624773
+chlos,Surface Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water,day,Oday,6425.19,1551
+zg,Geopotential Height,6hr,6hrPlevPt,6299.89,17822
+o2sat,Dissolved Oxygen Concentration at Saturation,mon,Omon,6274.66,4503
+hus,Specific Humidity,subhrPt,CFsubhr,6265.31,1654
+tntrs,Tendency of Air Temperature Due to Shortwave Radiative Heating,mon,AERmon,6241.76,3335
+clt,Total Cloud Cover Percentage,mon,Amon,6197.66,869935
+rsuscs,Surface Upwelling Clear-Sky Shortwave Radiation,3hr,3hr,6141.23,5318
+hus,Specific Humidity,3hr,E3hrPt,6130.07,1873
+expcalc,Downward Flux of Calcite,mon,Emon,6104.13,2073
+rlut,TOA Outgoing Longwave Radiation,3hr,E3hr,6071.00,6403
+tasmax,Daily Maximum Near-Surface Air Temperature,mon,Amon,6051.30,859990
+tauv,Surface Downward Northward Wind Stress,day,Eday,6041.65,17387
+tauu,Surface Downward Eastward Wind Stress,day,Eday,6036.33,18256
+clisccp,ISCCP Cloud Area Percentage,day,CFday,5992.69,4626
+mrsos,Moisture in Upper Portion of Soil Column,3hrPt,3hr,5979.20,8859
+cdnc,Cloud Liquid Droplet Number Concentration,mon,AERmon,5919.50,11049
+osalttend,Tendency of Sea Water Salinity Expressed as Salt Content,mon,Emon,5861.40,811
+vas,Northward Near-Surface Wind,3hr,3hr,5829.56,4748
+wap,Omega (=dp/dt),3hrPt,E3hrPt,5821.51,447
+rlus,Surface Upwelling Longwave Radiation,mon,Amon,5809.14,562534
+tnhusc,Tendency of Specific Humidity Due to Convection,mon,CFmon,5806.90,5178
+osaltrmadvect,Tendency of Sea Water Salinity Expressed as Salt Content Due to Residual Mean Advection,mon,Emon,5742.52,772
+dms,Dimethyl Sulphide (DMS) Mole Fraction,mon,AERmon,5741.14,5613
+dissicabio,Abiotic Dissolved Inorganic Carbon Concentration,mon,Omon,5730.43,2116
+phyn,Mole Concentration of Total Phytoplankton Expressed as Nitrogen in Sea Water,mon,Omon,5700.79,4500
+tasmin,Daily Minimum Near-Surface Air Temperature,mon,Amon,5694.70,807659
+tntc,Tendency of Air Temperature Due to Convection,mon,CFmon,5676.52,4990
+chldiaz,Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water,mon,Omon,5630.48,3849
+osaltpmdiff,Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Mesoscale Diffusion,mon,Emon,5624.65,784
+talknat,Natural Total Alkalinity,mon,Omon,5616.87,896
+sithick,Sea Ice Thickness,day,SIday,5528.86,35781
+huss,Near-Surface Specific Humidity,3hr,3hr,5515.25,3897
+hurs,Near-Surface Relative Humidity,mon,Amon,5467.90,585759
+osaltdiff,Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Dianeutral Mixing,mon,Emon,5461.60,791
+o3prod,O3 Production Rate,mon,AERmon,5421.09,5339
+ts,Surface Temperature,day,Eday,5369.71,15997
+uas,Eastward Near-Surface Wind,mon,Amon,5343.05,516755
+co2,Mole Fraction of CO2,mon,Amon,5331.89,13177
+prw,Water Vapor Path,day,Eday,5238.27,12312
+ps,Surface Air Pressure,mon,Amon,5229.15,492618
+uas,Eastward Near-Surface Wind,6hr,6hrPlev,5175.85,6478
+huss,Near-Surface Specific Humidity,mon,Amon,5168.46,553045
+no2,NO2 Volume Mixing Ratio,mon,AERmon,5087.88,5198
+ta,Air Temperature,3hr,E3hrPt,5082.61,2481
+vas,Northward Near-Surface Wind,mon,Amon,5059.77,483651
+fgco2,Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1],mon,Omon,5048.53,64034
+sfcwind,Near-Surface Wind Speed,mon,Amon,5028.60,466244
+dmso,Mole Concentration of Dimethyl Sulphide in Sea Water,mon,Omon,5015.38,984
+ta850,Air Temperature,day,Eday,4985.30,26824
+ua,Eastward Wind,mon,Emon,4939.11,22238
+rsutcs,TOA Outgoing Clear-Sky Shortwave Radiation,day,CFday,4917.97,11242
+hus,Specific Humidity,mon,Emon,4909.12,17073
+clcalipso,CALIPSO Percentage Cloud Cover,day,CFday,4884.27,2129
+tauuo,Sea Water Surface Downward X Stress,mon,Omon,4852.56,109837
+mc,Convective Mass Flux,subhrPt,Esubhr,4842.82,1304
+tas,Near-Surface Air Temperature,6hrPt,6hrPlevPt,4821.80,26629
+zg,Geopotential Height,subhrPt,CFsubhr,4759.91,1144
+o3loss,O3 Destruction Rate,mon,AERmon,4729.36,5390
+no,NO Volume Mixing Ratio,mon,AERmon,4727.88,4672
+siv,Y-Component of Sea-Ice Velocity,day,SIday,4711.33,30519
+siu,X-Component of Sea-Ice Velocity,day,SIday,4710.19,31233
+tauvo,Sea Water Surface Downward Y Stress,mon,Omon,4687.23,105058
+ua,Eastward Wind,subhrPt,CFsubhr,4684.67,1205
+rsu4co2,Upwelling Shortwave Radiation 4XCO2 Atmosphere,mon,CFmon,4643.98,2637
+va,Northward Wind,subhrPt,CFsubhr,4626.54,1143
+airmass,Vertically Integrated Mass Content of Air in Layer,mon,AERmon,4591.37,8227
+mrro,Total Runoff,3hr,3hr,4575.43,10037
+ch4,Mole Fraction of CH4,mon,AERmon,4547.10,5858
+mrsol,Total Water Content of Soil Layer,mon,Emon,4529.18,122029
+conccn,Aerosol Number Concentration,mon,Emon,4529.04,1279
+lossch4,Monthly Loss of Atmospheric Methane,mon,AERmon,4503.14,5348
+osaltpadvect,Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Eddy Advection,mon,Emon,4443.39,634
+opottemppmdiff,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Mesoscale Diffusion,mon,Emon,4433.55,734
+cls,Percentage Cover of Stratiform Cloud,mon,CFmon,4419.94,3073
+psl,Sea Level Pressure,6hr,6hrPlevPt,4413.94,13972
+psl,Sea Level Pressure,3hrPt,CF3hr,4400.35,2083
+co,CO Volume Mixing Ratio,mon,AERmon,4379.34,4853
+expp,Sinking Particulate Organic Phosphorus Flux,mon,Emon,4377.63,438
+tnhusa,Tendency of Specific Humidity Due to Advection,subhrPt,CFsubhr,4351.42,963
+ta,Air Temperature,subhrPt,CFsubhr,4310.94,1086
+clc,Convective Cloud Area Percentage,mon,CFmon,4304.10,2548
+expn,Sinking Particulate Organic Nitrogen Flux,mon,Emon,4263.34,435
+pon,Mole Concentration of Particulate Organic Matter Expressed as Nitrogen in Sea Water,mon,Omon,4253.27,3295
+rlu4co2,Upwelling Longwave Radiation 4XCO2 Atmosphere,mon,CFmon,4239.46,2638
+phyp,Mole Concentration of Total Phytoplankton Expressed as Phosphorus in Sea Water,mon,Omon,4193.88,2941
+opottemprmadvect,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Residual Mean Advection,mon,Emon,4175.60,420
+wap,Omega (=dp/dt),mon,Emon,4167.81,6162
+o3,Mole Fraction of O3,3hrPt,E3hrPt,4157.96,380
+tntmp,Tendency of Air Temperature Due to Model Physics,subhrPt,CFsubhr,4150.56,994
+dissi14cabio,Abiotic Dissolved Inorganic Carbon-14 Concentration,mon,Omon,4117.59,571
+rsdt,TOA Incident Shortwave Radiation,mon,Amon,4113.25,574613
+mlotst,Ocean Mixed Layer Thickness Defined by Sigma T,day,Eday,4107.21,1570
+rsucs4co2,Upwelling Clear-Sky Shortwave Radiation 4XCO2 Atmosphere,mon,CFmon,4070.38,2598
+cfc11,Mole Concentration of CFC11 in Sea Water,mon,Omon,4067.34,7883
+rld4co2,Downwelling Longwave Radiation 4XCO2 Atmosphere,mon,CFmon,4048.47,2657
+sf6,Mole Concentration of SF6 in Sea Water,mon,Omon,4013.25,1622
+cfc12,Mole Concentration of CFC12 in Sea Water,mon,Omon,3984.90,1594
+tslsi,Surface Temperature Where Land or Sea Ice,3hrPt,3hr,3962.18,4499
+rsut,TOA Outgoing Shortwave Radiation,3hr,E3hr,3957.27,6020
+rlucs4co2,Upwelling Clear-Sky Longwave Radiation 4XCO2 Atmosphere,mon,CFmon,3942.17,2588
+rldscs,Surface Downwelling Clear-Sky Longwave Radiation,day,CFday,3916.71,9615
+prlsns,Stratiform Snowfall Flux,3hrPt,CF3hr,3888.56,766
+no3,Dissolved Nitrate Concentration,yr,Oyr,3836.63,13953
+wap,Omega (=dp/dt),subhrPt,CFsubhr,3825.11,914
+pfull,Pressure at Model Full-Levels,mon,AERmon,3784.52,2266
+rldcs4co2,Downwelling Clear-Sky Longwave Radiation 4XCO2 Atmosphere,mon,CFmon,3782.46,2612
+rsdscs,Surface Downwelling Clear-Sky Shortwave Radiation,day,CFday,3751.02,10393
+tnt,Tendency of Air Temperature,subhrPt,CFsubhr,3745.83,868
+zfullo,Depth Below Geoid of Ocean Layer,mon,Omon,3715.63,1302
+rsdt,TOA Incident Shortwave Radiation,day,CFday,3714.36,15586
+vas,Northward Near-Surface Wind,6hr,6hrPlev,3709.62,5092
+tnta,Tendency of Air Temperature Due to Advection,subhrPt,CFsubhr,3697.82,911
+rsdoabsorb,Net Rate of Absorption of Shortwave Energy in Ocean Layer,mon,Emon,3674.33,1697
+tntscpbl,Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing,subhrPt,CFsubhr,3654.22,855
+tslsi,Surface Temperature Where Land or Sea Ice,day,day,3647.32,26263
+rsd4co2,Downwelling Shortwave Radiation 4XCO2 Atmosphere,mon,CFmon,3617.75,2612
+rsutcs,TOA Outgoing Clear-Sky Shortwave Radiation,mon,Amon,3614.63,307069
+snw,Surface Snow Amount,day,day,3577.29,60190
+rsdt,TOA Incident Shortwave Radiation,3hr,E3hr,3575.12,6065
+tntr,Tendency of Air Temperature Due to Radiative Heating,subhrPt,CFsubhr,3568.68,874
+rlutcs,TOA Outgoing Clear-Sky Longwave Radiation,mon,Amon,3548.89,311166
+rsuscs,Surface Upwelling Clear-Sky Shortwave Radiation,day,CFday,3491.98,7643
+prw,Water Vapor Path,mon,Amon,3445.99,341901
+o2,Dissolved Oxygen Concentration,yr,Oyr,3400.53,18986
+opottempdiff,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Dianeutral Mixing,mon,Emon,3395.72,615
+pop,Mole Concentration of Particulate Organic Matter Expressed as Phosphorus in Sea Water,mon,Omon,3374.38,2552
+va,Northward Wind,mon,Emon,3329.40,18921
+tnhus,Tendency of Specific Humidity,subhrPt,CFsubhr,3284.71,846
+rlutcs,TOA Outgoing Clear-Sky Longwave Radiation,day,CFday,3265.67,8542
+rsdcs4co2,Downwelling Clear-Sky Shortwave Radiation 4XCO2 Atmosphere,mon,CFmon,3264.82,2592
+co2,Mole Fraction of CO2,mon,AERmon,3225.93,2291
+phypico,Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water,mon,Omon,3195.14,1713
+h2o,Mass Fraction of Water,mon,AERmon,3176.75,907
+ta,Air Temperature,mon,Emon,3166.55,26849
+prlsprof,Stratiform Rainfall Flux,3hrPt,CF3hr,3159.78,724
+uas,Eastward Near-Surface Wind,6hr,6hrPlevPt,3152.72,7919
+tnhusmp,Tendency of Specific Humidity Due to Model Physics,subhrPt,CFsubhr,3132.76,865
+hur,Relative Humidity,subhrPt,CFsubhr,3128.65,844
+mmrsoa,Secondary Organic Aerosol Mass Mixing Ratio,mon,AERmon,3123.98,4499
+loadbc,Load of Black Carbon Aerosol,day,Eday,3116.44,5824
+si,Total Dissolved Inorganic Silicon Concentration,yr,Oyr,3102.22,10937
+rsdscs,Surface Downwelling Clear-Sky Shortwave Radiation,mon,Amon,3087.94,283831
+hfy,Ocean Heat Y Transport,mon,Omon,3079.48,55362
+rsuscs,Surface Upwelling Clear-Sky Shortwave Radiation,mon,Amon,3067.24,260093
+tauu,Surface Downward Eastward Wind Stress,mon,Amon,3066.27,246206
+concdust,Concentration of Dust,mon,Emon,3057.24,986
+hno3,HNO3 Volume Mixing Ratio,mon,AERmon,3057.02,3622
+rld,Downwelling Longwave Radiation,subhrPt,CFsubhr,3044.66,866
+hcho,Formaldehyde Volume Mixing Ratio,mon,AERmon,2990.57,3812
+rldcs,Downwelling Clear-Sky Longwave Radiation,subhrPt,CFsubhr,2985.83,840
+tauv,Surface Downward Northward Wind Stress,mon,Amon,2974.91,238202
+conccmcn,Number Concentration Coarse Mode Aerosol,mon,Emon,2956.97,665
+sisnthick,Snow Thickness,day,SIday,2941.47,10213
+chlpico,Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water,mon,Omon,2925.81,1375
+vas,Northward Near-Surface Wind,6hr,6hrPlevPt,2918.82,7672
+tntrlcs,Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating,mon,Emon,2884.45,747
+pfull,Pressure at Model Full-Levels,6hrPt,6hrLev,2877.75,138
+rlu,Upwelling Longwave Radiation,subhrPt,CFsubhr,2856.19,736
+wfo,Water Flux into Sea Water,mon,Omon,2828.61,88339
+od550aer,Ambient Aerosol Optical Thickness at 550nm,day,AERday,2822.28,7712
+clc,Convective Cloud Area Percentage,3hrPt,CF3hr,2819.18,730
+opottemppadvect,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Eddy Advection,mon,Emon,2815.33,537
+sithick,Sea Ice Thickness,mon,SImon,2812.76,269732
+zg500,Geopotential Height at 500hPa,6hrPt,6hrPlevPt,2809.40,3591
+lossco,Monthly Loss of Atmospheric Carbon Monoxide,mon,AERmon,2805.72,4315
+zmla,Height of Boundary Layer,day,Eday,2797.90,7346
+tnhusscpbl,Tendency of Specific Humidity Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing,subhrPt,CFsubhr,2787.64,863
+ch4,Mole Fraction of CH4,mon,Amon,2757.94,6177
+loadss,Load of Sea-Salt Aerosol,day,Eday,2748.65,4880
+clivi,Ice Water Path,day,CFday,2715.49,5774
+loadso4,Load of SO4,day,Eday,2676.39,4914
+loadoa,Load of Dry Aerosol Organic Matter,day,Eday,2657.28,4974
+hcl,HCl Volume Mixing Ratio,mon,AERmon,2643.17,662
+zhalfo,Depth Below Geoid of Interfaces Between Ocean Layers,mon,Omon,2621.51,21114
+rv850,Relative Vorticity at 850hPa,6hrPt,6hrPlevPt,2592.89,2920
+wap500,Pressure Tendency,day,CFday,2586.66,5775
+rldscs,Surface Downwelling Clear-Sky Longwave Radiation,mon,Amon,2567.20,237428
+clcalipso,CALIPSO Percentage Cloud Cover,mon,CFmon,2544.18,1761
+huss,Near-Surface Specific Humidity,6hrPt,6hrPlevPt,2538.69,4190
+loaddust,Load of Dust,day,Eday,2533.72,5055
+rlucs,Upwelling Clear-Sky Longwave Radiation,subhrPt,CFsubhr,2501.57,675
+n2o,Mole Fraction of N2O,mon,AERmon,2434.80,810
+ta500,Air Temperature,day,Eday,2411.91,10091
+clwvi,Condensed Water Path,day,CFday,2372.66,5913
+tntrscs,Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating,mon,Emon,2346.96,689
+mmrnh4,NH4 Mass Mixing Ratio,mon,AERmon,2341.91,4024
+photo1d,"Photolysis Rate of Ozone (O3) to Excited Atomic Oxygen (the Singlet D State, O1D)",mon,AERmon,2327.44,893
+sitemptop,Surface Temperature of Sea Ice,day,SIday,2327.39,8297
+prsn,Snowfall Flux,mon,Amon,2312.25,379289
+prc,Convective Precipitation,mon,Amon,2295.50,205148
+prsnc,Convective Snowfall Flux,3hrPt,CF3hr,2295.41,733
+ta700,Air Temperature,day,CFday,2266.35,6768
+expc,Downward Flux of Particulate Organic Carbon,yr,Oyr,2263.71,9723
+ocontemppadvect,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Eddy Advection,mon,Emon,2247.68,191
+intpp,Primary Organic Carbon Production by All Types of Phytoplankton,mon,Omon,2245.86,33830
+ocontemppmdiff,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Mesoscale Diffusion,mon,Emon,2199.85,190
+dissic,Dissolved Inorganic Carbon Concentration,yr,Oyr,2192.75,9062
+pfull,Pressure at Model Full-Levels,3hrPt,CF3hr,2184.87,258
+hus,Specific Humidity,6hr,6hrPlevPt,2159.24,6088
+ocontemptend,Tendency of Sea Water Conservative Temperature Expressed as Heat Content,mon,Emon,2154.71,188
+pfull,Pressure at Model Full-Levels,subhrPt,CFsubhr,2154.44,273
+prsnc,Convective Snowfall Flux,3hr,E3hr,2150.59,37
+clws,Mass Fraction of Stratiform Cloud Liquid Water,3hrPt,CF3hr,2150.54,714
+sfcwind,Near-Surface Wind Speed,6hrPt,6hrPlevPt,2149.71,3077
+wbptemp,Wet Bulb Potential Temperature,6hrPt,6hrPlevPt,2109.94,673
+isop,Isoprene Volume Mixing Ratio,mon,AERmon,2091.88,3972
+ocontemprmadvect,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Residual Mean Advection,mon,Emon,2072.64,152
+snc,Snow Area Percentage,day,day,2061.82,72163
+ocontempdiff,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Dianeutral Mixing,mon,Emon,2036.32,189
+pan,PAN Volume Mixing Ratio,mon,AERmon,2006.85,3321
+prrc,Convective Rainfall Rate,3hr,E3hr,2000.17,690
+msftbarot,Ocean Barotropic Mass Streamfunction,mon,Omon,1988.86,107638
+prsn,Snowfall Flux,mon,Omon,1988.02,44421
+po4,Total Dissolved Inorganic Phosphorus Concentration,yr,Oyr,1976.85,7818
+phycos,Sea Surface Phytoplankton Carbon Concentration,day,Oday,1975.09,674
+rsdsdiff,Surface Diffuse Downwelling Shortwave Radiation,day,Eday,1973.00,2572
+c3h8,C3H8  volume mixing ratio,mon,AERmon,1968.33,3265
+tnhusd,Tendency of Specific Humidity Due to Numerical Diffusion,mon,CFmon,1951.71,894
+lai,Leaf Area Index,day,Eday,1950.69,9205
+cls,Percentage Cover of Stratiform Cloud,3hrPt,CF3hr,1942.24,369
+ec550aer,Aerosol Extinction Coefficient,6hrPt,6hrLev,1939.42,530
+c2h6,C2H6 Volume Mixing Ratio,mon,AERmon,1937.08,3275
+zg,Geopotential Height,mon,Emon,1917.41,19421
+hfx,Ocean Heat X Transport,mon,Omon,1914.04,53782
+ch3coch3,CH3COCH3  volume mixing ratio,mon,AERmon,1913.75,3261
+sivol,Sea-Ice Volume per Area,mon,SImon,1902.22,181076
+tntc,Tendency of Air Temperature Due to Convection,subhrPt,CFsubhr,1893.76,745
+hurs,Near-Surface Relative Humidity,6hr,6hrPlev,1879.92,3635
+dfe,Dissolved Iron Concentration,yr,Oyr,1878.79,7860
+rsdsdiff,Surface Diffuse Downwelling Shortwave Radiation,3hr,3hr,1876.90,963
+rsucs,Upwelling Clear-Sky Shortwave Radiation,subhrPt,CFsubhr,1841.88,688
+rsntds,Net Downward Shortwave Radiation at Sea Water Surface,mon,Omon,1829.31,74586
+rsdcs,Downwelling Clear-Sky Shortwave Radiation,subhrPt,CFsubhr,1823.28,669
+prcprof,Convective Rainfall Flux,3hrPt,CF3hr,1820.82,364
+rtmt,Net Downward Radiative Flux at Top of Model,mon,Amon,1818.29,156099
+mcu,Convective Updraft Mass Flux,mon,CFmon,1814.72,2596
+clivi,Ice Water Path,mon,Amon,1812.52,165363
+rsd,Downwelling Shortwave Radiation,subhrPt,CFsubhr,1810.69,685
+n2o,Mole Fraction of N2O,mon,Amon,1809.09,1694
+rsu,Upwelling Shortwave Radiation,subhrPt,CFsubhr,1782.90,687
+tntpbl,Tendency of Air Temperature Due to Boundary Layer Mixing,mon,Emon,1768.28,1187
+siconca,Sea-Ice Area Percentage (Atmospheric Grid),day,SIday,1760.00,66266
+clwvi,Condensed Water Path,mon,Amon,1729.38,163265
+mrso,Total Soil Moisture Content,mon,Lmon,1723.89,400190
+mrsll,Liquid Water Content of Soil Layer,mon,Emon,1705.07,14902
+tnhusc,Tendency of Specific Humidity Due to Convection,subhrPt,CFsubhr,1698.24,745
+talk,Total Alkalinity,yr,Oyr,1678.63,6202
+msftyz,Ocean Y Overturning Mass Streamfunction,mon,Omon,1673.29,186683
+mrsol,Total Water Content of Soil Layer,6hrPt,6hrPlevPt,1669.07,942
+tnhuspbl,Tendency of Specific Humidity Due to Boundary Layer Mixing,mon,Emon,1667.76,1193
+ph,pH,yr,Oyr,1666.59,7293
+v2,Mean-Squared Northward Wind Speed,mon,Emon,1655.87,395
+chegpso4,Gas-Phase Production Rate of SO4,mon,AERmon,1647.80,3857
+rsucs,Upwelling Clear-Sky Shortwave Radiation,3hrPt,E3hrPt,1646.23,217
+pbo,Sea Water Pressure at Sea Floor,mon,Omon,1635.02,62786
+wbptemp,Wet Bulb Potential Temperature,6hr,6hrPlevPt,1633.01,1307
+tas,Near-Surface Air Temperature,6hr,6hrPlevPt,1626.31,6286
+tnhusd,Tendency of Specific Humidity Due to Numerical Diffusion,subhrPt,CFsubhr,1624.04,124
+phalf,Pressure on Model Half-Levels,mon,AERmon,1615.39,4131
+chl,Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water,yr,Oyr,1599.07,7756
+tauvpbl,Northward Surface Stress from Planetary Boundary Layer Scheme,day,Eday,1598.72,2704
+clis,Mass Fraction of Stratiform Cloud Ice,3hrPt,CF3hr,1592.42,362
+ec550aer,Aerosol Extinction Coefficient,mon,Emon,1581.18,419
+spco2,Surface Aqueous Partial Pressure of CO2,mon,Omon,1578.40,24251
+tauupbl,Eastward Surface Stress from Planetary Boundary Layer Scheme,day,Eday,1559.32,2650
+jno2,Photolysis Rate of NO2,mon,AERmon,1548.55,3328
+u2,Mean-Squared Eastward Wind Speed,mon,Emon,1537.65,379
+hus850,Specific Humidity,day,Eday,1529.60,7184
+zg1000,Geopotential Height at 1000hPa,day,AERday,1527.92,3885
+od550aer,Ambient Aerosol Optical Thickness at 550nm,mon,AERmon,1511.60,49163
+rlutcs,TOA Outgoing Clear-Sky Longwave Radiation,3hr,E3hr,1494.69,1801
+rsutcs,TOA Outgoing Clear-Sky Shortwave Radiation,3hr,E3hr,1491.69,2865
+phalf,Pressure on Model Half-Levels,subhrPt,CFsubhr,1490.74,265
+cldnvi,Column Integrated Cloud Droplet Number,day,Eday,1469.68,2381
+mrro,Total Runoff,mon,Lmon,1469.03,340317
+sossq,Square of Sea Surface Salinity,day,Oday,1467.37,832
+phyc,Phytoplankton Carbon Concentration,yr,Oyr,1454.98,5719
+utendnogw,Eastward Acceleration Due to Non-Orographic Gravity Wave Drag,mon,Emon,1452.10,845
+loadpoa,Load of Dry Aerosol Primary Organic Matter,day,Eday,1450.24,3604
+phalf,Pressure on Model Half-Levels,3hrPt,CF3hr,1448.39,248
+reffclws,Stratiform Cloud Liquid Droplet Effective Radius,mon,Emon,1402.91,1446
+evu,Eddy Viscosity Coefficient for Momentum,mon,CFmon,1388.38,582
+chlos,Surface Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water,mon,Omon,1386.05,18042
+edt,Eddy Diffusivity Coefficient for Temperature,mon,CFmon,1384.91,570
+epc100,Downward Flux of Particulate Organic Carbon,mon,Omon,1369.89,19839
+sispeed,Sea-Ice Speed,day,SIday,1360.35,16049
+ts,Surface Temperature,6hrPt,6hrPlevPt,1348.86,4729
+remoc,Remineralization of Organic Carbon,yr,Oyr,1329.81,3788
+cl,Percentage Cloud Cover,subhrPt,CFsubhr,1329.44,560
+ua,Eastward Wind,day,EdayZ,1328.60,12696
+mmraerh2o,Aerosol Water Mass Mixing Ratio,mon,AERmon,1324.10,3692
+utendogw,Eastward Acceleration Due to Orographic Gravity Wave Drag,mon,Emon,1312.00,1709
+pp,Primary Carbon Production by Phytoplankton,yr,Oyr,1310.41,7747
+expcalc,Downward Flux of Calcite,yr,Oyr,1291.50,2627
+nh4,Dissolved Ammonium Concentration,yr,Oyr,1279.48,2159
+tntscp,Tendency of Air Temperature Due to Stratiform Clouds and Precipitation,mon,Emon,1273.24,1175
+sfcwind,Near-Surface Wind Speed,3hrPt,CF3hr,1255.89,1756
+rsdcs,Downwelling Clear-Sky Shortwave Radiation,3hrPt,E3hrPt,1252.85,171
+expsi,Sinking Particulate Silicon Flux,yr,Oyr,1241.37,3207
+mlotstmax,Maximum Ocean Mixed Layer Thickness Defined by Sigma T,mon,Omon,1236.29,46729
+tob,Sea Water Potential Temperature at Sea Floor,mon,Omon,1231.05,39260
+msftmz,Ocean Meridional Overturning Mass Streamfunction,mon,Omon,1230.73,54826
+c3h6,C3H6  volume mixing ratio,mon,AERmon,1220.66,3025
+twap,Product of Air Temperature and Omega,mon,Emon,1213.88,244
+gpp,Carbon Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1],3hr,E3hr,1210.80,693
+cldicemxrat,Cloud Ice Mixing Ratio,6hrPt,6hrPlevPt,1207.98,138
+mmrpm2p5,PM2.5 Mass Mixing Ratio,mon,AERmon,1203.51,3600
+mmrpm1,PM1.0 Mass Mixing Ratio,mon,AERmon,1195.26,1615
+tnhusscp,Tendency of Specific Humidity Due to Stratiform Clouds and Precipitation,mon,Emon,1189.62,1158
+lossn2o,Monthly Loss of Atmospheric Nitrous Oxide,mon,AERmon,1175.61,238
+evs,Water Evaporation Flux Where Ice Free Ocean over Sea,mon,Omon,1175.18,46275
+loadsoa,Load of Dry Aerosol Secondary Organic Matter,day,Eday,1166.08,2280
+emilnox,Layer-Integrated Lightning Production of NOx,mon,AERmon,1157.13,4579
+osalttend,Tendency of Sea Water Salinity Expressed as Salt Content,yr,Oyr,1150.22,2260
+osaltdiff,Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Dianeutral Mixing,yr,Oyr,1147.25,2266
+lai,Leaf Area Index,mon,Lmon,1138.44,189445
+dissoc,Dissolved Organic Carbon Concentration,yr,Oyr,1137.45,4145
+landcoverfrac,Percentage of Area by Vegetation or Land-Cover Category,mon,Lmon,1131.83,25514
+dpco2,Delta CO2 Partial Pressure,mon,Omon,1129.18,14290
+osaltrmadvect,Tendency of Sea Water Salinity Expressed as Salt Content Due to Residual Mean Advection,yr,Oyr,1125.12,2238
+rsdscsdiff,Surface Diffuse Downwelling Clear Sky Shortwave Radiation,day,Eday,1122.47,2270
+osaltpmdiff,Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Mesoscale Diffusion,yr,Oyr,1122.42,2197
+fgo2,Surface Downward Flux of O2,mon,Omon,1119.97,16935
+co3,Carbonate Ion Concentration,yr,Oyr,1110.37,2600
+mrsos,Moisture in Upper Portion of Soil Column,mon,Lmon,1110.36,229228
+nh50,Artificial Tracer with 50 Day Lifetime,mon,AERmon,1106.96,134
+osaltpadvect,Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Eddy Advection,yr,Oyr,1102.32,2153
+no3os,Surface Dissolved Nitrate Concentration,mon,Omon,1098.82,17111
+siu,X-Component of Sea-Ice Velocity,mon,SImon,1091.94,131141
+gpp,Carbon Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1],mon,Lmon,1091.31,178045
+siv,Y-Component of Sea-Ice Velocity,mon,SImon,1082.56,131207
+clwc,Mass Fraction of Convective Cloud Liquid Water,mon,CFmon,1073.61,1099
+mlotstmin,Minimum Ocean Mixed Layer Thickness Defined by Sigma T,mon,Omon,1058.69,41933
+clwc,Mass Fraction of Convective Cloud Liquid Water,3hrPt,CF3hr,1039.04,199
+edt,Eddy Diffusivity Coefficient for Temperature,subhrPt,CFsubhr,1030.88,152
+clw,Mass Fraction of Cloud Liquid Water,subhrPt,CFsubhr,1029.49,457
+t20d,Depth of 20 degree Celsius Isotherm,day,Eday,1028.63,1582
+graz,Total Grazing of Phytoplankton by Zooplankton,yr,Oyr,1003.07,6517
+ua,Eastward Wind,6hr,6hrLev,996.31,57
+rh,Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1],3hr,E3hr,982.79,422
+simass,Sea-Ice Mass per Area,mon,SImon,978.92,101960
+dcalc,Calcite Dissolution,yr,Oyr,974.17,2356
+opottemptend,Tendency of Sea Water Potential Temperature Expressed as Heat Content,yr,Oyr,968.06,2531
+evu,Eddy Viscosity Coefficient for Momentum,subhrPt,CFsubhr,965.97,134
+c2h2,C2H2 Volume Mixing Ratio,mon,AERmon,960.96,109
+pctisccp,ISCCP Mean Cloud Top Pressure,day,CFday,958.61,1901
+zg1000,Geopotential Height at 1000hPa,6hr,6hrPlev,946.35,2093
+cldwatmxrat,Cloud Water Mixing Ratio,6hrPt,6hrPlevPt,938.24,114
+expfe,Sinking Particulate Iron Flux,yr,Oyr,933.09,832
+mrros,Surface Runoff,mon,Lmon,929.20,206457
+cli,Mass Fraction of Cloud Ice,subhrPt,CFsubhr,920.31,321
+sisnthick,Snow Thickness,mon,SImon,914.82,89960
+scldncl,Cloud Droplet Number Concentration of Stratiform Cloud Tops,day,Eday,911.37,2267
+concnmcn,Number Concentration of Nucleation Mode Aerosol,mon,Emon,909.25,314
+sfcwind,Near-Surface Wind Speed,6hr,6hrPlev,908.08,2159
+cod,Cloud Optical Depth,day,AERday,895.55,294
+ta,Air Temperature,6hr,6hrLev,883.23,61
+reffsclwtop,Cloud-Top Effective Droplet Radius in Stratiform Cloud,day,Eday,883.15,2285
+ua,Eastward Wind,monC,Amon,879.30,417
+npp,Net Primary Production on Land as Carbon Mass Flux [kgC m-2 s-1],mon,Lmon,878.35,139840
+va,Northward Wind,monC,Amon,877.75,407
+fescav,Non-Biogenic Iron Scavenging,yr,Oyr,876.00,1073
+bsi,Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water,yr,Oyr,875.52,3316
+chldiat,Mass Concentration of Diatoms Expressed as Chlorophyll in Sea Water,yr,Oyr,874.68,1530
+uv,Product of Eastward Wind and Northward Wind,mon,Emon,869.86,246
+mrsfl,Frozen Water Content of Soil Layer,mon,Emon,869.07,3938
+epcalc100,Downward Flux of Calcite,mon,Omon,860.05,12429
+phalf,Pressure on Model Half-Levels,monC,Amon,857.16,1221
+co23d,3D-Field of Transported CO2,mon,Emon,855.76,798
+clic,Mass Fraction of Convective Cloud Ice,mon,CFmon,851.07,1089
+difvho,Ocean Vertical Heat Diffusivity,yr,Oyr,845.58,1968
+mc,Convective Mass Flux,subhrPt,CFsubhr,845.13,280
+bddtdife,Rate of Change of Dissolved Inorganic Iron Due to Biological Activity,yr,Oyr,842.32,2772
+bddtalk,Rate of Change of Alkalinity Due to Biological Activity,yr,Oyr,837.79,2798
+vt,Product of Air Temperature and Northward Wind,mon,Emon,831.81,285
+albisccp,ISCCP Mean Cloud Albedo,day,CFday,828.47,1854
+opottempdiff,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Dianeutral Mixing,yr,Oyr,821.23,2426
+toz,Total Column Ozone,day,AERday,815.46,3520
+zossq,Square of Sea Surface Height Above Geoid,mon,Omon,812.35,17021
+opottemppadvect,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Eddy Advection,yr,Oyr,803.95,2308
+pfull,Pressure at Model Full-Levels,monC,Amon,796.27,1226
+sob,Sea Water Salinity at Sea Floor,mon,Omon,795.94,38952
+tdps,2m Dewpoint Temperature,mon,Emon,790.60,25053
+opottemppmdiff,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Mesoscale Diffusion,yr,Oyr,789.43,2324
+bddtdin,Rate of Change of Nitrogen Nutrient Due to Biological Activity,yr,Oyr,789.42,2813
+bddtdic,Rate of Change of Dissolved Inorganic Carbon Due to Biological Activity,yr,Oyr,784.30,2954
+tntrl,Tendency of Air Temperature Due to Longwave Radiative Heating,mon,Emon,780.95,1161
+dissicnat,Natural Dissolved Inorganic Carbon Concentration,yr,Oyr,780.12,1474
+bacc,Bacterial Carbon Concentration,mon,Omon,778.74,449
+opottemprmadvect,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Residual Mean Advection,yr,Oyr,778.44,2345
+cheaqpso4,Aqueous-Phase Production Rate of SO4,mon,AERmon,767.76,3847
+bfe,Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water,yr,Oyr,755.08,2887
+phyfe,Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water,yr,Oyr,754.46,3108
+co3satarag,Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water,yr,Oyr,750.46,1689
+intdic,Dissolved Inorganic Carbon Content,mon,Omon,745.00,9368
+reffclis,Hydrometeor Effective Radius of Stratiform Cloud Ice,mon,Emon,737.07,443
+ra,Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1],3hr,E3hr,732.51,324
+prra,Rainfall Flux over Land Ice,3hr,E3hr,728.77,416
+bddtdip,Rate of Change of Dissolved Phosphorus Due to Biological Activity,yr,Oyr,728.38,2482
+cltisccp,ISCCP Total Cloud Cover Percentage,day,CFday,724.76,1931
+difvso,Ocean Vertical Salt Diffusivity,yr,Oyr,721.74,1895
+ps,Surface Air Pressure,3hrPt,E3hrPt,720.15,1153
+cct,Air Pressure at Convective Cloud Top,day,CFday,719.58,2138
+co3satcalc,Mole Concentration of Carbonate Ion in Equilibrium with Pure Calcite in Sea Water,yr,Oyr,719.02,1642
+sitimefrac,Fraction of Time Steps with Sea Ice,day,SIday,714.14,6986
+pcalc,Calcite Production,yr,Oyr,713.57,2888
+tntmp,Tendency of Air Temperature Due to Model Physics,mon,Emon,711.60,970
+fediss,Particulate Source of Dissolved Iron,yr,Oyr,710.82,881
+nbp,Carbon Mass Flux out of Atmosphere Due to Net Biospheric Production on Land [kgC m-2 s-1],mon,Lmon,710.72,114524
+abs550aer,Ambient Aerosol Absorption Optical Thickness at 550nm,mon,AERmon,709.83,24019
+wsgmax10m,Maximum Wind Speed of Gust at 10m,6hr,6hrPlev,690.07,1233
+tsl,Temperature of Soil,6hrPt,6hrPlevPt,687.46,2480
+zooc,Zooplankton Carbon Concentration,yr,Oyr,685.87,3274
+clws,Mass Fraction of Stratiform Cloud Liquid Water,mon,CFmon,680.27,1103
+clivi,Ice Water Path,3hr,E3hr,673.03,985
+ppdiaz,Net Primary Mole Productivity of Carbon by Diazotrophs,mon,Emon,672.86,1483
+bddtdisi,Rate of Change of Dissolved Inorganic Silicon Due to Biological Activity,yr,Oyr,670.59,1935
+ts,Surface Temperature,3hrPt,CF3hr,669.75,846
+epsi100,Downward Flux of Particulate Silicon,mon,Omon,669.67,9722
+rh,Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1],mon,Lmon,666.73,93111
+ccb,Air Pressure at Convective Cloud Base,day,CFday,662.44,1973
+phycos,Sea Surface Phytoplankton Carbon Concentration,mon,Omon,660.64,5376
+ua10,Eastward Wind at 10hPa,day,AERday,650.58,530
+tntpbl,Tendency of Air Temperature Due to Boundary Layer Mixing,subhrPt,Esubhr,650.05,101
+physi,Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water,yr,Oyr,649.82,1733
+opottemppsmadvect,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Submesoscale Advection,mon,Emon,644.25,209
+cveg,Carbon Mass in Vegetation,mon,Lmon,643.51,104562
+detoc,Detrital Organic Carbon Concentration,yr,Oyr,643.19,4888
+ut,Product of Air Temperature and Eastward Wind,mon,Emon,636.51,208
+rv850,Relative Vorticity at 850hPa,6hr,6hrPlev,635.79,957
+ficeberg,Water Flux into Sea Water from Icebergs,mon,Omon,635.65,9631
+evspsblsoi,Water Evaporation from Soil,mon,Lmon,625.92,74106
+dfeos,Surface Dissolved Iron Concentration,mon,Omon,625.74,6358
+mcd,Downdraft Convective Mass Flux,mon,CFmon,619.06,2088
+prhmax,Maximum Hourly Precipitation Rate,6hr,6hrPlev,613.41,575
+hus,Specific Humidity,monC,Amon,611.14,363
+rlut,TOA Outgoing Longwave Radiation,subhrPt,Esubhr,605.37,37
+smc,Shallow Convective Mass Flux,mon,CFmon,601.65,3387
+mrlqso,Average Layer Fraction of Liquid Moisture,day,Eday,600.21,1506
+tnhuspbl,Tendency of Specific Humidity Due to Boundary Layer Mixing,subhrPt,Esubhr,599.02,91
+snw,Surface Snow Amount,mon,LImon,596.48,258981
+pbsi,Biogenic Silicon Production,yr,Oyr,593.92,2665
+rls,Net Longwave Surface Radiation,day,day,593.61,1530
+wap,Omega (=dp/dt),monC,Amon,591.26,301
+intppdiat,Net Primary Organic Carbon Production by Diatoms,mon,Omon,588.17,8085
+rsdoabsorb,Net Rate of Absorption of Shortwave Energy in Ocean Layer,yr,Oyr,585.20,2258
+dmc,Deep Convective Mass Flux,mon,CFmon,585.18,1986
+clwvic,Convective Condensed Water Path,day,Eday,585.17,326
+chlmisc,Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water,yr,Oyr,582.50,353
+tossq,Square of Sea Surface Temperature,mon,Omon,580.63,29187
+talknat,Natural Total Alkalinity,yr,Oyr,580.59,1278
+clis,Mass Fraction of Stratiform Cloud Ice,mon,CFmon,574.94,960
+calc,Calcite Concentration,yr,Oyr,569.08,2779
+tntrlcs,Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating,subhrPt,Esubhr,567.08,99
+sios,Surface Total Dissolved Inorganic Silicon Concentration,mon,Omon,560.39,8414
+mrsos,Moisture in Upper Portion of Soil Column,6hrPt,6hrPlevPt,553.74,1431
+pbfe,Biogenic Iron Production,yr,Oyr,541.27,2741
+phydiat,Mole Concentration of Diatoms Expressed as Carbon in Sea Water,yr,Oyr,540.18,4823
+prhmax,Maximum Hourly Precipitation Rate,day,Eday,535.51,1964
+clic,Mass Fraction of Convective Cloud Ice,3hrPt,CF3hr,534.93,125
+mrfsofr,Average Layer Fraction of Frozen Moisture,day,Eday,534.68,1405
+ps,Surface Air Pressure,mon,AERmon,533.57,22823
+fsfe,Surface Downward Net Flux of Iron,mon,Omon,530.22,5330
+pr,Precipitation,subhrPt,Esubhr,526.63,36
+chldiatos,Surface Mass Concentration of Diatoms Expressed as Chlorophyll in Sea Water,mon,Omon,521.94,7968
+ta,Air Temperature,monC,Amon,518.81,385
+pnitrate,Primary Carbon Production by Phytoplankton Due to Nitrate Uptake Alone,yr,Oyr,518.08,1785
+snd,Snow Depth,mon,LImon,517.29,173392
+rss,Net Shortwave Surface Radiation,day,day,515.05,1481
+hfrunoffds,Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water,mon,Omon,512.85,829
+ra,Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1],mon,Lmon,512.66,85047
+diftrblo,Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection,yr,Oyr,507.28,738
+od550dust,Dust Optical Thickness at 550nm,mon,AERmon,506.75,11788
+cl,Percentage Cloud Cover,monC,Amon,505.63,177
+va,Northward Wind,6hr,6hrLev,504.90,29
+sisnmass,Snow Mass per Area,mon,SImon,501.98,52603
+osaltpsmadvect,Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Submesoscale Advection,mon,Emon,500.24,250
+hfibthermds,Heat Flux into Sea Water Due to Iceberg Thermodynamics,mon,Omon,497.97,2611
+csoil,Carbon Mass in Model Soil Pool,mon,Emon,495.89,74159
+dissicabio,Abiotic Dissolved Inorganic Carbon Concentration,yr,Oyr,495.66,812
+hfevapds,Temperature Flux Due to Evaporation Expressed as Heat Flux out of Sea Water,mon,Omon,494.22,35672
+cllcalipso,CALIPSO Low Level Cloud Cover Percentage,day,CFday,493.51,1754
+fsn,Surface Downward Net Flux of Nitrogen,mon,Omon,492.85,4866
+ta,Air Temperature,day,EdayZ,491.49,11707
+mmrpm10,PM10 Mass Mixing Ratio,mon,AERmon,490.27,1554
+zg,Geopotential Height,day,EdayZ,489.25,10510
+evspsblveg,Evaporation from Canopy,mon,Lmon,489.14,65926
+ptp,Tropopause Air Pressure,mon,AERmon,488.14,14013
+clivic,Convective Ice Water Path,day,Eday,482.68,239
+cldicemxrat,Cloud Ice Mixing Ratio,mon,Emon,482.55,162
+t2,Mean-Squared Air Temperature,mon,Emon,480.74,213
+epfe100,Downward Flux of Particulate Iron,mon,Omon,479.19,2851
+mlotstsq,Square of Ocean Mixed Layer Thickness Defined by Sigma T,mon,Omon,478.05,5772
+tran,Transpiration,mon,Lmon,477.23,66414
+dissicos,Surface Dissolved Inorganic Carbon Concentration,mon,Omon,469.79,9023
+fbddtdin,Rate of Change of Dissolved Inorganic Nitrogen Due to Biological Activity,mon,Omon,462.03,7548
+limirrdiat,Irradiance Limitation of Diatoms,mon,Omon,457.52,7372
+siextentn,Sea-Ice Extent North,mon,SImon,454.94,18917
+drivw,Change in River Storage,day,Eday,452.97,121
+fric,Downward Inorganic Carbon Flux at Ocean Bottom,mon,Omon,452.14,8016
+phalf,Pressure on Model Half-Levels,mon,Amon,449.26,898
+siarean,Sea-Ice Area North,mon,SImon,448.24,29673
+expn,Sinking Particulate Organic Nitrogen Flux,yr,Oyr,445.22,565
+cldwatmxrat,Cloud Water Mixing Ratio,mon,Emon,444.77,161
+rss,Net Shortwave Surface Radiation,mon,Emon,442.71,46536
+expp,Sinking Particulate Organic Phosphorus Flux,yr,Oyr,442.20,553
+fbddtdife,Rate of Change of Dissolved Inorganic Iron Due to Biological Activity,mon,Omon,441.46,7009
+cod,Cloud Optical Depth,mon,AERmon,441.13,3249
+sispeed,Sea-Ice Speed,mon,SImon,439.78,51917
+siitdconc,Sea-Ice Area Percentages in Thickness Categories,mon,SImon,439.08,1356
+sisnconc,Snow Area Percentage,mon,SImon,438.70,9273
+fbddtdic,Rate of Change of Dissolved Inorganic Carbon Due to Biological Activity,mon,Omon,438.25,7600
+ocontemppmdiff,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Mesoscale Diffusion,yr,Oyr,437.49,173
+fbddtdisi,Rate of Change of Dissolved Inorganic Silicon Due to Biological Activity,mon,Omon,435.13,7175
+froc,Downward Organic Carbon Flux at Ocean Bottom,mon,Omon,433.13,7645
+phyn,Mole Concentration of Total Phytoplankton Expressed as Nitrogen in Sea Water,yr,Oyr,427.56,2621
+ocontemprmadvect,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Residual Mean Advection,yr,Oyr,426.11,176
+fbddtalk,Rate of Change of Biological Alkalinity Due to Biological Activity,mon,Omon,426.04,6604
+zg10,Geopotential Height at 10hPa,day,AERday,423.65,366
+pfull,Pressure at Model Full-Levels,mon,Amon,423.33,873
+zg,Geopotential Height,monC,Amon,423.23,315
+fbddtdip,Rate of Change of Dissolved Inorganic Phosphorus Due to Biological Activity,mon,Omon,421.11,7004
+sitemptop,Surface Temperature of Sea Ice,mon,SImon,420.95,78548
+nep,Net Carbon Mass Flux out of Atmosphere due to Net Ecosystem Productivity on Land [kgC m-2 s-1],mon,Emon,416.51,74084
+po4os,Surface Total Dissolved Inorganic Phosphorus Concentration,mon,Omon,415.51,8685
+ocontemptend,Tendency of Sea Water Conservative Temperature Expressed as Heat Content,yr,Oyr,413.39,174
+limndiat,Nitrogen Limitation of Diatoms,mon,Omon,411.64,7089
+talkos,Surface Total Alkalinity,mon,Omon,411.02,8228
+hfls,Surface Upward Latent Heat Flux,subhrPt,Esubhr,410.47,20
+chldiaz,Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water,yr,Oyr,410.23,2980
+thetaot,Vertically Averaged Sea Water Potential Temperature,mon,Emon,408.59,32171
+rsdt,TOA Incident Shortwave Radiation,subhrPt,Esubhr,408.34,40
+intpbfe,Iron Production,mon,Omon,406.33,5938
+clitter,Carbon Mass in Litter Pool,mon,Lmon,403.97,68047
+snowmxrat,Mass Fraction of Snow in Air,mon,Emon,403.15,147
+rlntds,Surface Net Downward Longwave Radiation,mon,Omon,401.69,2616
+rls,Net Longwave Surface Radiation,mon,Emon,401.54,38857
+snc,Snow Area Percentage,mon,LImon,400.32,188696
+fsitherm,Water Flux into Sea Water Due to Sea Ice Thermodynamics,mon,Omon,398.73,51250
+diftrelo,Ocean Tracer Epineutral Laplacian Diffusivity,yr,Oyr,397.96,648
+zg100,Geopotential Height at 100hPa,day,AERday,397.02,292
+siconca,Sea-Ice Area Percentage (Atmospheric Grid),mon,SImon,393.99,209928
+ocontempdiff,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Dianeutral Mixing,yr,Oyr,393.99,176
+va,Northward Wind,day,EdayZ,393.13,7030
+hfss,Surface Upward Sensible Heat Flux,day,Eday,390.24,2240
+prra,Rainfall Flux over Land Ice,mon,Omon,388.28,3030
+sfno2,NO2 Volume Mixing Ratio in Lowest Model Layer,1hr,AERhr,387.22,71
+sfpm25,PM2.5 Mass Mixing Ratio in Lowest Model Layer,1hr,AERhr,385.05,842
+phos,Surface pH,mon,Omon,384.11,3065
+fgco2nat,Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1],mon,Omon,381.30,2092
+ocontemppadvect,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Eddy Advection,yr,Oyr,380.83,165
+hflso,Surface Downward Latent Heat Flux,mon,Omon,380.31,2497
+intdoc,Dissolved Organic Carbon Content,mon,Omon,377.25,6733
+cltcalipso,CALIPSO Total Cloud Cover Percentage,day,CFday,376.14,1536
+od550so4,Sulfate Aerosol Optical Depth at 550nm,mon,AERmon,374.34,10415
+tntrscs,Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating,subhrPt,Esubhr,374.34,91
+intppnitrate,Primary Organic Carbon Production by Phytoplankton Based on Nitrate Uptake Alone,mon,Omon,372.83,4471
+mmrno3,NO3 Aerosol Mass Mixing Ratio,mon,AERmon,372.31,3780
+hfls,Surface Upward Latent Heat Flux,day,Eday,371.92,2256
+rsut,TOA Outgoing Shortwave Radiation,subhrPt,Esubhr,371.34,35
+utendogw,Eastward Acceleration Due to Orographic Gravity Wave Drag,day,EdayZ,371.19,4445
+dissi14cabio,Abiotic Dissolved Inorganic Carbon-14 Concentration,yr,Oyr,370.02,606
+hfsso,Surface Downward Sensible Heat Flux,mon,Omon,369.07,2400
+intpn2,Nitrogen Fixation Rate in Ocean,mon,Omon,368.89,9718
+clmcalipso,CALIPSO Mid Level Cloud Cover Percentage,day,CFday,367.81,1622
+rainmxrat,Mass Fraction of Rain in Air,mon,Emon,367.46,159
+rivi,River Inflow,day,Eday,366.95,88
+ppmisc,Net Primary Organic Carbon Production by Other Phytoplankton,yr,Oyr,366.16,2219
+pon,Mole Concentration of Particulate Organic Matter Expressed as Nitrogen in Sea Water,yr,Oyr,366.13,1961
+ps,Surface Air Pressure,mon,Emon,365.65,24644
+phycalc,Mole Concentration of Calcareous Phytoplankton Expressed as Carbon in Sea Water,mon,Omon,360.59,209
+hus,Specific Humidity,day,EdayZ,358.06,6101
+zoocos,Surface Zooplankton Carbon Concentration,mon,Omon,357.79,2342
+dpo2,Delta O2 Partial Pressure,mon,Omon,354.62,6797
+t20d,Depth of 20 degree Celsius Isotherm,mon,Emon,354.12,33425
+tnhusscp,Tendency of Specific Humidity Due to Stratiform Clouds and Precipitation,subhrPt,Esubhr,352.15,96
+ppos,Primary Carbon Production by Phytoplankton,mon,Omon,349.12,4246
+od550bc,Black Carbon Optical Thickness at 550nm,mon,AERmon,348.95,9569
+wfonocorr,Water Flux into Sea Water Without Flux Correction,mon,Omon,347.05,49881
+hfss,Surface Upward Sensible Heat Flux,subhrPt,Esubhr,346.91,19
+clwvi,Condensed Water Path,3hr,E3hr,343.32,583
+prw,Water Vapor Path,subhrPt,Esubhr,343.22,18
+tntscp,Tendency of Air Temperature Due to Stratiform Clouds and Precipitation,subhrPt,Esubhr,341.05,90
+tos,Sea Surface Temperature,mon,Amon,340.94,107162
+sifllatstop,Net Latent Heat Flux over Sea Ice,mon,SImon,340.50,4171
+fddtdic,Rate of Change of Net Dissolved Inorganic Carbon,mon,Omon,335.44,4560
+phyfeos,Surface Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water,mon,Omon,335.33,2040
+chlcalc,Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water,mon,Omon,335.29,194
+nh4os,Surface Dissolved Ammonium Concentration,mon,Omon,334.38,1951
+limfediat,Iron Limitation of Diatoms,mon,Omon,334.10,7065
+hcont300,Heat content of upper 300 meters,mon,Emon,329.40,984
+treefrac,Tree Cover Percentage,mon,Lmon,328.22,69853
+sitimefrac,Fraction of Time Steps with Sea Ice,mon,SImon,327.53,41471
+ci,Fraction of Time Convection Occurs in Cell,mon,Amon,327.36,5366
+drybc,Dry Deposition Rate of Black Carbon Aerosol Mass,mon,AERmon,325.50,7965
+sfcwindmax,Daily Maximum Near-Surface Wind Speed,mon,Emon,324.63,22859
+zo2min,Depth of Oxygen Minimum Concentration,mon,Omon,323.25,7361
+csoillevels,Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level),mon,Emon,320.31,431
+intppmisc,Net Primary Organic Carbon Production by Other Phytoplankton,mon,Omon,319.82,6558
+physios,Surface Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water,mon,Omon,319.72,1753
+sfo3max,Daily Maximum O3 Volume Mixing Ratio in Lowest Model Layer,day,AERday,319.46,3014
+phyp,Mole Concentration of Total Phytoplankton Expressed as Phosphorus in Sea Water,yr,Oyr,317.82,2431
+o2os,Surface Dissolved Oxygen Concentration,mon,Omon,314.36,7220
+zmicro,Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water,yr,Oyr,312.61,3722
+arag,Aragonite Concentration,mon,Omon,310.04,286
+fddtdisi,Rate of Change of Net Dissolved Inorganic Silicon,mon,Omon,309.29,3868
+dissocos,Surface Dissolved Organic Carbon Concentration,mon,Omon,309.08,3731
+zmeso,Mole Concentration of Mesozooplankton Expressed as Carbon in Sea Water,yr,Oyr,309.02,3702
+fddtdife,Rate of Change of Net Dissolved Inorganic Iron,mon,Omon,308.41,3848
+sidmassevapsubl,Sea-Ice Mass Change Through Evaporation and Sublimation,mon,SImon,307.84,19253
+sidmassth,Sea-Ice Mass Change from Thermodynamics,mon,SImon,306.92,5682
+fddtdip,Rate of Change of Net Dissolved Inorganic Phosphorus,mon,Omon,304.81,3862
+fddtdin,Rate of Change of Net Dissolved Inorganic Nitrogen,mon,Omon,303.29,3802
+od550oa,Total Organic Aerosol Optical Depth at 550nm,mon,AERmon,303.07,8220
+intppdiaz,Net Primary Mole Productivity of Carbon by Diazotrophs,mon,Omon,301.91,4573
+loadno3,Load of NO3,day,Eday,300.21,1331
+rls,Net Longwave Surface Radiation,day,Eday,299.54,1630
+limirrmisc,Irradiance Limitation of Other Phytoplankton,mon,Omon,298.70,6313
+fddtalk,Rate of Change of Total Alkalinity,mon,Omon,298.64,3869
+clhcalipso,CALIPSO High Level Cloud Area Percentage,day,CFday,298.19,1552
+clt,Total Cloud Cover Percentage,day,Eday,298.08,1779
+sndmasssnf,Snow Mass Change Through Snow Fall,mon,SImon,296.49,20966
+ppdiat,Net Primary Organic Carbon Production by Diatoms,yr,Oyr,295.54,728
+chldiazos,Surface Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water,mon,Omon,291.51,3460
+friver,Water Flux into Sea Water from Rivers,mon,Omon,290.92,46488
+phymisc,Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water,yr,Oyr,290.35,3403
+cct,Air Pressure at Convective Cloud Top,mon,Amon,286.56,12102
+chlmiscos,Surface Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water,mon,Omon,284.00,6633
+limnmisc,Nitrogen Limitation of Other Phytoplankton,mon,Omon,280.49,6292
+od550lt1aer,Ambient Fine Aerosol Optical Depth at 550nm,mon,AERmon,280.37,12842
+wtem,Transformed Eulerian Mean Upward Wind,day,EdayZ,278.49,3122
+sidmasssi,Sea-Ice Mass Change Through Snow-to-Ice Conversion,mon,SImon,278.41,15060
+tr,Surface Radiative Temperature,day,Eday,276.65,2466
+grassfrac,Natural Grass Area Percentage,mon,Lmon,273.15,52959
+sistrxdtop,X-Component of Atmospheric Stress on Sea Ice,mon,SImon,273.08,15018
+lwp,Liquid Water Path,mon,AERmon,270.25,12696
+toz,Total Column Ozone,mon,AERmon,269.83,8228
+phydiatos,Surface Mole Concentration of Diatoms Expressed as Carbon in Sea Water,mon,Omon,269.52,6415
+sistrydtop,Y-Component of Atmospheric Stress on Sea Ice,mon,SImon,268.26,14964
+cland,Total Carbon in All Terrestrial Carbon Pools,mon,Emon,267.74,28204
+cfadlidarsr532,CALIPSO Scattering Ratio CFAD,mon,Emon,267.31,78
+bsios,Surface Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water,mon,Omon,266.09,2796
+sivoln,Sea-Ice Volume North,mon,SImon,265.67,13754
+utendepfd,Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence,day,EdayZ,264.97,1881
+maxpblz,Maximum PBL Height,day,AERday,263.80,2984
+hur,Relative Humidity,monC,Amon,263.40,166
+epfy,Northward Component of the Eliassen-Palm Flux,day,EdayZ,263.11,2220
+mrros,Surface Runoff,day,Eday,262.86,2366
+orog,Surface Altitude,mon,Emon,262.69,28719
+intpbsi,Silicon Production,mon,Omon,261.96,5130
+epp100,Downward Flux of Particulate Phosphorus,mon,Omon,260.45,1967
+intpppico,Net Primary Mole Productivity of Carbon by Picophytoplankton,mon,Omon,260.44,1632
+emiss,Total Emission Rate of Sea-Salt Aerosol,mon,AERmon,259.87,8408
+rss,Net Shortwave Surface Radiation,day,Eday,259.35,1643
+o2min,Oxygen Minimum Concentration,mon,Omon,258.65,7624
+sfdsi,Downward Sea Ice Basal Salt Flux,mon,Omon,257.82,44034
+epn100,Downward Flux of Particulate Nitrogen,mon,Omon,254.42,2338
+snm,Surface Snow Melt,mon,LImon,254.07,88675
+fgco2abio,Surface Downward Mass Flux of Carbon as Abiotic CO2 [kgC m-2 s-1],mon,Omon,254.01,1069
+emibc,Total Emission Rate of Black Carbon Aerosol Mass,mon,AERmon,253.60,7611
+sossq,Square of Sea Surface Salinity,mon,Omon,253.26,2662
+sidmasstranx,X-Component of Sea-Ice Mass Transport,mon,SImon,250.90,16498
+evspsbl,Evaporation Including Sublimation and Transpiration,day,Eday,249.98,2062
+co3nat,Natural Carbonate Ion Concentration,mon,Omon,247.81,76
+dryso4,Dry Deposition Rate of SO4,mon,AERmon,247.77,6759
+frfe,Iron Loss to Sediments,mon,Omon,247.67,3778
+sidmasstrany,Y-Component of Sea-Ice Mass Transport,mon,SImon,247.17,16424
+limfediaz,Iron Limitation of Diazotrophs,mon,Omon,246.78,3097
+hfrainds,Temperature Flux Due to Rainfall Expressed as Heat Flux into Sea Water,mon,Omon,246.48,11466
+pathetao,Sea Water Additional Potential Temperature,mon,Emon,244.08,199
+o3ste,Stratospheric Ozone Tracer Volume Mixing Ratio,mon,AERmon,242.78,3857
+intpoc,Particulate Organic Carbon Content,mon,Omon,242.57,6530
+intpcalcite,Calcite Production,mon,Omon,242.51,5377
+wetso4,Wet Deposition Rate of SO4,mon,AERmon,240.97,6523
+thetaoga,Global Average Sea Water Potential Temperature,mon,Omon,240.86,91436
+chlpico,Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water,yr,Oyr,239.45,1208
+phypico,Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water,yr,Oyr,238.28,1260
+utendnogw,Eastward Acceleration Due to Non-Orographic Gravity Wave Drag,day,EdayZ,234.92,2616
+zsatcalc,Calcite Saturation Depth,mon,Omon,233.65,2796
+sbl,Surface Snow and Ice Sublimation Flux,mon,LImon,231.00,72151
+frn,Nitrogen Loss to Sediments and Through Denitrification,mon,Omon,230.69,4822
+utendwtem,Tendency of Eastward Wind Due to TEM Upward Advection,day,EdayZ,229.66,1535
+dissicnatos,Surface Natural Dissolved Inorganic Carbon Concentration,mon,Omon,228.79,1565
+mrfso,Soil Frozen Water Content,mon,Lmon,228.66,71654
+thetaot700,Depth Average Potential Temperature of Upper 700m,mon,Emon,227.49,28332
+sbl,Surface Snow and Ice Sublimation Flux,mon,Amon,227.46,55147
+emiso2,Total Emission Rate of SO2,mon,AERmon,226.99,7270
+siareas,Sea-Ice Area South,mon,SImon,226.81,13997
+somint,Depth Integral of Product of Sea Water Density and Prognostic Salinity,mon,Emon,226.50,2218
+spco2abio,Abiotic Surface Aqueous Partial Pressure of CO2,mon,Omon,225.83,1013
+phydiaz,Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water,yr,Oyr,225.25,1261
+sndmassmelt,Snow Mass Rate of Change Through Melt,mon,SImon,225.15,20322
+pr,Precipitation,subhrPt,CFsubhr,224.16,564
+mrtws,Terrestrial Water Storage,mon,Emon,223.87,9077
+prthetao,Sea Water Redistributed Potential Temperature,mon,Emon,223.54,182
+baresoilfrac,Bare Soil Percentage Area Coverage,mon,Lmon,222.58,36756
+csoilmedium,Carbon Mass in Medium Soil Pool,mon,Lmon,221.97,18595
+co3os,Surface Carbonate Ion Concentration,mon,Omon,221.11,2416
+utendvtem,Tendency of Eastward Wind Due to TEM Northward Advection and Coriolis Term,day,EdayZ,220.37,1529
+evspsblpot,Potential Evapotranspiration,mon,Emon,219.73,14170
+vtendnogw,Northward Acceleration Due to Non-Orographic Gravity Wave Drag,mon,Emon,219.68,351
+csoilpools,Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels),mon,Emon,218.60,3208
+ccb,Air Pressure at Convective Cloud Base,mon,Amon,217.53,4362
+sidmassmeltbot,Sea-Ice Mass Change Through Bottom Melting,mon,SImon,217.13,18462
+od550ss,Sea-Salt Aerosol Optical Depth at 550nm,mon,AERmon,216.92,7532
+intpbn,Nitrogen Production,mon,Omon,216.25,2480
+thetaot300,Depth Average Potential Temperature of Upper 300m,mon,Emon,216.10,28500
+rsutaf,TOA Outgoing Aerosol-Free Shortwave Radiation,mon,AERmon,215.97,8663
+psitem,Transformed Eulerian Mean Mass Streamfunction,day,EdayZ,215.71,1519
+cfc12,Mole Concentration of CFC12 in Sea Water,yr,Oyr,215.21,1016
+dryss,Dry Deposition Rate of Sea-Salt Aerosol,mon,AERmon,214.77,5548
+csoilfast,Carbon Mass in Fast Soil Pool,mon,Lmon,214.76,18888
+snd,Snow Depth,day,Eday,212.23,4757
+o2sat,Dissolved Oxygen Concentration at Saturation,yr,Oyr,211.98,2014
+msftmzmpa,Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection,mon,Omon,211.70,7623
+siextents,Sea-Ice Extent South,mon,SImon,209.89,10718
+intvaw,Vertically Integrated Northward Moisture Transport,mon,Emon,209.67,3553
+dryso2,Dry Deposition Rate of SO2,mon,AERmon,209.61,6520
+pop,Mole Concentration of Particulate Organic Matter Expressed as Phosphorus in Sea Water,yr,Oyr,208.78,1875
+drydust,Dry Deposition Rate of Dust,mon,AERmon,208.60,5767
+phydiazos,Surface Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water,mon,Omon,208.44,1374
+phnat,Natural pH,mon,Omon,208.25,76
+fraclut,Percentage of Grid Cell for Each Land-Use Tile,mon,Emon,207.41,18709
+sisnhc,Snow Heat Content per Unit Area,mon,SImon,206.49,5375
+cropfrac,Percentage Crop Cover,mon,Lmon,206.24,53144
+zsatarag,Aragonite Saturation Depth,mon,Omon,206.22,1418
+ponos,Surface Mole Concentration of Particulate Organic Matter Expressed as Nitrogen in Sea Water,mon,Omon,204.97,3099
+vtem,Transformed Eulerian Mean Northward Wind,day,EdayZ,204.67,2250
+siitdsnthick,Snow Thickness in Ice Thickness Categories,mon,SImon,203.88,1265
+thetaot2000,Depth Average Potential Temperature of Upper 2000m,mon,Emon,203.86,27697
+cli,Mass Fraction of Cloud Ice,monC,Amon,203.35,89
+cfc11,Mole Concentration of CFC11 in Sea Water,yr,Oyr,203.20,770
+intuaw,Vertically Integrated Eastward Moisture Transport,mon,Emon,202.39,3553
+csoilslow,Carbon Mass in Slow Soil Pool,mon,Lmon,202.09,17614
+siflswdtop,Downwelling Shortwave Flux over Sea Ice,mon,SImon,201.90,33602
+vsf,Virtual Salt Flux into Sea Water,mon,Omon,201.83,1171
+wetdust,Wet Deposition Rate of Dust,mon,AERmon,201.58,5339
+dgw,Change in Groundwater,day,Eday,201.42,83
+tntrs,Tendency of Air Temperature Due to Shortwave Radiative Heating,mon,Emon,201.23,1146
+limirrpico,Irradiance Limitation of Picophytoplankton,mon,Omon,201.17,1345
+chlpicoos,Surface Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water,mon,Omon,200.92,1346
+ztp,Tropopause Altitude Above Geoid,mon,AERmon,199.51,7301
+emiso4,Total Direct Emission Rate of SO4,mon,AERmon,199.43,6187
+hfss,Surface Upward Sensible Heat Flux,subhrPt,CFsubhr,198.01,497
+rsutcsaf,"TOA Outgoing Clear-Sky, Aerosol-Free Shortwave Radiation",mon,AERmon,197.68,9249
+minpblz,Minimum PBL Height,day,AERday,197.28,2504
+sistrxubot,X-Component of Ocean Stress on Sea Ice,mon,SImon,197.22,5191
+sidmassdyn,Sea-Ice Mass Change from Dynamics,mon,SImon,196.92,5964
+clw,Mass Fraction of Cloud Liquid Water,monC,Amon,195.70,93
+rzwc,Root Zone Soil Moisture,day,Eday,194.58,3859
+bfeos,Surface Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water,mon,Omon,194.44,1282
+sistryubot,Y-Component of Ocean Stress on Sea Ice,mon,SImon,193.93,4771
+cproduct,Carbon Mass in Products of Land-Use Change,mon,Lmon,193.86,47624
+sidmassmelttop,Sea-Ice Mass Change Through Surface Melting,mon,SImon,192.45,18123
+wetss,Wet Deposition Rate of Sea-Salt Aerosol,mon,AERmon,192.37,5456
+sf6,Mole Concentration of SF6 in Sea Water,yr,Oyr,192.03,876
+phypicoos,Surface Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water,mon,Omon,191.95,1259
+dpco2nat,Natural Delta CO2 Partial Pressure ,mon,Omon,191.92,1035
+phynos,Surface Mole Concentration of Phytoplankton Nitrogen in Sea Water,mon,Omon,190.41,1475
+limirrdiaz,Irradiance Limitation of Diazotrophs,mon,Omon,190.17,1432
+sihc,Sea-Ice Heat Content per Unit Area,mon,SImon,190.17,14794
+tsn,Snow Internal Temperature,mon,LImon,187.87,82388
+ps,Surface Air Pressure,3hr,3hr,186.93,175
+sidconcth,Sea-Ice Area Percentage Tendency Due to Thermodynamics,mon,SImon,186.25,5037
+jpdftaureliqmodis,"MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",day,Eday,186.13,80
+pso,Sea Water Pressure at Sea Water Surface,mon,Omon,185.91,25311
+wtd,Water Table Depth,mon,Emon,185.66,2669
+hfls,Surface Upward Latent Heat Flux,subhrPt,CFsubhr,182.82,493
+wetbc,Wet Deposition Rate of Black Carbon Aerosol Mass,mon,AERmon,180.37,5128
+fveglitter,Total Carbon Mass Flux from Vegetation to Litter,mon,Lmon,179.95,29394
+bldep,Boundary Layer Depth,mon,AERmon,178.51,9007
+limfepico,Iron Limitation of Picophytoplankton,mon,Omon,178.13,1262
+osaltpsmadvect,Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Submesoscale Advection,yr,Oyr,177.45,506
+volo,Sea Water Volume,mon,Omon,177.27,76740
+sidconcdyn,Sea-Ice Area Percentage Tendency Due to Dynamics,mon,SImon,176.82,4415
+mrrob,Subsurface Runoff,day,Eday,176.71,1908
+rlutaf,TOA Outgoing Aerosol-Free Longwave Radiation,mon,AERmon,175.92,8022
+croot,Carbon Mass in Roots,mon,Lmon,173.77,23387
+siitdthick,Sea-Ice Thickness in Thickness Categories,mon,SImon,173.12,1016
+phypos,Surface Mole Concentration of Total Phytoplankton Expressed as Phosphorus in Sea Water,mon,Omon,171.76,1133
+hfdsl,Downward Heat Flux at Land Surface,day,Eday,170.24,1559
+loadso4,Load of SO4,mon,Emon,170.07,2023
+qgwr,Groundwater Recharge from Soil Layer,day,Eday,169.98,212
+areacello,Grid-Cell Area for Ocean Variables,fx,Ofx,169.79,62192
+siflcondtop,Net Conductive Heat Flux in Ice at the Surface,mon,SImon,169.41,5631
+limnpico,Nitrogen Limitation of Picophytoplankton,mon,Omon,169.19,1203
+loaddust,Load of Dust,mon,Emon,169.01,2399
+epfz,Upward Component of the Eliassen-Palm Flux,day,EdayZ,167.99,1719
+prsnc,Convective Snowfall Flux,day,Eday,166.84,11
+fluc,Net Carbon Mass Flux into Atmosphere Due to Land-Use Change [kgC m-2 s-1],mon,Emon,164.77,40776
+prveg,Precipitation onto Canopy,mon,Lmon,164.77,12770
+wetso2,Wet Deposition Rate of SO2,mon,AERmon,164.66,5865
+opottemppsmadvect,Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Submesoscale Advection,yr,Oyr,164.13,473
+loadss,Load of Sea-Salt Aerosol,mon,Emon,163.91,2321
+volcello,Ocean Grid-Cell Volume,fx,Ofx,163.78,17468
+cleaf,Carbon Mass in Leaves,mon,Lmon,163.69,21101
+opottempmint,Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature,mon,Emon,163.39,2410
+phnatos,Surface Natural pH,mon,Omon,161.82,1054
+ares,Aerodynamic Resistance,day,Eday,161.66,431
+uwap,Product of Eastward Wind and Omega,mon,Emon,160.69,61
+clmisr,Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag),mon,Emon,159.79,101
+emidms,Total Emission Rate of DMS,mon,AERmon,159.73,6227
+limfemisc,Iron Limitation of Other Phytoplankton,mon,Omon,159.59,6350
+intvadse,Vertically Integrated Northward Dry Static Energy Transport,mon,Emon,157.99,3159
+co3satcalcos,Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Calcite in Sea Water,mon,Omon,157.58,1377
+vsfevap,Virtual Salt Flux into Sea Water Due to Evaporation,mon,Omon,157.30,797
+od870aer,Ambient Aerosol Optical Depth at 870nm,mon,AERmon,155.05,6369
+sidmassgrowthwat,Sea-Ice Mass Change Through Growth in Supercooled Open Water (Frazil),mon,SImon,153.75,14417
+tsland,Land Surface Temperature,day,Eday,152.63,1555
+reffclwtop,Cloud-Top Effective Droplet Radius,mon,AERmon,152.37,3159
+rlutcsaf,"TOA Outgoing Clear-Sky, Aerosol-Free Longwave Radiation",mon,AERmon,152.31,7661
+dissicabioos,Surface Abiotic Dissolved Inorganic Carbon Concentration,mon,Omon,151.47,771
+cltisccp,ISCCP Total Cloud Cover Percentage,mon,CFmon,150.91,4292
+fgco2,Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1],yr,Oyr,149.60,11477
+sidmassgrowthbot,Sea-Ice Mass Change Through Basal Growth,mon,SImon,149.42,14404
+vsfpr,Virtual Salt Flux into Sea Water Due to Rainfall,mon,Omon,149.20,784
+albisccp,ISCCP Mean Cloud Albedo,mon,CFmon,149.15,5162
+evspsbl,Evaporation Including Sublimation and Transpiration,subhrPt,CFsubhr,148.18,330
+tau,Momentum Flux,day,Eday,147.61,1194
+soga,Global Mean Sea Water Salinity,mon,Omon,146.30,71504
+pbsi,Biogenic Silicon Production,mon,Omon,146.07,502
+rlut,TOA Outgoing Longwave Radiation,subhrPt,CFsubhr,145.97,349
+wetoa,Wet Deposition Rate of Dry Aerosol Total Organic Matter,mon,AERmon,145.45,4777
+netatmoslandco2flux,Net Flux of CO2 Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1],mon,Emon,144.29,15112
+wtd,Water Table Depth,day,Eday,143.06,177
+intuadse,Vertically Integrated Eastward Dry Statice Energy Transport,mon,Emon,142.48,3125
+phabio,Abiotic pH,mon,Omon,141.99,26
+siage,Age of Sea Ice,mon,SImon,141.93,18418
+sipr,Rainfall Rate over Sea Ice,mon,SImon,141.31,2228
+vegfrac,Total Vegetated Percentage Cover,mon,Emon,140.51,26748
+co3sataragos,Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water,mon,Omon,140.18,1297
+es,Bare Soil Evaporation,day,Eday,139.15,731
+hfdsn,Downward Heat Flux into Snow Where Land over Land,mon,LImon,138.98,48746
+sicompstren,Compressive Sea Ice Strength,mon,SImon,137.44,12464
+fg14co2abio,Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1],mon,Omon,136.99,627
+talknatos,Surface Natural Total Alkalinity,mon,Omon,136.85,1191
+flittersoil,Total Carbon Mass Flux from Litter to Soil,mon,Lmon,135.67,25145
+sivols,Sea-Ice Volume South,mon,SImon,135.22,9889
+co3abio,Abiotic Carbonate Ion Concentration,mon,Omon,135.09,20
+cltc,Convective Cloud Cover Percentage,mon,AERmon,134.98,4732
+siflcondbot,Net Conductive Heat Fluxes in Ice at the Bottom,mon,SImon,134.85,4878
+o3,Mole Fraction of O3,monC,Amon,134.69,211
+sbl,Surface Snow and Ice Sublimation Flux,day,Eday,134.17,1778
+rsut,TOA Outgoing Shortwave Radiation,subhrPt,CFsubhr,132.40,362
+dpco2abio,Abiotic Delta Pco Partial Pressure,mon,Omon,132.27,672
+siflsensupbot,Net Upward Sensible Heat Flux Under Sea Ice,mon,SImon,132.18,2353
+siflswutop,Upwelling Shortwave Flux over Sea Ice,mon,SImon,130.35,4714
+sisaltmass,Mass of Salt in Sea Ice per Area,mon,SImon,130.22,3352
+cfadlidarsr532,CALIPSO Scattering Ratio CFAD,3hrPt,E3hrPt,130.20,31
+sconcdust,Surface Concentration of Dust,mon,Emon,129.90,2318
+rsdt,TOA Incident Shortwave Radiation,subhrPt,CFsubhr,129.44,355
+detocos,Surface Detrital Organic Carbon Concentration,mon,Omon,129.06,900
+cllcalipso,CALIPSO Low Level Cloud Cover Percentage,mon,CFmon,128.83,4573
+hfsnthermds,Heat Flux into Sea Water Due to Snow Thermodynamics,mon,Omon,127.27,742
+dryoa,Dry Deposition Rate of Dry Aerosol Total Organic Matter,mon,AERmon,126.14,4622
+cstem,Carbon Mass in Stem,mon,Emon,125.53,8774
+sndmassdyn,Snow Mass Rate of Change Through Advection by Sea-Ice Dynamics,mon,SImon,124.78,3676
+mrsos,Moisture in Upper Portion of Soil Column,6hr,6hrPlevPt,124.60,227
+hfgeou,Upward Geothermal Heat Flux at Sea Floor,mon,Omon,123.98,14471
+rsdsdiff,Surface Diffuse Downwelling Shortwave Radiation,mon,Emon,123.32,1815
+mrlso,Soil Liquid Water Content,mon,Emon,122.69,4220
+sci,Fraction of Time Shallow Convection Occurs,mon,Amon,121.90,3359
+vas,Northward Near-Surface Wind,subhrPt,CFsubhr,120.95,273
+wap2,Mean-Squared Vertical Velocity (Omega),mon,Emon,120.89,61
+fco2nat,Surface Carbon Mass Flux into the Atmosphere Due to Natural Sources [kgC m-2 s-1],mon,Amon,120.82,27844
+ffire,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Excluding Land-Use Change [kgC m-2 s-1],mon,Lmon,120.46,55399
+vortmean,Relative Vorticity,6hrPt,6hrPlevPt,119.69,201
+aod550volso4,Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols,day,Eday,119.27,1334
+vwap,Product of Northward Wind and Omega,mon,Emon,118.99,59
+emioa,Primary Emission and Chemical Production of Dry Aerosol Organic Matter,mon,AERmon,118.60,5411
+dmsos,Surface Mole Concentration of Dimethyl Sulphide in Sea Water,mon,Omon,118.46,884
+cw,Total Canopy Water Storage,day,Eday,118.38,1577
+rsds,Surface Downwelling Shortwave Radiation,mon,ImonGre,118.30,2578
+phabioos,Surface Abiotic pH,mon,Omon,117.67,695
+vtendogw,Northward Acceleration Due to Orographic Gravity Wave Drag,mon,Emon,115.41,404
+sidmasslat,Lateral Sea Ice Melt Rate,mon,SImon,115.16,2345
+mrsow,Total Soil Wetness,day,Eday,114.65,1242
+rsds,Surface Downwelling Shortwave Radiation,mon,ImonAnt,114.36,2518
+npplut,Net Primary Production on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,114.25,5226
+hfdsn,Downward Heat Flux into Snow Where Land over Land,day,Eday,114.03,1715
+sndmasssubl,Snow Mass Rate of Change Through Evaporation or Sublimation,mon,SImon,113.61,2604
+evspsblpot,Potential Evapotranspiration,day,Eday,112.93,410
+pnitrate,Primary Carbon Production by Phytoplankton Due to Nitrate Uptake Alone,mon,Omon,112.49,420
+psl,Sea Level Pressure,subhrPt,CFsubhr,111.85,313
+burntfractionall,Percentage of Entire Grid cell  that is Covered by Burnt Vegetation (All Classes),mon,Lmon,111.82,12678
+sndmasssi,Snow Mass Rate of Change Through Snow-to-Ice Conversion,mon,SImon,111.37,2633
+siflfwbot,Freshwater Flux from Sea Ice,mon,SImon,110.79,4017
+sifb,Sea-Ice Freeboard,mon,SImon,110.42,4217
+grassfracc3,C3 Natural Grass Area Percentage,mon,Emon,109.74,24298
+sconcss,Surface Concentration of Sea-Salt Aerosol,mon,Emon,109.30,2077
+spco2nat,Natural Surface Aqueous Partial Pressure of CO2,mon,Omon,109.18,793
+prra,Rainfall Flux over Land Ice,day,Eday,108.19,187
+dslw,Change in Soil Moisture,day,Eday,107.93,69
+pctisccp,ISCCP Mean Cloud Top Pressure,mon,CFmon,107.79,4228
+cwood,Carbon Mass in Wood,mon,Emon,107.06,12146
+sconcso4,Surface Concentration of SO4,mon,Emon,106.67,2065
+fndep,Dry and Wet Deposition of Reactive Nitrogen onto Land,mon,Emon,104.16,14820
+lwsffluxaero,Longwave flux  due to volcanic aerosols at the surface,6hrPt,6hrPlevPt,104.13,9
+mrtws,Terrestrial Water Storage,day,Eday,104.07,181
+fgdms,Surface Upward Flux of DMS,mon,Omon,103.78,602
+dissi14cabioos,Surface Abiotic Dissolved Inorganic Carbon-14 Concentration,mon,Omon,103.45,560
+nsoil,Nitrogen Mass in Soil Pool,mon,Emon,103.17,15499
+lailut,Leaf Area Index on Land-Use Tile,mon,Emon,102.62,4645
+fgcfc12,Surface Downward CFC12 Flux,mon,Omon,102.38,7882
+clmcalipso,CALIPSO Mid Level Cloud Cover Percentage,mon,CFmon,102.09,3339
+clt,Total Cloud Cover Percentage,subhrPt,CFsubhr,101.84,214
+vsfriver,Virtual Salt Flux into Sea Water from Rivers,mon,Omon,101.80,819
+cltcalipso,CALIPSO Total Cloud Cover Percentage,mon,CFmon,100.91,2271
+ta,Air Temperature,mon,AERmonZ,100.76,34522
+uas,Eastward Near-Surface Wind,subhrPt,CFsubhr,100.23,256
+aoanh,Northern Hemisphere Tracer Lifetime,mon,AERmon,99.31,20
+clhcalipso,CALIPSO High Level Cloud Area Percentage,mon,CFmon,99.10,3207
+tatp,Tropopause Air Temperature,mon,AERmon,97.95,4587
+clcalipsoice,CALIPSO Ice Cloud Percentage,mon,Emon,97.51,118
+rhsoil,Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land,mon,Emon,96.87,4476
+ts,Surface Temperature,subhrPt,CFsubhr,96.74,236
+tauv,Surface Downward Northward Wind Stress,subhrPt,CFsubhr,96.62,183
+rhlut,Heterotrophic Respiration on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,96.45,4688
+dtes,Change in Surface Heat Storage,day,Eday,96.39,65
+o2satos,Surface Dissolved Oxygen Concentration at Saturation,mon,Omon,96.37,2177
+icfriver,Flux of Inorganic Carbon into Ocean Surface by Runoff,mon,Omon,95.94,4658
+siflfwdrain,Freshwater Flux from Sea-Ice Surface,mon,SImon,95.85,1975
+depdust,Total Deposition Rate of Dust,mon,Emon,95.19,1011
+rsutcs,TOA Outgoing Clear-Sky Shortwave Radiation,subhrPt,CFsubhr,95.16,258
+sfdsi,Downward Sea Ice Basal Salt Flux,mon,SImon,94.86,2855
+solbnd,TOA Solar Irradiance for Each Band,3hrPt,E3hrPt,94.79,170
+sitempsnic,Temperature at Snow-Ice Interface,mon,SImon,94.34,11566
+thetao,Sea Water Potential Temperature,dec,Odec,94.30,479
+fgsf6,Surface Downward SF6 Flux,mon,Omon,93.86,7481
+gpplut,Gross Primary Production on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,93.16,5165
+tauu,Surface Downward Eastward Wind Stress,subhrPt,CFsubhr,93.15,174
+rlutcs,TOA Outgoing Clear-Sky Longwave Radiation,subhrPt,CFsubhr,91.41,233
+sitempbot,Temperature at Ice-Ocean Interface,mon,SImon,91.04,2491
+rtmt,Net Downward Radiative Flux at Top of Model,subhrPt,CFsubhr,90.35,299
+shrubfrac,Percentage Cover by Shrub,mon,Lmon,90.06,28137
+ps,Surface Air Pressure,subhrPt,CFsubhr,89.44,234
+ocfriver,Flux of Organic Carbon into Ocean Surface by Runoff,mon,Omon,89.39,4252
+fharvest,Carbon Mass Flux into Atmosphere Due to Crop Harvesting [kgC m-2 s-1],mon,Lmon,88.88,29321
+vsfsit,Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics,mon,Omon,88.83,909
+tas,Near-Surface Air Temperature,subhrPt,CFsubhr,88.40,99
+cldnvi,Column Integrated Cloud Droplet Number,mon,Emon,88.16,874
+parasolrefl,PARASOL Reflectance,mon,Emon,87.77,565
+sifllwutop,Upwelling Longwave Flux over Sea Ice,mon,SImon,86.52,4064
+prc,Convective Precipitation,subhrPt,Esubhr,86.06,15
+rlus,Surface Upwelling Longwave Radiation,subhrPt,CFsubhr,85.73,197
+et,Total Evapotranspiration,day,Eday,85.55,49
+fanthdisturb,"Carbon Mass Flux from Vegetation, Litter or Soil Pools into the Atmosphere Due to any Human Activity [kgC m-2 s-1]",mon,Emon,85.54,11741
+tran,Transpiration,day,Eday,85.37,492
+od440aer,Ambient Aerosol Optical Thickness at 440nm,mon,AERmon,85.12,4875
+nwdfraclut,Non-Woody Vegetation Percentage Cover,mon,Emon,83.36,3636
+c3pftfrac,Percentage Cover by C3 Plant Functional Type,mon,Lmon,83.13,6896
+nmineral,Mineral Nitrogen in the Soil,mon,Emon,83.03,13273
+nland,Total Nitrogen in All Terrestrial Nitrogen Pools,mon,Emon,81.39,15590
+rsds,Surface Downwelling Shortwave Radiation,subhrPt,CFsubhr,81.14,189
+prw,Water Vapor Path,subhrPt,CFsubhr,80.88,157
+ua,Eastward Wind,mon,AERmonZ,80.75,23736
+ralut,Autotrophic Respiration on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,80.59,4518
+mrsos,Moisture in Upper Portion of Soil Column,3hr,3hr,80.34,27
+tas,Near-Surface Air Temperature,monC,Amon,80.02,798
+snw,Surface Snow Amount,6hrPt,6hrPlevPt,79.60,529
+mrrolut,Total Runoff from Land-Use Tile,mon,Emon,79.17,3081
+residualfrac,Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil,mon,Lmon,79.08,13217
+albsn,Snow Albedo,day,Eday,78.99,2205
+cnc,Canopy Covered Area Percentage,day,Eday,78.73,211
+tsn,Snow Internal Temperature,day,Eday,78.63,2173
+sifllwdtop,Downwelling Longwave Flux over Sea Ice,mon,SImon,78.30,3662
+dcw,Change in Interception Storage,day,Eday,78.13,64
+siitdsnconc,Snow Area Percentages in Ice Thickness Categories,mon,SImon,77.85,665
+sisali,Sea Ice Salinity,mon,SImon,77.75,16590
+cropfracc3,Percentage Cover by C3 Crops,mon,Emon,77.42,23031
+lwsnl,Liquid Water Content of Snow Layer,mon,LImon,77.31,17024
+fgcfc11,Surface Downward CFC11 Flux,mon,Omon,77.21,1546
+mrsolut,Total Soil Moisture,mon,Emon,77.11,3084
+huss,Near-Surface Specific Humidity,subhrPt,CFsubhr,76.92,81
+cvegtree,Carbon Mass in Vegetation on Tree Tiles,mon,Emon,76.52,4711
+ppdiaz,Net Primary Mole Productivity of Carbon by Diazotrophs,yr,Oyr,76.27,1519
+hfsbl,Energy of Sublimation,day,Eday,76.25,1211
+cfaddbze94,CloudSat Radar Reflectivity CFAD,mon,Emon,76.23,17
+fnnetmin,Net Nitrogen Release from Soil and Litter as the Outcome of Nitrogen Immobilisation and Gross Mineralisation,mon,Emon,75.64,14604
+cveggrass,Carbon Mass in Vegetation on Grass Tiles,mon,Emon,75.61,4443
+fdeforesttoatmos,Deforested Biomass That Goes into Atmosphere as a Result of Anthropogenic Land-Use Change [kgC m-2 s-1],mon,Emon,75.57,4518
+tsns,Snow Surface Temperature,day,Eday,75.32,1559
+jpdftaureicemodis,"MODIS Joint Distribution of Optical Thickness and Particle Size, Ice",day,Eday,75.23,45
+esn,Snow Evaporation,day,Eday,75.20,1201
+clitterbelow,Carbon Mass in Below-Ground Litter,mon,Lmon,75.19,9603
+pr,Precipitation,monC,Amon,75.16,600
+rlds,Surface Downwelling Longwave Radiation,subhrPt,CFsubhr,75.03,175
+parasolrefl,PARASOL Reflectance,day,Eday,74.97,43
+rhlitter,Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Litter on Land,mon,Emon,74.12,2684
+popos,Surface Mole Concentration of Particulate Organic Matter Expressed as Phosphorus in Sea Water,mon,Omon,74.07,1708
+od550soa,Particulate Organic Aerosol Optical Depth at 550nm,mon,AERmon,74.01,3595
+grassfracc4,C4 Natural Grass Area Percentage,mon,Emon,73.64,24017
+fnup,Total Plant Nitrogen Uptake (Sum of Ammonium and Nitrate) Irrespective of the Source of Nitrogen,mon,Emon,73.45,14874
+treefracbdldcd,Broadleaf Deciduous Tree Area Percentage,mon,Emon,73.22,21820
+rsus,Surface Upwelling Shortwave Radiation,subhrPt,CFsubhr,72.60,194
+fnloss,"Total Nitrogen Lost (Including NHx, NOx, N2O, N2 and Leaching)",mon,Emon,72.27,13262
+rsdt,TOA Incident Shortwave Radiation,6hrPt,6hrPlevPt,72.24,172
+tsoilpools,Turnover Rate of Each Model Soil Carbon Pool,mon,Emon,71.46,624
+ts,Surface Temperature,6hr,6hrPlevPt,71.31,591
+volcello,Ocean Grid-Cell Volume,yr,Oyr,71.24,758
+fngas,"Total Nitrogen Lost to the Atmosphere (Sum of NHx, NOx, N2O, N2)",mon,Emon,71.06,15763
+clcalipsoliq,CALIPSO Liquid Cloud Percentage,mon,Emon,70.57,118
+nppgrass,Net Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,70.52,4101
+siflswdbot,Downwelling Shortwave Flux Under Sea Ice,mon,SImon,69.61,1404
+hflslut,Latent Heat Flux on Land-Use Tile,mon,Emon,69.56,1106
+snm,Surface Snow Melt,day,Eday,69.44,2444
+emidust,Total Emission Rate of Dust,mon,AERmon,68.91,15296
+clwvi,Condensed Water Path,subhrPt,CFsubhr,68.68,130
+difvho,Ocean Vertical Heat Diffusivity,monC,Oclim,68.36,545
+tgs,Temperature of Bare Soil,day,Eday,68.31,53
+npptree,Net Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,67.94,3936
+swelut,Snow Water Equivalent on Land-Use Tile,mon,Emon,67.91,1786
+difvmo,Ocean Vertical Momentum Diffusivity,monC,Oclim,67.51,542
+intpbp,Phosphorus Production,mon,Omon,66.90,1799
+rsdscs,Surface Downwelling Clear-Sky Shortwave Radiation,subhrPt,CFsubhr,66.54,160
+nveg,Nitrogen Mass in Vegetation,mon,Emon,66.28,13101
+ffireall,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Including All Sources [kgC m-2 s-1],mon,Emon,66.17,1963
+treefracndlevg,Needleleaf Evergreen Tree Area Percentage,mon,Emon,65.81,21270
+fproductdecomp,Decomposition out of Product Pools to CO2 in Atmosphere as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,65.79,10187
+nlitter,Nitrogen Mass in Litter Pool,mon,Emon,65.75,13599
+uqint,Eastward Humidity Transport,mon,Emon,65.64,2114
+hfsslut,Sensible Heat Flux on Land-Use Tile,mon,Emon,65.20,1064
+clivi,Ice Water Path,subhrPt,CFsubhr,65.00,122
+c4pftfrac,Percentage Cover by C4 Plant Functional Type,mon,Lmon,64.99,6799
+rlut,TOA Outgoing Longwave Radiation,3hrPt,CF3hr,64.62,44
+fbnf,Biological Nitrogen Fixation,mon,Emon,64.20,13615
+bacc,Bacterial Carbon Concentration,yr,Oyr,64.18,85
+o3,Mole Fraction of O3,mon,AERmonZ,64.00,14079
+vqint,Northward Humidity Transport,mon,Emon,63.88,1793
+hurs,Near-Surface Relative Humidity,subhrPt,CFsubhr,63.09,75
+rsut4co2,TOA Outgoing Shortwave Radiation in 4XCO2 Atmosphere,mon,CFmon,62.73,2243
+ccwd,Carbon Mass in Coarse Woody Debris,mon,Lmon,61.90,14545
+ec,Interception Evaporation,day,Eday,61.54,48
+arag,Aragonite Concentration,yr,Oyr,61.16,108
+sirdgconc,Percentage Cover of Sea Ice by Ridging,mon,SImon,60.99,1235
+rluslut,Surface Upwelling Longwave on Land-Use Tile,mon,Emon,60.77,1046
+rlut4co2,TOA Outgoing Longwave Radiation 4XCO2 Atmosphere,mon,CFmon,60.49,2272
+sfcwind,Near-Surface Wind Speed,subhrPt,CFsubhr,60.48,121
+zmicroos,Surface Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water,mon,Omon,60.18,5186
+ttop,Air Temperature at Cloud Top,mon,AERmon,60.16,1153
+zmesoos,Surface Mole Concentration of Mesozooplankton Expressed as Carbon in Sea Water,mon,Omon,59.70,5241
+prsn,Snowfall Flux,subhrPt,CFsubhr,59.63,164
+cropfracc4,Percentage Cover by C4 Crops,mon,Emon,59.62,22407
+wetlandfrac,Wetland Percentage Cover,mon,Emon,59.58,3596
+orog,Surface Altitude,mon,ImonGre,59.44,134
+rsuslut,Surface Upwelling Shortwave  on Land-use Tile,mon,Emon,59.11,943
+pasturefrac,Percentage of Land Which Is Anthropogenic Pasture,mon,Lmon,58.87,41361
+ratree,Autotrophic Respiration on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,58.17,3455
+rsuscs,Surface Upwelling Clear-Sky Shortwave Radiation,subhrPt,CFsubhr,58.00,136
+ragrass,Autotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,57.56,3465
+msftyzmpa,Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection,mon,Omon,57.42,675
+taslut,Near-Surface Air Temperature on Land Use Tile,mon,Emon,57.25,1187
+phymiscos,Surface Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water,mon,Omon,57.19,5522
+rsdscsdiff,Surface Diffuse Downwelling Clear Sky Shortwave Radiation,mon,Emon,57.15,601
+cother,"Carbon Mass in Vegetation Components Other than Leaves, Stems and Roots",mon,Emon,57.10,5907
+csoilabove1m,Carbon Mass in Soil Pool Above 1m Depth,mon,Emon,56.90,2027
+hursmin,Daily Minimum Near-Surface Relative Humidity,mon,Amon,56.85,11127
+tslsilut,Surface Temperature on Landuse Tile,mon,Emon,56.69,1144
+fdeforesttoproduct,Deforested Biomass That Goes into Product Pool as a Result of Anthropogenic Land-Use Change,mon,Emon,56.12,13626
+treefracbdlevg,Broadleaf Evergreen Tree Area Percentage,mon,Emon,55.77,21273
+wetlandch4,Grid Averaged Methane Emissions from Wetlands,mon,Emon,55.15,1917
+aerasymbnd,Aerosol Level Asymmetry Parameter for Each Band,3hrPt,E3hrPt,55.06,5
+vo,Sea Water Y Velocity,dec,Odec,55.02,268
+siflsenstop,Net Upward Sensible Heat Flux over Sea Ice,mon,SImon,54.99,3597
+reffclwc,Convective Cloud Liquid Droplet Effective Radius,mon,Emon,54.89,59
+xgwdparam,Eastward Gravity Wave Drag,mon,Emon,54.81,17
+rmaint,Carbon Mass Flux into Atmosphere Due to Maintenance Autotrophic Respiration on Land [kgC m-2 s-1],mon,Lmon,54.75,6939
+ygwdparam,Northward Gravity Wave Drag,mon,Emon,54.70,17
+husslut,Near-Surface Specific Humidity on Land-Use Tile,mon,Emon,54.06,1041
+prc,Convective Precipitation,subhrPt,CFsubhr,53.64,137
+gpptree,Gross Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,53.55,3648
+clitterabove,Carbon Mass in Above-Ground Litter,mon,Lmon,53.21,9413
+emico,Total Emission Rate of CO,mon,AERmon,53.19,3550
+rgrowth,Total Autotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1],mon,Lmon,53.07,7012
+uo,Sea Water X Velocity,dec,Odec,53.05,276
+reffclic,Hydrometeor Effective Radius of Convective Cloud Ice,mon,Emon,52.73,56
+gppgrass,Gross Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,52.36,3569
+thetaoga,Global Average Sea Water Potential Temperature,dec,Odec,51.92,539
+hfls,Surface Upward Latent Heat Flux,3hrPt,CF3hr,51.48,28
+hus,Specific Humidity,6hr,6hrLev,51.43,3
+aerssabnd,Aerosol Level Single Scattering Albedo for Each Band,3hrPt,E3hrPt,51.22,5
+fnleach,"Total Nitrogen Loss to Leaching or Runoff (Sum of Ammonium, Nitrite and Nitrate)",mon,Emon,51.21,11114
+mrsoslut,Moisture in Upper Portion of Soil Column of Land-Use Tile,mon,Emon,50.64,2924
+difvtrto,Ocean Vertical Tracer Diffusivity Due to Tides,monC,Oclim,50.61,331
+dsn,Change in Snow Water Equivalent,day,Eday,50.48,64
+cct,Air Pressure at Convective Cloud Top,subhrPt,CFsubhr,49.99,124
+difvso,Ocean Vertical Salt Diffusivity,monC,Oclim,49.60,418
+va,Northward Wind,mon,AERmonZ,49.42,9518
+eminox,Total Emission Rate of NOx,mon,AERmon,49.19,3729
+dtesn,Change in Snow and Ice Cold Content,day,Eday,48.70,63
+siforceintstry,Internal Stress Term in Force Balance (Y-Component),mon,SImon,48.58,1591
+siforcetiltx,Sea-Surface Tilt Term in Force Balance (X-Component),mon,SImon,48.47,1617
+siforceintstrx,Internal Stress Term in Force Balance (X-Component),mon,SImon,48.36,1609
+rsuscs,Surface Upwelling Clear-Sky Shortwave Radiation,3hrPt,CF3hr,48.27,317
+necblut,Net Carbon Mass Flux into Land-Use Tile [kgC m-2 s-1],mon,Emon,47.49,2855
+ts,Surface Temperature,monC,Amon,47.11,546
+rsutcs4co2,TOA Outgoing Clear-Sky Shortwave Radiation 4XCO2 Atmosphere,mon,CFmon,47.08,2023
+siforcecoriolx,Coriolis Force Term in Force Balance (X-Component),mon,SImon,46.95,1635
+npproot,Net Primary Production Allocated to Roots as Carbon Mass Flux [kgC m-2 s-1],mon,Lmon,46.90,2899
+rlutcs4co2,TOA Outgoing Clear-Sky Longwave Radiation 4XCO2 Atmosphere,mon,CFmon,46.89,2020
+rldscs,Surface Downwelling Clear-Sky Longwave Radiation,subhrPt,CFsubhr,46.57,111
+nppleaf,Net Primary Production Allocated to Leaves as Carbon Mass Flux [kgC m-2 s-1],mon,Lmon,46.20,2882
+ts,Surface Temperature,mon,ImonAnt,46.19,3111
+albc,Canopy Albedo,day,Eday,46.18,31
+nleaf,Nitrogen Mass in Leaves,mon,Emon,46.09,6991
+ts,Surface Temperature,mon,ImonGre,45.86,3069
+emivoc,Total Emission Rate of NMVOC,mon,AERmon,45.60,4147
+siforcecorioly,Coriolis Force Term in Force Balance (Y-Component),mon,SImon,45.54,1619
+dryo3,Dry Deposition Rate of O3,mon,AERmon,45.19,3954
+vegheight,Height of the Vegetation Canopy,mon,Emon,44.93,1636
+flulccatmlut,Carbon Transferred Directly to Atmosphere Due to any Land-Use or Land-Cover Change Activities [kgC m-2 s-1],mon,Emon,44.81,3026
+siforcetilty,Sea-Surface Tilt Term in Force Balance (Y-Component),mon,SImon,44.78,1599
+calcos,Surface Calcite Concentration,mon,Omon,43.58,634
+deptho,Sea Floor Depth Below Geoid,fx,Ofx,43.39,13262
+tropoz,Tropospheric Ozone Column,mon,AERmon,43.07,5409
+nppwood,Net Primary Production Allocated to Wood as Carbon Mass Flux [kgC m-2 s-1],mon,Lmon,42.63,2812
+ccb,Air Pressure at Convective Cloud Base,subhrPt,CFsubhr,42.63,116
+nudgincsm,Nudging Increment of Water in Soil Moisture,day,Eday,42.27,42
+clittercwd,Carbon Mass in Coarse Woody Debris,mon,Emon,41.46,4610
+zg,Geopotential Height,mon,AERmonZ,41.40,14784
+sidivvel,Divergence of the Sea-Ice Velocity Field,monPt,SImon,41.29,10327
+fclandtoocean,Lateral Transfer of Carbon out of Grid Cell That Eventually Goes into Ocean,mon,Emon,40.88,8450
+flulccresiduelut,Carbon Transferred to Soil or Litter Pools Due to Land-Use or Land-Cover Change Processes on Tile,mon,Emon,40.63,2538
+clittersurf,Carbon Mass in Above-Ground Litter,mon,Emon,40.29,5287
+fnlittersoil,Total Nitrogen Mass Flux from Litter to Soil,mon,Emon,40.28,6106
+fngasnonfire,"Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from All Processes Except Fire",mon,Emon,40.14,2802
+so,Sea Water Salinity,dec,Odec,39.92,241
+nppother,Net Primary Production Allocated to Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,39.89,1963
+rhgrass,Heterotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,39.79,2806
+difvmto,Ocean Vertical Momentum Diffusivity Due to Tides,monC,Oclim,39.64,260
+clittersubsurf,Carbon Mass in Below-Ground Litter,mon,Emon,39.53,5410
+nstem,Nitrogen Mass in Stem,mon,Emon,39.10,4963
+hfmlt,Energy of Fusion,day,Eday,39.03,1572
+nroot,Nitrogen Mass in Roots,mon,Emon,38.96,4947
+reffcclwtop,Cloud-Top Effective Droplet Radius in Convective Cloud,day,Eday,38.87,36
+nppstem,Net Primary Production Allocated to Stem as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,38.86,2039
+difmxylo,Ocean Momentum XY Laplacian Diffusivity,yr,Oyr,38.58,63
+msftmrho,Ocean Meridional Overturning Mass Streamfunction,mon,Omon,37.43,2225
+fvegfire,Carbon Mass Flux from Vegetation into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1],mon,Emon,37.24,1130
+treefracndldcd,Needleleaf Deciduous Tree Area Percentage,mon,Emon,37.08,21156
+clittergrass,Carbon Mass in Litter on Grass Tiles,mon,Emon,37.08,2959
+rhtree,Heterotrophic Respiration on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,36.61,2823
+sfcwind,Near-Surface Wind Speed,6hr,6hrPlevPt,36.20,788
+hfls,Surface Upward Latent Heat Flux,mon,ImonGre,35.84,2044
+bldep,Boundary Layer Depth,6hr,6hrPlev,35.80,4
+hfls,Surface Upward Latent Heat Flux,mon,ImonAnt,35.77,1985
+rlut,TOA Outgoing Longwave Radiation,monC,Amon,35.74,383
+sftgif,Land Ice Area Percentage,mon,LImon,35.69,3063
+mmrno3,NO3 Aerosol Mass Mixing Ratio,mon,Emon,35.25,142
+rsut,TOA Outgoing Shortwave Radiation,monC,Amon,34.91,357
+od550no3,Nitrate Aerosol Optical Depth at 550nm,mon,AERmon,34.90,4414
+fproductdecomplut,Net Carbon Mass Flux from Wood and Agricultural Product Pools on Land Use Tile into Atmosphere [kgC m-2 s-1],mon,Emon,34.77,2470
+sistremax,Maximum Shear Stress in Sea Ice,monPt,SImon,34.70,700
+drynh4,Dry Deposition Rate of NH4,mon,AERmon,34.28,3278
+wetnh4,Wet Deposition Rate of NH4,mon,AERmon,34.24,3292
+fco2antt,Carbon Mass Flux into Atmosphere Due to All Anthropogenic Emissions of CO2 [kgC m-2 s-1],mon,Amon,34.02,31836
+hfss,Surface Upward Sensible Heat Flux,mon,ImonAnt,33.63,1985
+hfss,Surface Upward Sensible Heat Flux,mon,ImonGre,33.59,1975
+clittertree,Carbon Mass in Litter on Tree Tiles,mon,Emon,33.52,2991
+thkcello,Ocean Model Cell Thickness,fx,Ofx,33.41,4835
+wo,Sea Water Vertical Velocity,dec,Odec,33.40,154
+agesno,Mean Age of Snow,mon,LImon,33.33,2218
+drynh3,Dry Deposition Rate of NH3,mon,AERmon,33.31,3186
+hfsifrazil,Heat Flux into Sea Water Due to Frazil Ice Formation,mon,Omon,33.24,870
+nproduct,Nitrogen Mass in Products of Land-Use Change,mon,Emon,32.91,12869
+flulccproductlut,Carbon Harvested Due to Land-Use or Land-Cover Change Process That Enters Anthropogenic Product Pools on Tile,mon,Emon,32.79,2168
+csoilgrass,Carbon Mass in Soil on Grass Tiles,mon,Emon,32.48,2860
+ffirenat,Carbon Mass Flux into Atmosphere Due to CO2 Emission from Natural Fire [kgC m-2 s-1],mon,Emon,32.27,7668
+fnproduct,Deforested or Harvested Biomass as a Result of Anthropogenic Land-Use or Change,mon,Emon,32.14,10129
+ctotfirelut,"Total Carbon Loss from Natural and Managed Fire on Land-Use Tile, Including Deforestation Fires [kgC m-2 s-1]",mon,Emon,31.69,2342
+drynoy,Dry Deposition Rate of NOy,mon,AERmon,31.63,3191
+wetnoy,Wet Deposition Rate of NOy Including Aerosol Nitrate,mon,AERmon,31.49,3271
+psl,Sea Level Pressure,monC,Amon,31.38,360
+dsw,Change in Surface Water Storage,day,Eday,31.22,61
+ccldncl,Cloud Droplet Number Concentration of Convective Cloud Tops,day,Eday,31.21,31
+hfcorr,Heat Flux Correction,mon,Omon,30.97,4788
+raroot,Total Respiration from Roots as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,30.83,804
+chepsoa,Chemical Production of Dry Aerosol Secondary Organic Matter,mon,AERmon,30.61,3387
+msftmzsmpa,Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection,mon,Omon,30.50,1091
+rsdsis,Ice Sheet Surface Downwelling Shortwave Radiation,mon,LImon,30.31,596
+masscello,Ocean Grid-Cell Mass per Area,fx,Ofx,30.14,2855
+sirdgthick,Ridged Ice Thickness,mon,SImon,30.09,1396
+hfbasin,Northward Ocean Heat Transport,mon,Omon,29.99,129473
+eminh3,Total Emission Rate of NH3,mon,AERmon,29.94,3194
+tas,Near-Surface Air Temperature,mon,ImonAnt,29.90,1737
+rlds,Surface Downwelling Longwave Radiation,mon,ImonGre,29.64,1810
+uas,Eastward Near-Surface Wind,monC,Amon,29.62,242
+rlds,Surface Downwelling Longwave Radiation,mon,ImonAnt,29.61,1818
+nppshrub,Net Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,29.60,2397
+cvegshrub,Carbon Mass in Vegetation on Shrub Tiles,mon,Emon,29.51,2569
+vas,Northward Near-Surface Wind,monC,Amon,29.46,244
+somint,Depth Integral of Product of Sea Water Density and Prognostic Salinity,yr,Oyr,29.28,2036
+rsdt,TOA Incident Shortwave Radiation,monC,Amon,29.20,395
+sidragtop,Atmospheric Drag Coefficient,mon,SImon,29.12,1202
+zfull,Altitude of Model Full-Levels,fx,fx,29.11,3492
+opottempmint,Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature,yr,Oyr,29.11,2214
+csoiltree,Carbon Mass in Soil on Tree Tiles,mon,Emon,29.05,2947
+n2o,Mole Fraction of N2O,monC,Amon,29.04,29
+lwsnl,Liquid Water Content of Snow Layer,day,Eday,28.83,484
+huss,Near-Surface Specific Humidity,monC,Amon,28.75,259
+tas,Near-Surface Air Temperature,mon,ImonGre,28.51,1687
+simpconc,Percentage Cover of Sea Ice by Meltpond,mon,SImon,28.49,1098
+clcalipso,CALIPSO Percentage Cloud Cover,3hrPt,E3hrPt,28.33,18
+hfdsnb,Downward Heat Flux at Snow Base,day,Eday,28.33,28
+agesno,Mean Age of Snow,day,Eday,28.28,45
+sistresave,Average Normal Stress in Sea Ice,monPt,SImon,28.24,698
+nlittercwd,Nitrogen Mass in Coarse Woody Debris,mon,Emon,28.23,4106
+ps,Surface Air Pressure,monC,Amon,28.03,309
+od443dust,Optical Thickness at 443nm Dust,mon,Emon,27.59,316
+vegheighttree,Height of Trees,mon,Emon,27.39,935
+wetnh3,Wet Deposition Rate of NH3,mon,AERmon,27.38,3199
+nmineralno3,Mineral Nitrate in the Soil,mon,Emon,27.22,943
+hurs,Near-Surface Relative Humidity,monC,Amon,27.08,238
+od865dust,Dust Optical Depth at 865nm,mon,Emon,26.97,338
+nmineralnh4,Mineral Ammonium in the Soil,mon,Emon,26.61,944
+wfcorr,Water Flux Correction,mon,Omon,26.33,5172
+rsds,Surface Downwelling Shortwave Radiation,monC,Amon,26.28,278
+emibvoc,Total Emission Rate of Biogenic NMVOC,mon,AERmon,26.15,4718
+sootsn,Snow Soot Content,mon,LImon,26.11,1334
+pabigthetao,Sea Water Added Conservative Temperature,mon,Emon,26.00,23
+prveg,Precipitation onto Canopy,day,Eday,25.95,22
+fharvesttoatmos,Harvested Biomass That Goes Straight into Atmosphere as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,25.91,1961
+wetlandch4cons,Grid Averaged Methane Consumption (Methanotrophy) from Wetlands,mon,Emon,25.86,551
+rsus,Surface Upwelling Shortwave Radiation,monC,Amon,25.83,258
+rlds,Surface Downwelling Longwave Radiation,monC,Amon,25.69,283
+evspsbl,Evaporation Including Sublimation and Transpiration,monC,Amon,25.61,225
+basin,Region Selection Index,fx,Ofx,25.44,8768
+rlus,Surface Upwelling Longwave Radiation,mon,ImonGre,25.33,1628
+rsus,Surface Upwelling Shortwave Radiation,mon,ImonGre,25.33,1872
+mc,Convective Mass Flux,monC,Amon,25.19,36
+pasturefracc3,C3 Pasture Area Percentage,mon,Emon,24.98,18527
+rlus,Surface Upwelling Longwave Radiation,mon,ImonAnt,24.92,1653
+fbddtdisi,Rate of Change of Dissolved Inorganic Silicon Due to Biological Activity,mon,Emon,24.79,121
+rsus,Surface Upwelling Shortwave Radiation,mon,ImonAnt,24.76,1830
+fharvesttoproduct,Harvested Biomass That Goes into Product Pool,mon,Emon,24.66,3864
+jpdftaureliqmodis,"MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",mon,Emon,24.55,42
+tauv,Surface Downward Northward Wind Stress,monC,Amon,24.53,192
+fnfert,Total Nitrogen Added for Cropland Fertilisation (Artificial and Manure),mon,Emon,24.52,9580
+flashrate,Lightning Flash Rate,mon,Emon,24.51,428
+clmisr,Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag),3hrPt,E3hrPt,24.44,18
+sblis,Ice Sheet Surface Snow and Ice Sublimation Flux,mon,LImon,24.28,785
+fveglittersenescence,"Total Carbon Mass Flux from Vegetation to Litter as a Result of Leaf, Branch, and Root Senescence",mon,Emon,24.25,1097
+hfls,Surface Upward Latent Heat Flux,monC,Amon,23.97,232
+hfds,Downward Heat Flux at Sea Water Surface,dec,Odec,23.94,309
+fbddtdic,Rate of Change of Dissolved Inorganic Carbon Due to Biological Activity,mon,Emon,23.86,116
+fbddtdip,Rate of Change of Dissolved Inorganic Phosphorus Due to Biological Activity,mon,Emon,23.74,115
+epfy,Northward Component of the Eliassen-Palm Flux,mon,EmonZ,23.64,3494
+fbddtdife,Rate of Change of Dissolved Inorganic Iron Due to Biological Activity,mon,Emon,23.48,119
+rlus,Surface Upwelling Longwave Radiation,monC,Amon,23.25,252
+lwtoafluxaerocs,TOA Outgoing Clear-Sky Longwave Flux Due to Volcanic Aerosols,6hrPt,6hrPlevPt,23.19,2
+fgco2nat,Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1],yr,Oyr,23.16,1206
+tauu,Surface Downward Eastward Wind Stress,monC,Amon,23.08,189
+rashrub,Autotrophic Respiration on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,23.00,1858
+fveglittermortality,Total Carbon Mass Flux from Vegetation to Litter as a Result of Mortality,mon,Emon,22.98,917
+snwc, snow water equivalent intercepted by the vegetation,day,Eday,22.75,385
+wetlandch4prod,Grid Averaged Methane Production (Methanogenesis) from Wetlands,mon,Emon,22.64,752
+ci,Fraction of Time Convection Occurs in Cell,subhrPt,CFsubhr,22.62,124
+snrefr,Refreezing of Water in the Snow,day,Eday,22.52,35
+raleaf,Total Respiration from Leaves as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,22.38,564
+prw,Water Vapor Path,monC,Amon,22.37,202
+fbddtdin,Rate of Change of Dissolved Inorganic Nitrogen Due to Biological Activity,mon,Emon,22.36,117
+sblnosn,Sublimation of the Snow Free Area,day,Eday,22.34,42
+dfr,Frozen Soil Depth,day,Eday,22.33,42
+tsnl,Temperature profile in the snow,day,Eday,22.31,38
+acabfis,Ice Sheet Surface Mass Balance Flux,mon,LImon,22.29,1369
+ps,Surface Air Pressure,mon,CFmon,22.21,1787
+hfss,Surface Upward Sensible Heat Flux,monC,Amon,22.18,217
+vegheightgrass,Height of Grass,mon,Emon,22.05,884
+fngasfire,"Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from Fire",mon,Emon,21.73,2579
+tasis,Ice Sheet Near-Surface Air Temperature,mon,LImon,21.62,1069
+sfcwind,Near-Surface Wind Speed,monC,Amon,21.46,191
+prhmax,Maximum Hourly Precipitation Rate,mon,Emon,21.45,1775
+emiisop,Total Emission Rate of Isoprene,mon,AERmon,21.26,4108
+fbddtalk,Rate of Change of Biological Alkalinity Due to Biological Activity,mon,Emon,20.91,107
+co2,Mole Fraction of CO2,monC,Amon,20.77,16
+eparag100,Downward Flux of Aragonite,mon,Omon,20.59,346
+sishevel,Maximum Shear of Sea-Ice Velocity Field,monPt,SImon,20.37,468
+wtem,Transformed Eulerian Mean Upward Wind,mon,EmonZ,20.30,4559
+tasmin,Daily Minimum Near-Surface Air Temperature,monC,Amon,20.30,211
+c13veg,Mass of 13C in Vegetation,mon,Emon,20.13,479
+c14veg,Mass of 14C in Vegetation,mon,Emon,20.11,492
+oh,OH Volume Mixing Ratio,mon,AERmonZ,20.06,4350
+clt,Total Cloud Cover Percentage,monC,Amon,19.97,218
+sw,Surface Water Storage,day,Eday,19.91,45
+sftof,Sea Area Percentage,fx,Ofx,19.91,10886
+gppshrub,Gross Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,19.91,2014
+tos,Sea Surface Temperature,dec,Odec,19.90,295
+ch4,Mole Fraction of CH4,monC,Amon,19.80,25
+sbl,Surface Snow and Ice Sublimation Flux,subhrPt,CFsubhr,19.70,44
+pasturefracc4,C4 Pasture Area Percentage,mon,Emon,19.66,18799
+vegheightshrub,Height of Shrubs,mon,Emon,19.65,871
+gppc14,Carbon-14 Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1],mon,Emon,19.50,501
+od550aerso,Stratospheric Optical Depth at 550nm (All Aerosols) 2D-Field (Stratosphere Only),mon,Emon,19.34,485
+sos,Sea Surface Salinity,dec,Odec,19.29,205
+gppc13,Carbon-13 Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1],mon,Emon,18.80,477
+clcalipso2,CALIPSO Cloud Cover Percentage Undetected by CloudSat (as Percentage of Area Covered),3hrPt,E3hrPt,18.79,19
+zmtnt,Zonal Mean Diabatic Heating Rates,mon,EmonZ,18.70,893
+epfz,Upward Component of the Eliassen-Palm Flux,mon,EmonZ,18.60,4279
+rlutcs,TOA Outgoing Clear-Sky Longwave Radiation,monC,Amon,18.31,235
+co3nat,Natural Carbonate Ion Concentration,yr,Oyr,18.18,92
+aragos,Surface Aragonite Concentration,mon,Omon,18.16,595
+msftyrho,Ocean Y Overturning Mass Streamfunction,mon,Omon,18.11,104
+tpf,Permafrost Layer Thickness,mon,LImon,17.95,736
+tcs,Vegetation Canopy Temperature,day,Eday,17.83,84
+cmisc,Carbon Mass in Other Living Compartments on Land,mon,Emon,17.76,1857
+dmlt,Depth to Soil Thaw,day,Eday,17.59,38
+fnanthdisturb,Nitrogen Mass Flux out of Land Due to any Human Activity,mon,Emon,17.51,9742
+hflsis,Ice Sheet Surface Upward Latent Heat Flux,mon,LImon,17.42,844
+hfssis,Ice Sheet Surface Upward Sensible Heat Flux,mon,LImon,17.41,841
+prrais,Ice Sheet Rainfall Rate,mon,LImon,17.39,798
+mrrois,Ice Sheet Total Runoff,mon,LImon,17.38,756
+tasmax,Daily Maximum Near-Surface Air Temperature,monC,Amon,17.37,194
+clt,Total Cloud Cover Percentage,3hrPt,CF3hr,17.30,20
+vegheightcrop,Height of Crops,mon,Emon,17.12,880
+fnlandtoocean,Lateral Transfer of Nitrogen out of Grid Cell That Eventually Goes into Ocean,mon,Emon,17.09,7933
+rsutcs,TOA Outgoing Clear-Sky Shortwave Radiation,monC,Amon,16.40,209
+tntmp,Tendency of Air Temperature Due to Model Physics,mon,EmonZ,16.34,1702
+baccos,Surface Bacterial Carbon Concentration,mon,Omon,16.14,370
+cfaddbze94,CloudSat Radar Reflectivity CFAD,3hrPt,E3hrPt,16.04,9
+fgco2abio,Surface Downward Mass Flux of Carbon as Abiotic CO2 [kgC m-2 s-1],yr,Oyr,16.02,755
+c14soil,Mass of 14C in Soil Pool,mon,Emon,15.67,362
+rsuscs,Surface Upwelling Clear-Sky Shortwave Radiation,monC,Amon,15.63,178
+tasmax,Daily Maximum Near-Surface Air Temperature,day,Amon,15.52,140
+wfo,Water Flux into Sea Water,dec,Odec,15.45,147
+sza,Solar Zenith Angle,3hrPt,E3hrPt,15.27,178
+c13soil,Mass of 13C in Soil Pool,mon,Emon,15.24,360
+c14land,Mass of 14C in All Terrestrial Carbon Pools,mon,Emon,15.23,358
+prw,Water Vapor Path,3hrPt,CF3hr,15.01,27
+c13land,Mass of 13C in All Terrestrial Carbon Pools,mon,Emon,14.78,364
+thkcello,Ocean Model Cell Thickness,dec,Odec,14.76,120
+fn2o,Total Land N2O Flux,mon,Emon,14.75,3726
+rsdscs,Surface Downwelling Clear-Sky Shortwave Radiation,monC,Amon,14.69,185
+pr,Precipitation,3hrPt,CF3hr,14.49,26
+phnat,Natural pH,yr,Oyr,14.42,92
+prsn,Snowfall Flux,mon,ImonGre,14.20,229
+eow,Open Water Evaporation,day,Eday,14.11,52
+vtem,Transformed Eulerian Mean Northward Wind,mon,EmonZ,14.11,3271
+c14litter,Mass of 14C in Litter Pool,mon,Emon,13.85,337
+prsn,Snowfall Flux,mon,ImonAnt,13.84,224
+utendepfd,Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence,mon,EmonZ,13.83,1669
+ho2,HO2 Volume Mixing Ratio,mon,AERmonZ,13.82,3672
+fvegsoil,Total Carbon Mass Flux from Vegetation Directly to Soil,mon,Lmon,13.71,624
+c13litter,Mass of 13C in Litter Pool,mon,Emon,13.53,339
+tasmin,Daily Minimum Near-Surface Air Temperature,day,Amon,13.47,123
+jpdftaureicemodis,"MODIS Joint Distribution of Optical Thickness and Particle Size, Ice",mon,Emon,13.26,34
+od550aerh2o,Aerosol Water Optical Thickness at 550nm,mon,AERmon,13.17,3900
+aeroptbnd,Aerosol Level Absorption Optical Thickness for Each Band,3hrPt,E3hrPt,13.06,3
+rac13,Carbon-13 Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1],mon,Emon,13.00,341
+zostoga,Global Average Thermosteric Sea Level Change,mon,Omon,12.97,236203
+rhc13,Carbon-13 Mass Flux into Atmosphere Due to Heterotrophic Respiration on Land [kgC m-2 s-1],mon,Emon,12.88,334
+rldsis,Ice Sheet Surface Downwelling Longwave Radiation,mon,LImon,12.86,479
+treefracprimdec,Percentage Cover by Primary Deciduous Tree,mon,Lmon,12.83,1287
+parasolrefl,PARASOL Reflectance,3hrPt,E3hrPt,12.77,15
+rac14,Carbon-14 Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1],mon,Emon,12.75,332
+agessc,Sea Water Age Since Surface Contact,dec,Odec,12.65,50
+tauuo,Sea Water Surface Downward X Stress,dec,Odec,12.61,163
+hfgeou,Upward Geothermal Heat Flux at Sea Floor,fx,Ofx,12.60,4315
+rhc14,Carbon-14 Mass Flux into Atmosphere Due to Heterotrophic Respiration on Land [kgC m-2 s-1],mon,Emon,12.49,333
+treefracprimever,Percentage Cover by Primary Evergreen Trees,mon,Lmon,12.35,1287
+clivi,Ice Water Path,monC,Amon,12.34,127
+tomint,integral wrt depth of product of sea water density and prognostic temperature,mon,Emon,12.18,23
+tasmincrop,Daily Minimum Near-Surface Air Temperature over Crop Tile,mon,Emon,12.10,529
+irrlut,"Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",mon,Emon,12.00,2745
+rldscs,Surface Downwelling Clear-Sky Longwave Radiation,monC,Amon,11.97,152
+tntrlcs,Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating,mon,EmonZ,11.75,946
+ch4,Mole Fraction of CH4,mon,AERmonZ,11.71,3911
+reffclis,Hydrometeor Effective Radius of Stratiform Cloud Ice,subhrPt,Esubhr,11.67,4
+tasmaxcrop,Daily Maximum Near-Surface Air Temperature over Crop Tile,mon,Emon,11.66,510
+tauvo,Sea Water Surface Downward Y Stress,dec,Odec,11.61,144
+tntogw,Temperature Tendency Due to Orographic Gravity Wave Dissipation,mon,EmonZ,11.55,1004
+h2o,Mass Fraction of Water,mon,AERmonZ,11.52,817
+fg14co2abio,Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1],yr,Oyr,11.51,583
+simpmass,Meltpond Mass per Unit Area (as Depth),mon,SImon,11.39,453
+tntrs,Tendency of Air Temperature Due to Shortwave Radiative Heating,mon,EmonZ,11.33,1467
+cldncl,Cloud Droplet Number Concentration of Cloud Tops,mon,Emon,11.33,181
+volo,Sea Water Volume,dec,Odec,11.30,121
+tntrscs,Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating,mon,EmonZ,11.24,938
+noy,Total Reactive Nitrogen Volume Mixing Ratio,mon,AERmonZ,11.20,3741
+tntrl,Tendency of Air Temperature Due to Longwave Radiative Heating,mon,EmonZ,11.18,1372
+clwvi,Condensed Water Path,monC,Amon,11.15,127
+fgrazing,Carbon Mass Flux into Atmosphere Due to Grazing on Land [kgC m-2 s-1],mon,Lmon,11.05,21283
+reffclws,Stratiform Cloud Liquid Droplet Effective Radius,subhrPt,Esubhr,10.92,5
+fco2fos,Carbon Mass Flux into Atmosphere Due to Fossil Fuel Emissions of CO2 [kgC m-2 s-1],mon,Amon,10.84,545
+tosga,Global Average Sea Surface Temperature,mon,Omon,10.72,65737
+prsnis,Ice Sheet Snowfall Flux,mon,LImon,10.70,497
+hno3,HNO3 Volume Mixing Ratio,mon,AERmonZ,10.69,3447
+prrc,Convective Rainfall Rate,day,Eday,10.66,11
+hfss,Surface Upward Sensible Heat Flux,3hrPt,CF3hr,10.66,20
+mrroli,Land Ice Runoff Flux,mon,ImonGre,10.56,499
+mrroli,Land Ice Runoff Flux,mon,ImonAnt,10.44,495
+soga,Global Mean Sea Water Salinity,dec,Odec,10.30,124
+clisccp,ISCCP Cloud Area Percentage,3hrPt,E3hrPt,10.09,10
+co2s,Atmosphere CO2,mon,Emon,10.04,145
+rtmt,Net Downward Radiative Flux at Top of Model,monC,Amon,9.98,103
+hfbasinpmadv,Northward Ocean Heat Transport Due to Parameterized Mesoscale Advection,mon,Omon,9.93,44187
+meanage,Mean Age of Stratospheric Air,mon,AERmonZ,9.91,735
+jpdftaureliqmodis,"MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",3hrPt,E3hrPt,9.76,18
+tsis,Ice Sheet Surface Temperature,mon,LImon,9.73,668
+sedustci,Sedimentation Flux of Dust Mode Coarse Insoluble,mon,Emon,9.41,62
+orogis,Ice Sheet Surface Altitude,mon,LImon,9.38,432
+pr,Precipitation,mon,Omon,9.34,739
+n2o,Mole Fraction of N2O,mon,AERmonZ,9.32,690
+lwtoacsaer,TOA Clear-Sky longwave Radiative Forcing due to  Aerosols,mon,Emon,9.15,192
+intparag,Aragonite Production,mon,Omon,9.09,300
+hcl,HCl Volume Mixing Ratio,mon,AERmonZ,9.05,621
+reffclis,Hydrometeor Effective Radius of Stratiform Cloud Ice,3hrPt,CF3hr,8.89,3
+od550csaer,Ambient Aerosol Optical Thickness at 550nm,mon,AERmon,8.88,443
+cly,Total Inorganic Chlorine Volume Mixing Ratio,mon,AERmonZ,8.75,629
+bry,Total Inorganic Bromine Volume Mixing Ratio,mon,AERmonZ,8.72,672
+sbl,Surface Snow and Ice Sublimation Flux,3hrPt,CF3hr,8.61,14
+ccn,Cloud Condensation Nuclei Concentration at Liquid Cloud Top,mon,AERmon,8.56,958
+sbl,Surface Snow and Ice Sublimation Flux,mon,ImonAnt,8.46,487
+sbl,Surface Snow and Ice Sublimation Flux,mon,ImonGre,8.43,481
+tslsi,Surface Temperature Where Land or Sea Ice,3hr,3hr,8.35,4
+emiaoa,Total Emission Rate of Anthropogenic Organic Aerosol,mon,AERmon,8.26,173
+ocontemppsmadvect,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Submesoscale Advection,mon,Emon,8.17,31
+sci,Fraction of Time Shallow Convection Occurs,subhrPt,CFsubhr,8.17,84
+prsn,Snowfall Flux,monC,Amon,8.13,136
+sidragbot,Ocean Drag Coefficient,mon,SImon,8.11,244
+prc,Convective Precipitation,monC,Amon,7.99,89
+tauv,Surface Downward Northward Wind Stress,3hrPt,CF3hr,7.95,16
+clwmodis,MODIS Liquid Cloud Percentage,mon,Emon,7.84,272
+prsn,Snowfall Flux,3hrPt,CF3hr,7.74,19
+msftmrhompa,Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection,mon,Omon,7.74,196
+acabf,Surface Mass Balance Flux,mon,ImonAnt,7.65,483
+rlusis,Ice Sheet Surface Upwelling Longwave Radiation,mon,LImon,7.46,461
+tsn,Snow Internal Temperature,mon,ImonGre,7.46,506
+tntd,Tendency of Air Temperature Due to Numerical Diffusion,mon,Emon,7.42,86
+tsn,Snow Internal Temperature,mon,ImonAnt,7.42,492
+chlcalcos,Surface Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water,mon,Omon,7.41,70
+htovgyre,Northward Ocean Heat Transport Due to Gyre,mon,Omon,7.37,29565
+tsl,Temperature of Soil,6hr,6hrPlevPt,7.36,29
+msftyrhompa,Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection,mon,Omon,7.35,37
+limncalc,Nitrogen Limitation of Calcareous Phytoplankton,mon,Omon,7.19,66
+acabf,Surface Mass Balance Flux,mon,ImonGre,7.15,472
+jpdftaureicemodis,"MODIS Joint Distribution of Optical Thickness and Particle Size, Ice",3hrPt,E3hrPt,7.12,19
+chepasoa,Total Net Production of Anthropogenic Secondary Organic Aerosol,mon,AERmon,7.05,85
+intppcalc,Net Primary Mole Productivity of Carbon by Calcareous Phytoplankton,mon,Omon,6.97,67
+fnveglitter,Total Nitrogen Mass Flux from Vegetation to Litter,mon,Emon,6.96,4825
+evspsbl,Evaporation Including Sublimation and Transpiration,3hrPt,CF3hr,6.95,21
+phycalcos,Surface Mole Concentration of Calcareous Phytoplankton Expressed as Carbon in Sea Water,mon,Omon,6.94,66
+reffclws,Stratiform Cloud Liquid Droplet Effective Radius,3hrPt,CF3hr,6.93,3
+prrsn,Fraction of Rainfall on Snow,day,Eday,6.88,41
+csoil,Carbon Mass in Model Soil Pool,yrPt,Eyr,6.78,4737
+hurs,Near-Surface Relative Humidity,3hrPt,CF3hr,6.75,15
+limirrcalc,Irradiance Limitation of Calcareous Phytoplankton,mon,Omon,6.67,63
+fraclut,Percentage of Grid Cell for Each Land-Use Tile,yrPt,Eyr,6.60,2404
+rsusis,Ice Sheet Surface Upwelling Shortwave Radiation,mon,LImon,6.57,494
+pppico,Net Primary Mole Productivity of Carbon by Picophytoplankton,yr,Oyr,6.53,19
+fnvegsoil,Total Nitrogen Mass Flux from Vegetation Directly to Soil,mon,Emon,6.51,275
+limfecalc,Iron Limitation of Calcareous Phytoplankton,mon,Omon,6.51,58
+grassfrac,Natural Grass Area Percentage,yr,Eyr,6.47,17037
+htovovrt,Northward Ocean Heat Transport Due to Overturning,mon,Omon,6.39,30168
+sosga,Global Average Sea Surface Salinity,mon,Omon,6.36,46334
+rldscs,Surface Downwelling Clear-Sky Longwave Radiation,3hrPt,CF3hr,6.30,15
+sftgrf,Grounded Ice Sheet Area Percentage,mon,LImon,6.28,2368
+flandice,Water Flux into Sea Water from Land Ice,mon,Emon,6.26,464
+tnpeo,Tendency of Ocean Potential Energy Content,yr,Oyr,6.24,168
+litemptop,Temperature at Top of Ice Sheet Model,mon,ImonGre,6.17,399
+litemptopis,Ice Sheet Temperature at Top of Ice Sheet Model,mon,LImon,6.14,400
+limndiaz,Nitrogen Limitation of Diazotrophs,mon,Omon,6.09,58
+litemptop,Temperature at Top of Ice Sheet Model,mon,ImonAnt,6.09,383
+baresoilfrac,Bare Soil Percentage Area Coverage,yr,Eyr,6.02,14657
+ps,Surface Air Pressure,6hr,6hrLev,6.00,9
+exparag,Downward Flux of Aragonite,yr,Oyr,5.99,18
+rsut,TOA Outgoing Shortwave Radiation,3hrPt,CF3hr,5.98,18
+ps,Surface Air Pressure,3hrPt,CF3hr,5.92,33
+sltovgyre,Northward Ocean Salt Transport Due to Gyre,mon,Omon,5.91,31706
+cveg,Carbon Mass in Vegetation,yrPt,Eyr,5.85,4346
+rlut,TOA Outgoing Longwave Radiation,1hrCM,E1hrClimMon,5.84,9
+vegheightpasture,Height of Pastures,mon,Emon,5.78,274
+vmrox,"Mole Fraction of Odd Oxygen (O, O3 and O1D)",mon,EmonZ,5.72,303
+tsnis,Ice Sheet Snow Internal Temperature,mon,LImon,5.67,371
+rsdt,TOA Incident Shortwave Radiation,3hrPt,CF3hr,5.66,23
+clitter,Carbon Mass in Litter Pool,yrPt,Eyr,5.61,3993
+oxloss,Total Odd Oxygen (Ox) Loss Rate,mon,EmonZ,5.58,271
+rlutcs,TOA Outgoing Clear-Sky Longwave Radiation,1hrCM,E1hrClimMon,5.55,9
+clwvic,Convective Condensed Water Path,mon,Emon,5.43,96
+rlds,Surface Downwelling Longwave Radiation,3hrPt,CF3hr,5.38,17
+snc,Snow Area Percentage,mon,ImonAnt,5.37,1037
+cct,Air Pressure at Convective Cloud Top,monC,Amon,5.31,68
+rsutcs,TOA Outgoing Clear-Sky Shortwave Radiation,3hrPt,CF3hr,5.28,23
+clitterlut,Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles,yrPt,Eyr,5.26,2973
+oxprod,Total Odd Oxygen (Ox) Production Rate,mon,EmonZ,5.23,269
+co3natos,Surface Natural Carbonate Ion Concentration,mon,Omon,5.18,60
+cropfrac,Percentage Crop Cover,yr,Eyr,5.17,16241
+snc,Snow Area Percentage,mon,ImonGre,5.15,1013
+sltovovrt,Northward Ocean Salt Transport Due to Overturning,mon,Omon,5.12,30290
+nlittersurf,Nitrogen Mass in Above-Ground Litter (non CWD),mon,Emon,5.09,3596
+vsfcorr,Virtual Salt Flux Correction,mon,Omon,4.99,70
+netatmoslandc14flux,Net Mass Flux of 14C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1],mon,Emon,4.93,184
+nlittersubsurf,Nitrogen Mass in Below-Ground Litter (non CWD),mon,Emon,4.86,3516
+netatmoslandc13flux,Net Mass Flux of 13C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1],mon,Emon,4.86,181
+fco2nat,Surface Carbon Mass Flux into the Atmosphere Due to Natural Sources [kgC m-2 s-1],mon,Lmon,4.71,3295
+nother,"Nitrogen Mass in Vegetation Components Other than Leaves, Stem and Root",mon,Emon,4.62,3815
+cltc,Convective Cloud Cover Percentage,3hrPt,CF3hr,4.54,14
+sftlf,Percentage of the grid  cell occupied by land (including lakes),fx,fx,4.50,77770
+treefrac,Tree Cover Percentage,yr,Eyr,4.39,17191
+cldnci,Ice Crystal Number Concentration of Cloud Tops,mon,Emon,4.38,47
+prc,Convective Precipitation,3hrPt,CF3hr,4.34,17
+tntnogw,Temperature Tendency Due to Non-Orographic Gravity Wave Dissipation,mon,EmonZ,4.30,370
+tauu,Surface Downward Eastward Wind Stress,3hrPt,CF3hr,4.29,16
+rlutcs,TOA Outgoing Clear-Sky Longwave Radiation,3hrPt,CF3hr,4.28,15
+rlus,Surface Upwelling Longwave Radiation,3hrPt,CF3hr,4.20,14
+rsus,Surface Upwelling Shortwave Radiation,3hrPt,CF3hr,4.19,17
+jo3,Photolysis Rate of Ozone (O3),mon,EmonZ,4.15,251
+rsut,TOA Outgoing Shortwave Radiation,1hrCM,E1hrClimMon,4.13,8
+rsds,Surface Downwelling Shortwave Radiation,3hrPt,CF3hr,4.00,16
+sndmasswindrif,Snow Mass Rate of Change Through Wind Drift of Snow,mon,SImon,3.96,354
+snm,Surface Snow Melt,mon,ImonAnt,3.86,619
+snm,Surface Snow Melt,mon,ImonGre,3.84,610
+csoillut,carbon  in soil pool on Land-use tiles,yrPt,Eyr,3.66,1437
+clittershrub,Carbon Mass in Litter on Shrub Tiles,mon,Emon,3.63,1263
+rsdt,TOA Incident Shortwave Radiation,1hrCM,E1hrClimMon,3.58,8
+masso,Sea Water Mass,mon,Omon,3.56,59390
+orog,Surface Altitude,fx,fx,3.50,29720
+parag,Aragonite Production,yr,Oyr,3.50,20
+fracinlut,Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles,yr,Eyr,3.49,12186
+clivi,Ice Water Path,3hrPt,CF3hr,3.47,14
+cveglut,Carbon in Vegetation on Land-Use Tiles,yrPt,Eyr,3.44,1416
+prra,Rainfall Flux over Land Ice,mon,ImonGre,3.40,477
+shrubfrac,Percentage Cover by Shrub,yr,Eyr,3.28,6240
+rhshrub,Heterotrophic Respiration on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1],mon,Emon,3.28,1029
+prra,Rainfall Flux over Land Ice,mon,ImonAnt,3.28,475
+fracoutlut,Annual gross percentage of Land-use tile  that was transferred into other Land-use tiles,yr,Eyr,3.26,12119
+phabio,Abiotic pH,yr,Oyr,3.24,10
+ci,Fraction of Time Convection Occurs in Cell,monC,Amon,3.22,42
+co3abioos,Surface Abiotic Carbonate Ion Concentration,mon,Omon,3.12,8
+prsnsn,Fraction of Snowfall (Including Hail and Graupel) on Snow,day,Eday,3.10,35
+clwvi,Condensed Water Path,3hrPt,CF3hr,3.10,11
+snicefreez,Surface Snow and Ice Refreeze Flux,mon,ImonGre,3.06,463
+csoilshrub,Carbon Mass in Soil on Shrub Tiles,mon,Emon,3.02,1266
+snicefreez,Surface Snow and Ice Refreeze Flux,mon,ImonAnt,2.99,464
+mmrss,Sea-Salt Aerosol Mass Mixing Ratio,mon,Emon,2.93,131
+sncis,Ice Sheet Snow Cover Percentage,mon,LImon,2.81,577
+jo2,Photolysis Rate of Diatomic Molecular Oxygen,mon,EmonZ,2.81,257
+sltbasin,Northward Ocean Salt Transport,mon,EmonZ,2.81,6499
+rsdscs,Surface Downwelling Clear-Sky Shortwave Radiation,3hrPt,CF3hr,2.79,16
+cproduct,Carbon Mass in Products of Land-Use Change,yrPt,Eyr,2.66,2123
+rlsaf,Surface Net Aerosol-Free Longwave Radiation,mon,AERmon,2.60,510
+rlscsaf,Surface Net Aerosol-Free Clear-Sky Longwave Radiation ,mon,AERmon,2.53,510
+cltcalipso,CALIPSO Total Cloud Cover Percentage,3hrPt,E3hrPt,2.48,21
+tntscp,Tendency of Air Temperature Due to Stratiform Clouds and Precipitation,mon,EmonZ,2.44,950
+hfbasinpmdiff,Northward Ocean Heat Transport Due to Parameterized Mesoscale Diffusion,mon,Omon,2.43,5014
+snicefreezis,Ice Sheet Surface Snow and Ice Refreeze Flux,mon,LImon,2.43,376
+rssaf,Surface Net Aerosol-Free Shortwave Radiation,mon,AERmon,2.42,510
+sci,Fraction of Time Shallow Convection Occurs,monC,Amon,2.41,40
+areacella,Grid-Cell Area for Atmospheric Grid Variables,fx,fx,2.38,60441
+rsscsaf,Surface Net Aerosol-Free Clear-Sky Shortwave Radiation,mon,AERmon,2.34,510
+utendnogw,Eastward Acceleration Due to Non-Orographic Gravity Wave Drag,mon,EmonZ,2.33,218
+snmis,Ice Sheet Surface Snow Melt,mon,LImon,2.32,389
+albdirbnd,Direct Surface Albedo for Each Band,3hrPt,E3hrPt,2.30,6
+rsd,Downwelling Shortwave Radiation,fx,Efx,2.29,4688
+hfbasinpadv,Northward Ocean Heat Transport Due to Parameterized Eddy Advection,mon,Omon,2.25,5189
+cltmodis,MODIS Total Cloud Cover Percentage,mon,Emon,2.24,208
+rsu,Upwelling Shortwave Radiation,fx,Efx,2.23,4674
+cllcalipso,CALIPSO Low Level Cloud Cover Percentage,3hrPt,E3hrPt,2.21,17
+rlu,Upwelling Longwave Radiation,fx,Efx,2.15,4626
+ocontempmint,Depth Integral of Product of Sea Water Density and Conservative Temperature,mon,Emon,2.14,5
+rld,Downwelling Longwave Radiation,fx,Efx,2.11,4685
+tntd,Tendency of Air Temperature Due to Numerical Diffusion,subhrPt,Esubhr,2.06,8
+tntc,Tendency of Air Temperature Due to Convection,mon,EmonZ,1.98,1002
+climodis,MODIS Ice Cloud Area Percentage,mon,Emon,1.91,179
+rsutcs,TOA Outgoing Clear-Sky Shortwave Radiation,1hrCM,E1hrClimMon,1.88,4
+co2mass,Total Atmospheric Mass of CO2,mon,Amon,1.88,24456
+fco2nat,Surface Carbon Mass Flux into the Atmosphere Due to Natural Sources [kgC m-2 s-1],subhrPt,CFsubhr,1.80,1
+snicem,Surface Snow and Ice Melt Flux,mon,ImonAnt,1.79,482
+bs550aer,Aerosol Backscatter Coefficient,6hrPt,6hrLev,1.76,1
+snicem,Surface Snow and Ice Melt Flux,mon,ImonGre,1.74,481
+clmcalipso,CALIPSO Mid Level Cloud Cover Percentage,3hrPt,E3hrPt,1.74,21
+bigthetaoga,Global Average Sea Water Conservative Temperature,mon,Omon,1.73,38162
+ocontemppsmadvect,Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Submesoscale Advection,yr,Oyr,1.63,6
+fco2antt,Carbon Mass Flux into Atmosphere Due to All Anthropogenic Emissions of CO2 [kgC m-2 s-1],subhrPt,CFsubhr,1.60,1
+emiaco,Total Emission Rate of Anthropogenic CO,mon,AERmon,1.56,70
+vegfrac,Total Vegetated Percentage Cover,yr,Eyr,1.53,5374
+albdiffbnd,Diffuse Surface Albedo for Each Band,3hrPt,E3hrPt,1.52,7
+ch4global,Global Mean Mole Fraction of CH4,mon,Amon,1.48,6280
+simprefrozen,Thickness of Refrozen Ice on Melt Pond,mon,SImon,1.44,59
+snicemis,Ice Sheet Surface Snow and Ice Melt Flux,mon,LImon,1.44,388
+clhcalipso,CALIPSO High Level Cloud Area Percentage,3hrPt,E3hrPt,1.39,19
+tnpeo,Tendency of Ocean Potential Energy Content,monC,Oclim,1.35,350
+n2oglobal,Global Mean Mole Fraction of N2O,mon,Amon,1.31,3585
+icemis,Ice Sheet Surface Ice Melt Flux,mon,LImon,1.30,498
+tos,Sea Surface Temperature,3hr,3hr,1.25,1
+mmrbc,Elemental Carbon Mass Mixing Ratio,mon,Emon,1.25,57
+ci,Fraction of Time Convection Occurs in Cell,3hrPt,CF3hr,1.22,10
+fahlut,Anthropogenic Heat Flux Generated from non-Renewable Human Primary Energy Consumption,mon,Emon,1.22,255
+emianox,Total Emission Rate of Anthropogenic NOx,mon,AERmon,1.19,51
+icem,Surface Ice Melt Flux,mon,ImonAnt,1.13,420
+icem,Surface Ice Melt Flux,mon,ImonGre,1.12,425
+od550bb,Aerosol Optical Depth at 550nm Due to Biomass Burning,mon,AERmon,1.12,135
+fnox,Total Land NOx Flux,mon,Emon,1.08,415
+tnkebto,Tendency of Ocean Eddy Kinetic Energy Content Due to Parameterized Eddy Advection,yr,Oyr,1.06,35
+rtmt,Net Downward Radiative Flux at Top of Model,3hrPt,CF3hr,1.03,6
+cfc11global,Global Mean Mole Fraction of CFC11,mon,Amon,0.97,2612
+mfo,Sea Water Transport,mon,Omon,0.97,7612
+cfc12global,Global Mean Mole Fraction of CFC12,mon,Amon,0.96,2576
+dispkexyfo,Ocean Kinetic Energy Dissipation per Unit Area Due to XY Friction,yr,Oyr,0.96,31
+mmraerso4,Aerosol Sulfate Mass Mixing Ratio,mon,Emon,0.96,45
+dispkevfo,Ocean Kinetic Energy Dissipation per Unit Area Due to Vertical Friction,monC,Oclim,0.87,231
+diftrblo,Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection,monC,Oclim,0.79,215
+diftrelo,Ocean Tracer Epineutral Laplacian Diffusivity,monC,Oclim,0.78,212
+residualfrac,Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil,yr,Eyr,0.75,1179
+cproductlut,Wood and Agricultural Product Pool Carbon Associated with Land-Use Tiles,yrPt,Eyr,0.74,394
+utendepfd,Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence,mon,Amon,0.60,5
+epfy,Northward Component of the Eliassen-Palm Flux,mon,Amon,0.60,5
+epfz,Upward Component of the Eliassen-Palm Flux,mon,Amon,0.60,5
+msftyzsmpa,Ocean Y Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection,mon,Omon,0.59,26
+dispkexyfo,Ocean Kinetic Energy Dissipation per Unit Area Due to XY Friction,monC,Oclim,0.55,142
+sftgif,Land Ice Area Percentage,fx,fx,0.53,11102
+tnkebto,Tendency of Ocean Eddy Kinetic Energy Content Due to Parameterized Eddy Advection,monC,Oclim,0.51,131
+ccb,Air Pressure at Convective Cloud Base,monC,Amon,0.50,7
+sltnortha,Atlantic Northward Ocean Salt Transport,mon,EmonZ,0.46,241
+tauucorr,Surface Downward X Stress Correction,mon,Omon,0.43,14
+ficeberg2d,Water Flux into Sea Water from Icebergs,mon,Omon,0.43,5
+simassacrossline,Sea Mass Area Flux Through Straits,mon,SImon,0.43,5100
+mrsofc,Capacity of Soil to Store Water (Field Capacity),fx,fx,0.42,8609
+tauvcorr,Surface Downward Y Stress Correction,mon,Omon,0.41,13
+swtoafluxaerocs,TOA Outgoing Clear-Sky Shortwave Flux Due to Volcanic Aerosols,6hrPt,6hrPlevPt,0.39,3
+vtendnogw,Northward Acceleration Due to Non-Orographic Gravity Wave Drag,mon,EmonZ,0.38,85
+snmassacrossline,Snow Mass Flux Through Straits,mon,SImon,0.37,3452
+xgwdparam,Eastward Gravity Wave Drag,mon,EmonZ,0.35,18
+swtoacsdust,clear sky  Shortwave flux due to dust at toa,mon,Emon,0.34,7
+diftrxylo,Ocean Tracer XY Laplacian Diffusivity,monC,Oclim,0.31,156
+rootd,Maximum Root Depth,fx,fx,0.28,6171
+siareaacrossline,Sea-Ice Area Flux Through Straits,mon,SImon,0.26,2344
+areacellr,Grid-Cell Area for River Model Variables,fx,fx,0.25,3102
+ygwdparam,Northward Gravity Wave Drag,mon,EmonZ,0.22,15
+lwsrfcsdust,Clear-Sky Surface Longwave Radiative Flux Due to Dust,mon,Emon,0.21,7
+swsrfcsdust,Clear-Sky Surface Shortwave Radiative Flux Due to Dust,mon,Emon,0.20,1
+sfriver,Salt Flux into Sea Water from Rivers,mon,Omon,0.20,14
+ksat,Saturated Hydraulic Conductivity,fx,Efx,0.19,385
+lwtoaasdust,TOA All-Sky Longwave Radiative Forcing Due to Dust,mon,Emon,0.17,5
+topg,Bedrock Altitude,fx,IfxGre,0.16,244
+hfgeoubed,Geothermal Heat Flux Beneath Land Ice,fx,IfxGre,0.16,259
+co2mass,Total Atmospheric Mass of CO2,day,day,0.15,2014
+sftgrf,Grounded Ice Sheet Area Percentage,fx,Efx,0.15,3930
+sbl,Surface Snow and Ice Sublimation Flux,monC,Amon,0.14,5
+swsffluxaero,Shortwave Heating Rate Due to Volcanic Aerosols,6hrPt,6hrPlevPt,0.14,8
+slthick,Thickness of Soil Layers,fx,Efx,0.14,1046
+swsrfasdust,All-Sky Surface Shortwave Radiative Flux Due to Dust,mon,Emon,0.12,4
+sfdsi,Downward Sea Ice Basal Salt Flux,dec,Odec,0.11,34
+lwtoacsdust,TOA Clear-Sky Longwave Radiative Forcing Due to Dust,mon,Emon,0.09,5
+lwsrfasdust,All-Sky Surface Longwave Radiative Flux Due to Dust,mon,Emon,0.09,6
+vt100,Northward Eddy Temperature Flux,mon,AERmonZ,0.09,155
+volcello,Ocean Grid-Cell Volume,mon,Ofx,0.08,86
+wilt,Wilting Point,fx,Efx,0.08,194
+fldcapacity,Field Capacity,fx,Efx,0.08,190
+lithk,Ice Sheet Thickness,fx,IfxGre,0.07,267
+thkcello,Ocean Model Cell Thickness,mon,Ofx,0.07,69
+co3abio,Abiotic Carbonate Ion Concentration,yr,Oyr,0.05,1
+swtoaasdust,All-Sky Shortwave Flux Due to Dust at Toa,mon,Emon,0.04,1
+clayfrac,Clay Fraction,fx,Efx,0.03,212
+sandfrac,Sand Fraction,fx,Efx,0.03,170
+treefrac,Tree Cover Percentage,yrPt,Eyr,0.03,25
+flitterfire,"Carbon Mass Flux from Litter, CWD or any non-Living Pool into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",mon,Emon,0.03,372
+sci,Fraction of Time Shallow Convection Occurs,3hrPt,CF3hr,0.03,3
+hfbasinpsmadv,Northward Ocean Heat Transport Due to Parameterized Submesoscale Advection,mon,Omon,0.02,79
+cropfrac,Percentage Crop Cover,yrPt,Eyr,0.02,23
+siltfrac,Silt Fraction,fx,Efx,0.02,111
+co2mass,Total Atmospheric Mass of CO2,monC,Amon,0.01,331
+grassfrac,Natural Grass Area Percentage,yrPt,Eyr,0.01,23
+libmassbfgr,Basal Specific Mass Balance Flux of Grounded Ice Sheet,yr,IyrGre,0.01,4
+cfc113global,Global Mean Mole Fraction of CFC113,mon,Amon,0.01,90
+lithk,Ice Sheet Thickness,yr,IyrGre,0.01,4
+areacelli,Grid-Cell Area for Sea Ice Variables,fx,Ofx,0.01,6
+areacello,Grid-Cell Area for Ocean Variables,mon,Ofx,0.01,176
+ch4global,Global Mean Mole Fraction of CH4,monC,Amon,0.01,261
+n2oglobal,Global Mean Mole Fraction of N2O,monC,Amon,0.01,270
+hcfc22global,Global Mean Mole Fraction of HCFC22,mon,Amon,0.01,68
+orog,Surface Altitude,mon,fx,0.01,274
+cfc113global,Global Mean Mole Fraction of CFC113,monC,Amon,0.00,62
+areacella,Grid-Cell Area for Atmospheric Grid Variables,mon,fx,0.00,201
+hcfc22global,Global Mean Mole Fraction of HCFC22,monC,Amon,0.00,59
+hfbasin,Northward Ocean Heat Transport,dec,Odec,0.00,71
+siconca,Sea-Ice Area Percentage (Atmospheric Grid),mon,Amon,0.00,6
+xvelsurf,X-Component of Land Ice Surface Velocity,yr,IyrGre,0.00,2
+deptho,Sea Floor Depth Below Geoid,mon,Ofx,0.00,75
+cfc11global,Global Mean Mole Fraction of CFC11,monC,Amon,0.00,43
+cfc12global,Global Mean Mole Fraction of CFC12,monC,Amon,0.00,40
+tosga,Global Average Sea Surface Temperature,dec,Odec,0.00,77
+sosga,Global Average Sea Surface Salinity,dec,Odec,0.00,61
+masso,Sea Water Mass,dec,Odec,0.00,41
+bigthetaoga,Global Average Sea Water Conservative Temperature,dec,Odec,0.00,37
+vegheight,Height of the Vegetation Canopy,fx,Efx,0.00,12
+sftflf,Floating Ice Shelf Area Percentage,yr,IyrGre,0.00,7
+lim,Ice Sheet Mass,yr,IyrGre,0.00,16
+modelcellareai,The Cell Area of the Ice Sheet Model,yr,IyrGre,0.00,2
+limnsw,Ice Sheet Mass That Does not Displace Sea Water,yr,IyrGre,0.00,2
