@@ -76,7 +76,6 @@ class Temporal_Shape(object):
             oo.write( '\t'.join(this) + '\n' )
         oo.close()
 
-
 class Spatial_Shape(object):
     def __init__(self):
         self.data = dq.coll['spatialShape']
@@ -88,6 +87,21 @@ class Spatial_Shape(object):
         for i in self.data.items:
             this = [str(i.__dict__[x]) for x in hh]
             this[3] = ', '.join(this[3].split('|'))
+            print(this)
+            oo.write( '\t'.join(this) + '\n' )
+        oo.close()
+
+
+class Cell_Methods(object):
+    def __init__(self):
+        self.data = dq.coll['cellMethods']
+
+    def dump(self,fn):
+        hh = ['label', 'title', 'uid', 'cell_methods']
+        oo = open(fn,'w')
+        oo.write( '\t'.join(hh) + '\n' )
+        for i in self.data.items:
+            this = [str(i.__dict__[x]) for x in hh]
             print(this)
             oo.write( '\t'.join(this) + '\n' )
         oo.close()
@@ -105,13 +119,15 @@ class Structure(object):
 
     def dump(self,fn):
         oo = open(fn,'w')
-        hh = ['label','title','description','spid','tmid','coords','cell_methods','cell_measures','procNote','prov']
+        hh = ['label','title','description','spid','tmid','coords','dids','cell_methods','cell_measures','procNote','prov']
         oo.write( '\t'.join( hh + ['new_title',] ) + '\n' )
         for i in self.data.items:
-            this = [str(i.__dict__.get(x,'')) for x in hh]
+            this = [i.__dict__.get(x,'') for x in hh]
             this[3] = dq.inx.uid[this[3]].label
             this[4] = dq.inx.uid[this[4]].label
+            this[6] = ', '.join( [ dq.inx.uid[y].label for y in this[6] ] )
             this.append( self.ee.get(this[1],'') )
+            this = [ str(x) for x in this]
             print(this)
 
             oo.write( '\t'.join(this) + '\n' )
@@ -125,3 +141,4 @@ ts = Temporal_Shape()
 ss = Spatial_Shape()
 va = MIP_Variable()
 cm = CMOR_Variable()
+
