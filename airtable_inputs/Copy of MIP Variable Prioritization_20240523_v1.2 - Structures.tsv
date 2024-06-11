@@ -1,0 +1,36 @@
+ 	Title in CMIP6 Data Request	New Title
+1	Instantaneous value (i.e. synoptic or time-step value), Global Field (model levels) [XY-A]	Synoptic Field on Atmosphere-Model Levels
+2	Instantaneous value (i.e. synoptic or time-step value), Global field (3 pressure levels) [XY-P3] [amn-tpt]	Synoptic Field on Three Pressure Levels, Cell Mean
+3	Instantaneous value (i.e. synoptic or time-step value), Global field (single level) [XY-na] {:height10m} [tpt]	Synoptic Near-Surface Field (10m)
+4	Instantaneous value (i.e. synoptic or time-step value), Global field (single level) [XY-na] {:height2m} [tpt]	Synoptic Near-Surface Field (2m)
+5	No temporal dimensions ... fixed field, Global field (single level) [XY-na]	Model Configuration Field
+6	No temporal dimensions ... fixed field, Global field (single level) [XY-na] [amla]	Model Configuration Surface Field, Area Mean, Masked (Land)
+7	No temporal dimensions ... fixed field, Global field (single level) [XY-na] [amn-fx]	Model Configuration Surface Field, Area Mean
+8	No temporal dimensions ... fixed field, Global field (single level) [XY-na] [amns-fx]	Model Configuration Field on Sea Floor, Area Mean, Masked (Sea)
+9	No temporal dimensions ... fixed field, Global field (single level, area sum) [XY-na]	Model Configuration Field, Area Sum (No Height Dependence)
+10	Model Configuration Field, Area Sum (No Height Dependence, Ocean Grid)	Model Configuration Field, Area Sum (No Height Dependence, Ocean Grid)
+11	No temporal dimensions ... fixed field, Global field (with flags) [XY-na] [amn-fx]	Model Configuration Integer Field of Flag Values
+12	No temporal dimensions ... fixed field, Global ocean field on model levels [XY-O] [asum-fx]	Model Configuration Field on Ocean-Model Levels, Area Sum
+13	 No temporal dimensions ... fixed field, Global ocean field on model levels [XY-O] [amn-fx]	Model Configuration Field on Ocean-Model Levels, Area Mean
+14	Temporal Maximum, Global field (single level) [XY-na] {:height2m} [tmax]	Temporal Maximum, Near-Surface Field (2m)
+15	Temporal Minimum, Global field (single level) [XY-na] {:height2m} [tmin]	Temporal Minimum, Near-Surface Field (2m)
+16	Temporal mean, Global field (19 pressure levels) [XY-P19] [tmean]	Time-Mean on 19 Pressure Levels
+17	Temporal mean, Global field (8 pressure levels) [XY-P8] [tmean]	Time-Mean on 8 Pressure Levels
+18	Temporal mean, Global field (single level) [XY-na] [am-tm]	Time and Area Mean on Single Level
+19	Temporal mean, Global field (single level) [XY-na] [amnla-tmn]	Time and Area Mean on Single Level, Masked (Land)
+20	Temporal mean, Global field (single level) [XY-na] [amnsi-twm]	Weighted Time-Mean on Single Level, Masked (Sea Ice)
+21	Temporal mean, Global field (single level) [XY-na] [amse-tmn]	Time and Area Mean on Single Level, Masked (Sea)
+22	Temporal mean, Global field (single level) [XY-na] [amsnsi-tmn]	Weighted Time-Mean on Single Level, Masked (Snow on Sea Ice)
+23	Temporal mean, Global field (single level) [XY-na] [tmean] (optionally on vertices)	Time-Mean Surface Field (Area Mean or Vertices)
+24	Temporal mean, Global field (single level) [XY-na] {:height10m} [tmean]	Time-Mean Near-Surface Field (10m)
+25	Climatological mean, Global field (single level) [XY-na] {:height2m} [dmax]	Monthly-Mean Daily Maximum, Near-Surface Field (2m)
+26	Climatological mean, Global field (single level) [XY-na] {:height2m} [dmin]	Monthly-Mean Daily Minimum, Near-Surface Field (2m)
+27	Temporal mean, Global field (single level) [XY-na] {:height2m} [tmean]	Time-Mean Near-Surface Field (2m)
+28	Temporal mean, Global field (single level) [XY-na] {:sdepth1} [amnla-tmn]	Time-Mean on Single Soil-Model Level, Masked (Land)
+29	Temporal mean, Global field (model atmosphere levels) [XY-A]	Time-Mean on Atmosphere-Model Levels
+30	Temporal mean, area sum, Global ocean field (model levels) [XY-O] [asm-tmean]	Time-Mean, Area Sum, Field on Ocean-Model Levels
+31	Temporal mean, Global ocean field (model levels) [XY-O] [tmean]	Time-Mean Field on Ocean-Model Levels
+32	Temporal weighted mean, Global field (single level) [XY-na] {:typesi} [amse-tmn]	Weighted Time-Mean on Single Level, Masked (Sea)
+33	No temporal dimensions ... fixed field, Global (soil levels) [XY-na] {sdepth:} [amla]	Model Configuration Field on Soil-Model Levels, Masked (Land)
+34	Temporal mean, weighted by sea ice area, Global field (single level) [XY-na] {on model mesh points} [amnsi-twm]	Time-Mean Weighted by Sea-Ice Area, Single Level, on Grid Vertices, Masked (Sea Ice)
+35	Temporal mean, Global mean/constant [na-na] [amse-tmn]	Time and Global Mean on a Single Level, Masked (Sea)
