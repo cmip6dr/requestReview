@@ -21,6 +21,20 @@ class MIP_Variable(object):
             oo.write( '\t'.join(this) + '\n' )
         oo.close()
 
+class MIP_Table(object):
+    def __init__(self):
+        self.data = dq.coll['miptable']
+
+    def dump(self,fn):
+        hh = ['label', 'title', 'uid', 'description','altLabel','comment','frequency']
+        oo = open(fn,'w')
+        oo.write( '\t'.join(hh) + '\n' )
+        for i in self.data.items:
+            this = [i.__dict__[x] for x in hh]
+            print(this)
+            oo.write( '\t'.join(this) + '\n' )
+        oo.close()
+
 class CMOR_Variable(object):
     def __init__(self):
         self.data = dq.coll['CMORvar']
@@ -140,5 +154,6 @@ st = Structure()
 ts = Temporal_Shape()
 ss = Spatial_Shape()
 va = MIP_Variable()
+mt = MIP_Table()
 cm = CMOR_Variable()
 
