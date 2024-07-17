@@ -13,6 +13,8 @@ class AirTableInfo(object):
 
 
 base_opportunities = 'apphsJQW7SLT3gynr'
+base_variables = 'appas2EDANenGxXdp'
+base_mip_variables = 'appqRFkdpwAitEZNY'
 base_schema = 'appjtjehkUOlKbGct'
 table = api.table(keyr, baseline_climate_variables )
 
@@ -33,10 +35,31 @@ class Table(object):
         self.records = self.base.table(self.id).all()
 
 
+def tostr(x):
+    if x == None:
+        return ""
+    else:
+        return str(x)
+
 class Base(object):
     def __init__(self,api,bid):
         self.identifier = bid
+        self.api = api
         self.base = api.base(bid)
+        self.schema = self.base.schema()
+        self.names = {x.id:x.name for x in api.bases()}
+        self.name = self.names[bid]
+
+    def dump_schema_csv(self,file='x.csv'):
+        oo = open(file,'w')
+        oo.write( '\t'.join( ['Base','Table','Record','Description','Id','Type'] ) + '\n' )
+        for t in self.schema.tables:
+            for f in t.fields:
+                rec = [self.name, t.name,] + [tostr(f.__dict__[x]) for x in ['name','description','id','type']]
+                oo.write( '\t'.join( rec ) + '\n' )
+        oo.close()
+
+
     def load(self,verbose=False):
         self.tables = [Table(self.base,x) for x in self.base.tables()]
         if verbose:
