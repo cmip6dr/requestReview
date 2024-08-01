@@ -42,13 +42,31 @@ def tostr(x):
         return str(x)
 
 class Base(object):
-    def __init__(self,api,bid):
-        self.identifier = bid
+    def __init__(self,api,bkey):
         self.api = api
+        self.ids = {x.name:x.id for x in api.bases()}
+        self.name = map2[bkey]
+        bid = self.ids[self.name]
+        self.identifier = bid
         self.base = api.base(bid)
         self.schema = self.base.schema()
         self.names = {x.id:x.name for x in api.bases()}
-        self.name = self.names[bid]
+
+    def __repr__(self):
+        print( self.schema )
+
+    def dump_schema_tables(self,file='x.csv'):
+        oo = open(file,'w')
+        oo.write( '\t'.join( ['Base','Table','Description','ID'] ) + '\n' )
+        for t in self.schema.tables:
+                rec = [tostr(x) for x in [self.name,t.name,t.description,t.id]]
+                
+                print( rec)
+                try:
+                   oo.write( '\t'.join( rec ) + '\n' )
+                except:
+                    print( 'Failed write' )
+        oo.close()
 
     def dump_schema_csv(self,file='x.csv'):
         oo = open(file,'w')
@@ -66,11 +84,16 @@ class Base(object):
             for t in self.tables:
                 print ('%s <%s>' % (t.name,t.id))
 
+l1 = ['Data Request Opportunities', 'Data Request Variables', 'Data Request Physical Parameters', 'CMIP6 Review', 'CMIP7 Data Request Schema Source', 'Data Request Opportunities (Public)', 'Data Request Physical Parameters (Public)', 'Data Request Variables (Public)']
+l2 = ['opp','var','par','rev','sch','oppp','parp','varp']
+
+map1 = {l1[x]:l2[x] for x in range(8)}
+map2 = {l2[x]:l1[x] for x in range(8)}
     
 class Request(object):
     def __init__(self,info):
         self.api = Api( info.key )
-        self.bases = [Base(self.api,x) for x in info.identifiers]
+        self.bases = {map1[x.name]:(x.name,x.id) for x in self.api.bases()}
 
 r = Request(info)
 
