@@ -69,14 +69,14 @@ class CF(object):
       targets = set( [v for k,v in self.alias.items()] )
       oo = open( 'revised_names.csv', 'w')
       for k,v in revised.items():
-          oo.write( ','.join( [k,v[0],v[1]] ) + '\n' )
+          oo.write( '\t'.join( [k,v[0],v[1],self.names[v[0]][0],self.names[v[0]][1]] ) + '\n' )
       oo.close()
       for name in self.names:
           if (name not in targets) and (name not in dr.nn):
               new_in_cf[str(uuid.uuid1())] = name
       oo = open( 'new_names.csv', 'w')
       for k,v in new_in_cf.items():
-          oo.write( ','.join( [k,v] ) + '\n' )
+          oo.write( '\t'.join( [k,v,self.names[v][0],self.names[v][1]] ) + '\n' )
       oo.close()
 
 
